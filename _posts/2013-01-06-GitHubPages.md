@@ -2,7 +2,7 @@
 layout: post
 title: "Hosting a website on GitHub Pages with Jekyll"
 description: "Hosting a Jekyll powered website on GitHub Pages"
-category: General
+category: Web Dev
 tags: [jekyll, github, webdev]
 ---
 {% include JB/setup %}
