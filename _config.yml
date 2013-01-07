@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: false
+auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables
@@ -15,7 +15,9 @@ author :
   name : Jake Van Alstyne
   email : jakeva@gmail.com
   github : jakeva
+  linkedin : jakeva
   twitter : jake_va
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -80,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : jakevanalstyne
     livefyre :
       site_id : 123
     intensedebate :
