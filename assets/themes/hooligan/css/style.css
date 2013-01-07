@@ -32,7 +32,16 @@ h1, h2, h3, h4, h5, h6 {
   /*font-family: 'Advent Pro', sans-serif;
   font-family: 'Pontano Sans', sans-serif;*/
 }
+.floatingBox {
 
+margin-top: 50px;
+    background-color: #0F0F0F;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF);
+    background-repeat: repeat-x;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+    padding: 10px;
+}
 /* line 35, ../_sass/_base.scss */
 a {
   color: #4cb4e8;
