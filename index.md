@@ -14,8 +14,8 @@ I am a freelance Web, iOS and Mac OS X developer currently living in <a href="ht
    <img style="margin-top:5px; float: left; margin-right:10px; border:1px solid #000; width:150px;" src="assets/me.png"></img>
 </span>
 
-<div style="margin-top:225px">
- <ul class="posts floatingBox">
+<div class="floatingBox" style="margin-top:225px">
+ <ul class="posts">
       {% for post in site.posts %}
       <li>
           <h3>

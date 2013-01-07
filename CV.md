@@ -2,6 +2,7 @@
 layout: page
 title: "Curriculum Vitae"
 description: "My Life's Work"
+group: navigation
 ---
 {% include JB/setup %}
 

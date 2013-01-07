@@ -113,7 +113,12 @@
         {{ content }}
       </div>
 
-      <footer>
+      <footer class="floatingBox">
+        <ul class="footer_nav">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'footer_nav' %}
+              {% include JB/pages_list %}
+            </ul>
         <p>&copy; {{ site.author.name }} 2012
         </p>
       </footer>
