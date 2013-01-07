@@ -1,0 +1,131 @@
+---
+layout: page
+title: "Curriculum Vitae"
+description: "My Life's Work"
+---
+{% include JB/setup %}
+
+<div>
+                        <h1>Developer / Engineer / Hacker</h1>
+                        <h2>iOS, Mac OS X, C++, Objective-C, 3D Interactive Graphics</h2>
+                        <h3>Master of Science - Computing - 2012</h3>
+                        <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
+                       <p>
+	            <a href="#" id="email_contact">Contact</a>
+	<script type="text/javascript" >
+			var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
+			document.getElementById('email_contact').href = _jvObfuscatedHREF;
+	</script></p>
+
+                    <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
+          <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
+          			</img></a>
+</div>
+<div>
+                    	<h2>Skills</h2>
+                    	<ul>
+                    	<h3>Building Intuitive Software</h3>
+                    	<li>5 years professional coding experience</li>
+                    	<li>Object Oriented Design, Test Driven Development</li>
+                    	<li>Focused, elegant, self-documenting code</li>
+                    	<li>Detailed UI, UX design</li>
+                    	<li>3D Graphics - OpenGL, GLSL, CUDA</li>
+                    	<li>Mac OS X, iOS</li>
+                    	<li>Linux, BSD</li>
+                    	<li>Windows 7 MFC / COM</li>
+
+                    	<h3>Problem Solving</h3>
+                    	<li>Numerical Techniques</li>
+                    	<li>CAGD, Image Processing</li>
+                    	<li>Signal Processing, Fourier Transforms</li>
+                    	<li>Complexity Analysis</li>
+                    	<li>Data Analysis / Visualization</li>
+                    	<li>Scientific and Industrial Applications</li>
+                    	<h3>Technologies</h3>
+                    	<li>C, C++, Objective-C</li>
+                    	<li>Java</li>
+                    	<li>Python</li>
+                    	<li>MySQL, SQLite, etc</li>
+                    	<li>Ruby on Rails</li>
+                    	<li>Cocoa(-touch), UIKit, CoreData, CoreVideo, StoreKit, etc</li>
+                    	</ul>
+
+
+
+                        <h2>Professional Employment</h2>
+                        <ul>
+                    	<h3>K'nowbe Works, LLC -- April 2012 - November 2012</h3>
+                    	<ul>
+                    	<li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
+                    	</li>
+                    	<li>Bidirectional A* heuristic path finding, gaussian smoothing, image processing, large point cloud rendering, ray tracing, and GPU shaders
+                    	</li>
+                    	<li>In addition to developing tools that are in and of themselves sellable products, I help maintain existing code, find and fix bugs, manage the build and revision control, as well as contributing knowledge and experience
+						</li>
+						<li>
+						We work as an agile development team and we use Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
+						</li>
+			           	</ul>
+                    	<h3>FlexSim Software, LLC -- December 2011 - March 2012</h3>
+                    	<ul>
+                    	<li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
+                    	<li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li></ul>
+                    	<h3>University of Utah, Computer Science Department -- January 2009 - December 2011</h3>
+                    	<ul>
+                    	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, JQuery and JQuery-UI</li>
+                    	</ul>
+                        </ul>
+
+                        <h2>Independent Work</h2>
+                        <ul>
+                        <ul>
+                        <li>Designed, developed and deployed numerous iPhone and Mac OS apps. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.</li>
+                        </ul>
+                        <h3>iOS</h3>
+                        <ul>
+                        <li>
+                        <a rel="empty" href="http://itunes.apple.com/us/app/picturethis/id425601498?mt=8">PictureThis!
+				<img src="Assets/picturethis_icon.png" alt="Picture This!">
+				</a>
+                        </li>
+                        </ul>
+                        <h3>Mac OS X</h3>
+                        <ul><li>
+                        <a rel="empty" href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">OnCue
+				<img src="Assets/oncue_icon.png" alt="onCue">
+				</a>
+                        </li></ul>
+                        <h3>Web</h3>
+                        <ul>
+                        <li>
+	                        <a href="http://www.eggdevil.com">www.EggDevil.com</a>
+                        </li>
+                        <li>
+	                        <a href="http://www.eggdevil.com">www.JakeVanAlstyne.com</a>
+                        </li>
+                        </ul>
+                        </ul>
+                        <h2>Academics</h2>
+                        <ul>
+                        <h3>Master of Science - Computing - 2012</h3>
+                        <h4>Graphics and Visualization</h4>
+                        <ul>
+                        <li>Numerical Sequestration of Rational Surfaces in Toroidal Magnetic Field Simulation Data - (available on request)</li>
+                        </ul>
+                        <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
+                        <ul>
+                        	<li><a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a></li>
+	                        <li>John Zink award - 2007</li>
+                        </ul>
+                        <h3>Teaching</h3>
+                        <ul>
+                        <h4>Instructor</h4>
+                        <li>CS 1400 - Introduction to Computer Science -- June 2010 - August 2010 </li>
+                        <h4>Teaching Assistant</h4>
+                        <li>CS 1410 - Computer Science I -- August 2010 - December 2010</li>
+                        <li>CS 2420 - Computer Science II / EAE -- January 2011 - May 2011</li>
+                        <li>CS 3810 - Computer Systems -- August 2011 - December 2011</li>
+                        </ul>
+                        </ul>
+                    </div>
+
