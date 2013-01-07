@@ -15,8 +15,11 @@ body {
   color: #bbb;
   text-shadow: 1px 1px 1px #000;
   height: 100%;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Inconsolata',Verdana,Arial,Helvetica,sans-serif;
+  /*font-family: 'Oxygen', sans-serif;
+  font-size: 14px;*/
 }
 
 /* line 26, ../_sass/_base.scss */
@@ -25,8 +28,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #999;
   text-rendering: optimizelegibility;
-  font-family: 'Advent Pro', sans-serif;
-  /*font-family: 'Pontano Sans', sans-serif;*/
+  font-family: 'Inconsolata',Verdana,Arial,Helvetica,sans-serif;
+  /*font-family: 'Advent Pro', sans-serif;
+  font-family: 'Pontano Sans', sans-serif;*/
 }
 
 /* line 35, ../_sass/_base.scss */
