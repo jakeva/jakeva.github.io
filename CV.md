@@ -86,14 +86,14 @@ group: navigation
                         <ul>
                         <li>
                         <a rel="empty" href="http://itunes.apple.com/us/app/picturethis/id425601498?mt=8">PictureThis!
-				<img src="assets/picturethis_icon.png" alt="Picture This!">
+				<img src="./assets/picturethis_icon.png" alt="Picture This!">
 				</a>
                         </li>
                         </ul>
                         <h3>Mac OS X</h3>
                         <ul><li>
                         <a rel="empty" href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">OnCue
-				<img src="assets/oncue_icon.png" alt="onCue">
+				<img src="./assets/oncue_icon.png" alt="onCue">
 				</a>
                         </li></ul>
                         <h3>Web</h3>
