@@ -24,6 +24,11 @@ group: navigation
           <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
           			</img></a>
 </div>
+
+<div style="margin: 50px; float: right;">
+<object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&catId=&defaultTab=0&rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&catId=&defaultTab=0&rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
+</div>
+
 <div>
                     	<h2>Skills</h2>
                     	<ul>
