@@ -3,7 +3,7 @@
 <script type="text/javascript">
         var disqus_shortname = '{{ site.JB.comments.disqus.short_name }}';
         var disqus_title = '{{ page.title }}';
-        var disqus_url = '{{ page.url }}';
+        var disqus_url = '{{ site.JB.BASE_PATH }}{{ page.url }}';
         var disqus_identifier = '{{ site.JB.comments.disqus.short_name }}'-'{{ page.title }}';
     {% if site.safe == false %}var disqus_developer = 1;{% endif %}
     {% if page.wordpress_id %}var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';{% endif %}
