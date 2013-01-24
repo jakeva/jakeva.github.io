@@ -1,6 +1,6 @@
 ---
 layout: page
-title: a (we)blog
+title: a (web)log
 tagline: Almost never updated
 ---
 {% include JB/setup %}
