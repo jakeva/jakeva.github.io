@@ -21,7 +21,7 @@ I only recently discovered [FlyCut](https://itunes.apple.com/us/app/flycut-clipb
 
 I've been using Oleg Andreev's [GitBox](http://gitboxapp.com) for a while now. Git can be a little unwieldy, and this app does a remarkable job of simplifying it for you. Granted, I've still encountered situations which required some finely tuned command line surgery but most common tasks you need it for (committing, cloning, etc) are just a few keyboad taps with GitBox. Highly Recommended.
 
-[Kaleidoscope 2](http://www.kaleidoscopeapp.com) is another really excellent tool. It replaces FileMerge, and gladly. FileMerge is an effective little utility as well, but it is brutal on the eyes. Kaleidoscope isn't just a pleasure to work with, it's loaded with power I don't know that I'll ever need. Just the way I like it. :) Not only does it have a number of visually pleasing modes for viewing file differences, but it includes the ability to view differences between folders and even between images, which I'm not sure I've seen before. Kaleidoscope 2 also includes the ability to merge, something I recall its predecessor frustratingly lacked.
+[Kaleidoscope 2](http://www.kaleidoscopeapp.com) is another really excellent tool. It replaces FileMerge, and gladly. FileMerge is an effective little utility as well, but it is brutal on the eyes. Kaleidoscope isn't just a pleasure to work with, it's loaded with power I don't know that I'll ever need. I like high powered tools, but it's best if it's done discretely and not in your face. That is the case here. :) Not only does it have a number of visually pleasing modes for viewing file differences, but it includes the ability to view differences between folders and even between images, which I'm not sure I've seen before. Kaleidoscope 2 also includes the ability to merge, something I recall its predecessor frustratingly lacked.
 
 I like to keep track of my time, and I've tried a few tools here too. The one I like the most is [Timing](https://itunes.apple.com/us/app/timing-time-tracking-for-humans/id431511738?mt=12). It's another one of those apps you launch automatically when you login, and you never think about it and it never gets in your way until you need it. And when you do, you're happy to realize it has faithfully tracked the amount of time you've spent in the various applications and projects that you've set up. Not only that, but it presents the data effectively so you get a sense of where you're spending (or wasting...) your time effectively and efficiently. Great little timing tool.
 
@@ -37,8 +37,6 @@ And finally, for quickly producing all the iOS icons I need, the best tool I've 
 
 Wrap up
 -------
-Okay, so that's what I'm using these days. I use a lot of software, and this list was influenced by the amount of use, so
+Okay, so that's what I'm using these days. I use a lot of software, and this is just a partial list but if I helped point you in the direction of good software (and away from bad!), then I'll have done my job.
 
-Having a set of cool tools makes you cool. Trust me, I'm a doctor.
-
-PS, I am not a doctor.
+Having a good set of tools is imperative for a developer. If you know of any good tools I might have missed, let me know in the comments!
