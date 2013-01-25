@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hosting a website on GitHub Pages with Jekyll"
+title: "GitHub Pages"
 description: "Hosting a Jekyll powered website on GitHub Pages"
 category: Web Dev
 tags: [jekyll, github, webdev]

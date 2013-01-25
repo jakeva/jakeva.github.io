@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Development tools I use"
-description: ""
+title: "Tools I use"
+description: "Development tools I love using"
 category: Dev
 tags: [Software, Tools, Development]
 ---
