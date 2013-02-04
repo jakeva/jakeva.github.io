@@ -55,7 +55,7 @@ group: navigation
                     	<li>Python</li>
                     	<li>MySQL, SQLite, etc</li>
                     	<li>Ruby on Rails</li>
-                    	<li>Cocoa(-touch), UIKit, CoreData, CoreVideo, StoreKit, etc</li>
+                    	<li>Cocoa(-touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc</li>
                     	</ul>
 
 
