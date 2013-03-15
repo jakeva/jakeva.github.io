@@ -106,6 +106,9 @@ group: navigation
                         <h3>Web</h3>
                         <ul>
                         <li>
+                            <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
+                        </li>
+                        <li>
 	                        <a href="http://www.eggdevil.com">www.EggDevil.com</a>
                         </li>
                         <li>
