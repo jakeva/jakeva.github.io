@@ -90,18 +90,18 @@ group: navigation
                         <li>Designed, developed and deployed numerous iPhone and Mac OS apps. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.</li>
                         </ul>
                         <h3>iOS</h3>
-                        <ul>
-                        <li>
-                        <a rel="empty" href="http://itunes.apple.com/us/app/picturethis/id425601498?mt=8">PictureThis!
-				<img src="./assets/picturethis_icon.png" alt="Picture This!">
-				</a>
-                        </li>
-                        </ul>
+                        <ul><li>
+                            <a href="itms://itunes.com/apps/eggdevil/picturethis">
+                                <img src="img/picturethis_icon.png" alt="onCue">
+                                <img src="img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
+                            </a>
+                        </li></ul>
                         <h3>Mac OS X</h3>
                         <ul><li>
-                        <a rel="empty" href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">OnCue
-				<img src="./assets/oncue_icon.png" alt="onCue">
-				</a>
+                            <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
+                                <img src="img/oncue_icon.png" alt="onCue">
+                                <img src="img/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
+                            </a>
                         </li></ul>
                         <h3>Web</h3>
                         <ul>
