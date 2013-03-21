@@ -8,7 +8,7 @@ group: navigation
 
 <div>
                         <h1>Developer / Engineer / Hacker</h1>
-                        <h2>iOS, Mac OS X, C++, Objective-C, 3D Interactive Graphics</h2>
+                        <h2>iOS, Web, Mac OS X, C++, Objective-C, Interactive 3D Graphics</h2>
                         <h3>Master of Science - Computing - 2012</h3>
                         <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
                        <p>
@@ -30,10 +30,11 @@ group: navigation
 </div>
 
 <div>
+                        <hr/><br/>
                     	<h2>Skills</h2>
                     	<ul>
                     	<h3>Building Intuitive Software</h3>
-                    	<li>5 years professional coding experience</li>
+                    	<li>5+ years professional coding experience</li>
                     	<li>Object Oriented Design, Test Driven Development</li>
                     	<li>Focused, elegant, self-documenting code</li>
                     	<li>Detailed UI, UX design</li>
@@ -53,12 +54,10 @@ group: navigation
                     	<li>C, C++, Objective-C</li>
                     	<li>Java</li>
                     	<li>Python</li>
-                    	<li>MySQL, SQLite, etc</li>
-                    	<li>HTML, CSS, PHP</li>
+                    	<li>MySQL, PostgreSQL, etc</li>
+                    	<li>HTML, CSS, PHP, jQuery, Bootstrap</li>
                     	<li>Cocoa(-touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc</li>
                     	</ul>
-
-
 
                         <h2>Professional Employment</h2>
                         <ul>
@@ -68,10 +67,10 @@ group: navigation
                     	</li>
                     	<li>Bidirectional A* heuristic path finding, gaussian smoothing, image processing, large point cloud rendering, ray tracing, and GPU shaders
                     	</li>
-                    	<li>In addition to developing tools that are in and of themselves sellable products, I help maintain existing code, find and fix bugs, manage the build and revision control, as well as contributing knowledge and experience
+                    	<li>In addition to developing tools that are in and of themselves sellable products, I helped maintain existing code, find and fix bugs, manage the build and revision control, as well as contributing knowledge and experience
 						</li>
 						<li>
-						We work as an agile development team and we use Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
+						We worked as an agile development team and we used Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
 						</li>
 			           	</ul>
                     	<h3>FlexSim Software, LLC -- December 2011 - March 2012</h3>
@@ -80,7 +79,7 @@ group: navigation
                     	<li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li></ul>
                     	<h3>University of Utah, Computer Science Department -- January 2009 - December 2011</h3>
                     	<ul>
-                    	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, JQuery and JQuery-UI</li>
+                    	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
                     	</ul>
                         </ul>
 
