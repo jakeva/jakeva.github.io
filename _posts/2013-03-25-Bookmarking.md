@@ -1,6 +1,6 @@
 ---
-layout: Bookmarking
-title: "How I'm doing it"
+layout: post
+title: "Bookmark syncing"
 description: "How I'm solving the problem of bookmarks in the 21st century"
 category:
 tags: [internet, bookmarks]
