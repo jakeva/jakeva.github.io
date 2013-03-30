@@ -99,11 +99,14 @@ group: navigation
                         <ul><li>
                             <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
                                 <img src="assets/oncue_icon.png" alt="onCue">
+                            </a>
+                            <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
                                 <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
                             </a>
-                            <p>
+                            <span>
                                 Mac OS X 10.8 Direct Download -
-                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank">onCue 1.25.1</a></p>
+                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onclick=”_gaq.push(['_trackEvent','Download','DMG',this.href]);”>onCue 1.25.1</a>
+                            </span>
                         </li></ul>
                         <h3>Web</h3>
                         <ul>
