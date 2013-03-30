@@ -105,7 +105,7 @@ group: navigation
                             </a>
 
                                 Mac OS X 10.8 Direct Download -
-                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onclick=”_gaq.push(['_trackEvent','Download','DMG',this.href]);”>onCue 1.25.1</a>
+                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onclick='_gaq.push(["_trackEvent","Download","DMG",this.href]);'>onCue 1.25.1</a>
 
                         </li></ul>
                         <h3>Web</h3>
