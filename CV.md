@@ -18,7 +18,7 @@ group: navigation
 			document.getElementById('email_contact').href = _jvObfuscatedHREF;
 	</script></p>
     <p>
-<a href="./assets/cv.pdf">View as a PDF</a>
+<a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">View as a PDF</a>
 </p>
                     <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
           <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
