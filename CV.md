@@ -101,6 +101,7 @@ group: navigation
                                 <img src="assets/oncue_icon.png" alt="onCue">
                                 <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
                             </a>
+                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank">Mac OS X 10.8 Direct Download - onCue 1.25.1</a>
                         </li></ul>
                         <h3>Web</h3>
                         <ul>
