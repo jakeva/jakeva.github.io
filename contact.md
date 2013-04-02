@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: "Contact"
 tagline: Ways to reach me
 group: navigation
 ---

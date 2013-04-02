@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: "Curriculum Vitae"
 tagline: My Life's Work
 group: navigation
 ---
