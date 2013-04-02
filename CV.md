@@ -9,7 +9,7 @@ group: navigation
 <div>
                         <h1>Developer / Engineer / Hacker</h1>
                         <h2>iOS, Mac OS X, Web, C++, Objective-C, Interactive 3D Graphics</h2>
-                        <h3>Master of Science - Computing - 2012</h3>
+                        <!--<h3>Master of Science - Computing - 2012</h3>-->
                         <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
                        <p>
 	            <a href="#" id="email_contact">Contact Me</a>
@@ -122,7 +122,8 @@ group: navigation
                         </ul>
                         </ul>
                         <h2>Academics</h2>
-                        <!--<ul>
+                        <ul>
+                        <!--
                         <h3>Master of Science - Computing - 2012</h3>
                         <h4>Graphics and Visualization</h4>
                         <ul>
