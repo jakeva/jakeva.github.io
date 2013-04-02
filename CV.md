@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JakeVA | CV"
+title: CV
 tagline: My Life's Work
 group: navigation
 ---
