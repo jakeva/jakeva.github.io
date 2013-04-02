@@ -1,22 +1,24 @@
 ---
 layout: page
 title: Contact
-description:
+tagline: Ways to reach me
+group: navigation
 ---
 {% include JB/setup %}
 
-<a href="#" id="email_contact">Email</a>
+<span>
+<a href="#" id="email_contact">Email me</a>
  <script type="text/javascript" >
       var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
       document.getElementById('email_contact').href = _jvObfuscatedHREF;
   </script>
-
+<hr/>
 <p>Tips: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
-
+<hr/>
 <p>
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG/MacGPG2 v2.0.19 (Darwin)
-
+-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
+Version: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>
+<br/><br/>
 mQINBFE6QMMBEAD6IL2PbpUWUPolLWsgvwR9RfaqJMM1vYd3gyUB7/wiSKxYOYVH
 IAPWd8NnmiAX16EvlIHB1QhuvC/I6uIBrjpr8kLWvvN/Mn+imZo8Hjhk2bXvbEp1
 Rv1nA29+cv6Id/fD16V41CtUWAbVmUKHvndpp2SIoo+yJr/XzMvMAjJKW/FUSbNC
@@ -74,7 +76,8 @@ bm6q/b9nxoWqIWv/+snARax5m6SY/WBkqfoIOseVyHFBaq9WcJXEY3VoQ4jYBFNX
 j3/LA75JKUJx7zwceg1Scew5ajWsirTxuI24MKGGmqlu9GC2epZxC18I6/3YUpd3
 qen4CCmVjzMiEKcwGU3h5QD/uZrnlveRJijN4mrx+fGpRIn7r8SDAuJkXmUP4eb2
 vDvPI3qUlZunHYTeOtoiz+HBWw0qiugCO+XKz5pqSWJCshA61fImSCtRP4ylidEE
-hQQUMKRrlbfJavR590eb3ezC
-=PZ3y
------END PGP PUBLIC KEY BLOCK-----
+hQQUMKRrlbfJavR590eb3ezC<br/>
+=PZ3y<br/>
+-----END PGP PUBLIC KEY BLOCK-----<br/>
 </p>
+</span>
