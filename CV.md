@@ -122,12 +122,12 @@ group: navigation
                         </ul>
                         </ul>
                         <h2>Academics</h2>
-                        <ul>
+                        <!--<ul>
                         <h3>Master of Science - Computing - 2012</h3>
                         <h4>Graphics and Visualization</h4>
                         <ul>
                         <li>Numerical Sequestration of Rational Surfaces in Toroidal Magnetic Field Simulation Data - (available on request)</li>
-                        </ul>
+                        </ul>-->
                         <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
                         <ul>
                         	<li><a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a></li>
