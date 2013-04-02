@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Contact"
+title: Contact
 description: ""
 ---
 {% include JB/setup %}
@@ -13,7 +13,7 @@ description: ""
 <p>Tips: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 
 <p>
-	-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG/MacGPG2 v2.0.19 (Darwin)
 
 mQINBFE6QMMBEAD6IL2PbpUWUPolLWsgvwR9RfaqJMM1vYd3gyUB7/wiSKxYOYVH
