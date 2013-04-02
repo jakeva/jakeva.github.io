@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Curriculum Vitae"
-description: "My Life's Work"
+title: Curriculum Vitae
+tagline: My Life's Work
 group: navigation
 ---
 {% include JB/setup %}
