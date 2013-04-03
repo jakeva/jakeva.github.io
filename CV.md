@@ -90,6 +90,7 @@ group: navigation
                         </ul>
                         <h3>iOS</h3>
                         <ul><li>
+                            PictureThis! - A free slideshow app
                             <a href="itms://itunes.com/apps/eggdevil/picturethis">
                                 <img src="assets/picturethis_icon.png" alt="onCue">
                                 <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
@@ -97,6 +98,7 @@ group: navigation
                         </li></ul>
                         <h3>Mac OS X</h3>
                         <ul><li>
+                            onCue - A free and simple utility to take control of your USB camera
                             <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
                                 <img src="assets/oncue_icon.png" alt="onCue">
                             </a>
