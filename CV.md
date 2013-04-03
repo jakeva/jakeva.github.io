@@ -79,9 +79,9 @@ group: navigation
                     	<ul>
                     	<li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
                     	<li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li></ul>
-                    	<h3>University of Utah, Computer Science Department -- January 2009 - December 2011</h3>
+                    	<br/>
+                        <h3>University of Utah, Computer Science Department -- January 2009 - December 2011</h3>
                     	<ul>
-                        <br/>
                     	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
                     	</ul>
                         </ul>
