@@ -33,7 +33,6 @@ group: navigation
                         <hr/><br/>
                     	<h2>Skills</h2>
                     	<ul>
-                            <br/>
                     	<h3>Building Intuitive Software</h3>
                     	<li>5+ years professional coding experience</li>
                     	<li>Object Oriented Design, Test Driven Development</li>
@@ -75,20 +74,22 @@ group: navigation
 						We worked as an agile development team and we used Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
 						</li>
 			           	</ul>
+                        <br/>
                     	<h3>FlexSim Software, LLC -- December 2011 - March 2012</h3>
                     	<ul>
                     	<li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
                     	<li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li></ul>
                     	<h3>University of Utah, Computer Science Department -- January 2009 - December 2011</h3>
                     	<ul>
+                        <br/>
                     	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
                     	</ul>
                         </ul>
                         <br/><br/>
-                        <h2>Independent Work</h2>
+                        <h2>Independent Developer</h2>
                         <ul>
                         <ul>
-                        <li>Designed, developed and deployed numerous iPhone and Mac OS apps. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.</li>
+                        <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.</li>
                         </ul>
                         <br/>
                         <h3>iOS</h3>
