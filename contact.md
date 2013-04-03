@@ -15,7 +15,7 @@ group: navigation
 <hr/>
 <p>Bitcoin Address: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
-<p>
+<code>
 -----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
 Version: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>
 <br/><br/>
@@ -79,5 +79,5 @@ vDvPI3qUlZunHYTeOtoiz+HBWw0qiugCO+XKz5pqSWJCshA61fImSCtRP4ylidEE
 hQQUMKRrlbfJavR590eb3ezC<br/>
 =PZ3y<br/>
 -----END PGP PUBLIC KEY BLOCK-----<br/>
-</p>
+</code>
 </span>
