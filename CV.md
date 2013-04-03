@@ -90,15 +90,15 @@ group: navigation
                         </ul>
                         <h3>iOS</h3>
                         <ul><li>
-                            PictureThis! - A free slideshow app
+                            <h4>PictureThis!</h4><p> - A free slideshow app</p>
                             <a href="itms://itunes.com/apps/eggdevil/picturethis">
                                 <img src="assets/picturethis_icon.png" alt="onCue">
                                 <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
                             </a>
                         </li></ul>
                         <h3>Mac OS X</h3>
-                        <ul><li><h5>
-                            onCue </h5> <p>- A free and simple utility to take control of your USB camera
+                        <ul><li><h4>
+                            onCue </h4> <p>- A free and simple utility to take control of your USB camera
                         </p>
                             <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
                                 <img src="assets/oncue_icon.png" alt="onCue">
