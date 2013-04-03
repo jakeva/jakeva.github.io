@@ -42,7 +42,6 @@ group: navigation
                     	<li>Mac OS X, iOS</li>
                     	<li>Linux, BSD</li>
                     	<li>Windows 7 MFC / COM</li>
-
                     	<h3>Problem Solving</h3>
                     	<li>Numerical Techniques</li>
                     	<li>CAGD, Image Processing</li>
@@ -58,7 +57,7 @@ group: navigation
                     	<li>HTML, CSS, PHP, jQuery, Bootstrap</li>
                     	<li>Cocoa(-touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc</li>
                     	</ul>
-
+                        <br/><br/>
                         <h2>Professional Employment</h2>
                         <ul>
                     	<h3>K'nowbe Works, LLC -- April 2012 - November 2012</h3>
@@ -82,12 +81,13 @@ group: navigation
                     	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
                     	</ul>
                         </ul>
-
+                        <br/><br/>
                         <h2>Independent Work</h2>
                         <ul>
                         <ul>
                         <li>Designed, developed and deployed numerous iPhone and Mac OS apps. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.</li>
                         </ul>
+                        <br/>
                         <h3>iOS</h3>
                         <ul><li>
                             <h4>PictureThis!</h4><p> - A free slideshow app</p>
@@ -96,6 +96,7 @@ group: navigation
                                 <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
                             </a>
                         </li></ul>
+                        <br/>
                         <h3>Mac OS X</h3>
                         <ul><li><h4>
                             onCue </h4> <p>- A free and simple utility to take control of your USB camera
@@ -111,6 +112,7 @@ group: navigation
                             <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a>
                         </p>
                         </li></ul>
+                        <br/>
                         <h3>Web</h3>
                         <ul>
                         <li>
@@ -124,6 +126,7 @@ group: navigation
                         </li>
                         </ul>
                         </ul>
+                        <br/><br/>
                         <h2>Academics</h2>
                         <ul>
                         <!--
