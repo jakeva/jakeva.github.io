@@ -103,7 +103,7 @@ group: navigation
                             <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
                                 <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
                             </a>
-
+                            <br/>
                                 Mac OS X 10.8 Direct Download -
                             <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a>
 
