@@ -97,8 +97,8 @@ group: navigation
                             </a>
                         </li></ul>
                         <h3>Mac OS X</h3>
-                        <ul><li><p>
-                            onCue - A free and simple utility to take control of your USB camera
+                        <ul><li><h5>
+                            onCue </h5> <p>- A free and simple utility to take control of your USB camera
                         </p>
                             <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
                                 <img src="assets/oncue_icon.png" alt="onCue">
