@@ -11,14 +11,16 @@ group: navigation
                         <h2>iOS, Mac OS X, Web, C++, Objective-C, Interactive 3D Graphics</h2>
                         <!--<h3>Master of Science - Computing - 2012</h3>-->
                         <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
-                       <br/><hr/><p>
-	            <a href="#" id="email_contact">Contact Me</a>
-	<script type="text/javascript" >
-			var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
-			document.getElementById('email_contact').href = _jvObfuscatedHREF;
-	</script></p>
+                       <br/>
+<p>
+                <a href="#" id="email_contact">Contact Me</a>
+    <script type="text/javascript" >
+            var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
+            document.getElementById('email_contact').href = _jvObfuscatedHREF;
+    </script></p>
+                       <hr/>
     <p>
-<a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">View as a PDF</a>
+<a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
 </p>
                     <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
           <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
@@ -30,7 +32,10 @@ group: navigation
 </div>
 
 <div>
-                        <hr/><br/>
+                        <hr/>
+
+
+                        <br/>
                     	<h2>Skills</h2>
                     	<ul>
                     	<h3>Building Intuitive Software</h3>
