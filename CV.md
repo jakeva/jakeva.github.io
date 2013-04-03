@@ -33,6 +33,7 @@ group: navigation
                         <hr/><br/>
                     	<h2>Skills</h2>
                     	<ul>
+                            <br/>
                     	<h3>Building Intuitive Software</h3>
                     	<li>5+ years professional coding experience</li>
                     	<li>Object Oriented Design, Test Driven Development</li>
@@ -42,6 +43,7 @@ group: navigation
                     	<li>Mac OS X, iOS</li>
                     	<li>Linux, BSD</li>
                     	<li>Windows 7 MFC / COM</li>
+                        <br/>
                     	<h3>Problem Solving</h3>
                     	<li>Numerical Techniques</li>
                     	<li>CAGD, Image Processing</li>
@@ -49,6 +51,7 @@ group: navigation
                     	<li>Complexity Analysis</li>
                     	<li>Data Analysis / Visualization</li>
                     	<li>Scientific and Industrial Applications</li>
+                        <br/>
                     	<h3>Technologies</h3>
                     	<li>C, C++, Objective-C</li>
                     	<li>Java</li>
