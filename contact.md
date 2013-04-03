@@ -15,8 +15,8 @@ group: navigation
 <hr/>
 <p>Bitcoin Address: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
-<code>
-	<a href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xDF764E342927DD2F">PGP Public Key</a><br/>
+<a href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xDF764E342927DD2F">PGP Public Key</a><br/>
+<pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG/MacGPG2 v2.0.19 (Darwin)
 mQINBFE6QMMBEAD6IL2PbpUWUPolLWsgvwR9RfaqJMM1vYd3gyUB7/wiSKxYOYVH
@@ -79,5 +79,5 @@ vDvPI3qUlZunHYTeOtoiz+HBWw0qiugCO+XKz5pqSWJCshA61fImSCtRP4ylidEE
 hQQUMKRrlbfJavR590eb3ezC
 =PZ3y
 -----END PGP PUBLIC KEY BLOCK-----
-</code>
+</pre>
 </span>
