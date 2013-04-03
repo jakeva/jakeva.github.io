@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-tagline: My Life's Work
+tagline: Curriculum Vitae
 group: navigation
 ---
 {% include JB/setup %}
