@@ -16,9 +16,9 @@ group: navigation
 <p>Bitcoin Address: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
 <code>
------BEGIN PGP PUBLIC KEY BLOCK-----<br/>
-Version: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>
-<br/><br/>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG/MacGPG2 v2.0.19 (Darwin)
 mQINBFE6QMMBEAD6IL2PbpUWUPolLWsgvwR9RfaqJMM1vYd3gyUB7/wiSKxYOYVH
 IAPWd8NnmiAX16EvlIHB1QhuvC/I6uIBrjpr8kLWvvN/Mn+imZo8Hjhk2bXvbEp1
 Rv1nA29+cv6Id/fD16V41CtUWAbVmUKHvndpp2SIoo+yJr/XzMvMAjJKW/FUSbNC
@@ -76,8 +76,8 @@ bm6q/b9nxoWqIWv/+snARax5m6SY/WBkqfoIOseVyHFBaq9WcJXEY3VoQ4jYBFNX
 j3/LA75JKUJx7zwceg1Scew5ajWsirTxuI24MKGGmqlu9GC2epZxC18I6/3YUpd3
 qen4CCmVjzMiEKcwGU3h5QD/uZrnlveRJijN4mrx+fGpRIn7r8SDAuJkXmUP4eb2
 vDvPI3qUlZunHYTeOtoiz+HBWw0qiugCO+XKz5pqSWJCshA61fImSCtRP4ylidEE
-hQQUMKRrlbfJavR590eb3ezC<br/>
-=PZ3y<br/>
+hQQUMKRrlbfJavR590eb3ezC
+=PZ3y
 -----END PGP PUBLIC KEY BLOCK-----<br/>
 </code>
 </span>
