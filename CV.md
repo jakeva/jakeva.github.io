@@ -39,7 +39,6 @@ group: navigation
                     	<h2>Skills</h2>
                     	<ul>
                     	<h3>Building Intuitive Software</h3>
-                    	<li>5+ years professional coding experience</li>
                     	<li>Object Oriented Design, Test Driven Development</li>
                     	<li>Focused, elegant, self-documenting code</li>
                     	<li>Detailed UI, UX design</li>
@@ -119,7 +118,7 @@ group: navigation
                                 Mac OS X 10.8 Direct Download -
 
                             <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a><br/>
-                            <a href="https://github.com/jakeva/oncue">Source</a>
+                            <a href="https://github.com/jakeva/oncue">Source code</a>
                         </p>
                         </li></ul>
                         <br/>
