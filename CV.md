@@ -126,6 +126,7 @@ group: navigation
                         <ul>
                         <li>
                             <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
+                            <p>Units of Code is a web app I built out of frustration with existing online code snippet repositories. The community is new, but growing.</p>
                         </li>
                         <li>
 	                        <a href="http://www.eggdevil.com">www.EggDevil.com</a>
