@@ -118,7 +118,8 @@ group: navigation
                             </a><p>
                                 Mac OS X 10.8 Direct Download -
 
-                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a>
+                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a><br/>
+                            <a href="https://github.com/jakeva/oncue">Source</a>
                         </p>
                         </li></ul>
                         <br/>
