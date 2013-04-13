@@ -21,6 +21,7 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'haikus' => File.join(SOURCE, "_haikus"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -51,6 +52,35 @@ module JB
 
   end #Path
 end #JB
+# Usage: rake haiku title="A Title" [date="2012-02-09"]
+desc "Begin a new haiku in #{CONFIG['haikus']}"
+task :haiku do
+  abort("rake aborted: '#{CONFIG['haikus']}' directory not found.") unless FileTest.directory?(CONFIG['haikus'])
+  title = ENV["title"] || "new-haiku"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue Exception => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  filename = File.join(CONFIG['haikus'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new haiku: #{filename}"
+  open(filename, 'w') do |haiku|
+    haiku.puts "---"
+    haiku.puts "layout: haiku"
+    haiku.puts "title: \"#{title.gsub(/-/,' ')}\""
+    haiku.puts 'description: ""'
+    haiku.puts "category: "
+    haiku.puts "tags: []"
+    haiku.puts "---"
+    haiku.puts "{% include JB/setup %}"
+  end
+end # task :haiku
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
 desc "Begin a new post in #{CONFIG['posts']}"
