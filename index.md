@@ -17,6 +17,8 @@ I am a freelance Web, iOS and Mac OS X developer currently living in <a href="ht
 <div class="floatingBox" style="margin-top:225px">
  <ul class="posts">
       {% for post in site.posts %}
+      {% if post.categories contains 'Haikus' %}
+      {% else %}
       <li>
           <h3>
               <a href="{{ post.url }}">
@@ -30,6 +32,7 @@ I am a freelance Web, iOS and Mac OS X developer currently living in <a href="ht
              </span>
          </h3>
      </li>
+     {% endif %}
      {% endfor %}
  </ul>
 </div>

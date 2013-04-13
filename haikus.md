@@ -6,9 +6,10 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="floatingBox" style="margin-top:225px">
+<div class="floatingBox" style="margin-top:25px">
  <ul class="haikus">
-      {% for haiku in site.haikus %}
+      {% for haiku in site.posts %}
+      {% if haiku.categories contains 'Haikus' %}
       <li>
           <h3>
               <a href="{{ haiku.url }}">
@@ -22,6 +23,7 @@ group: navigation
              </span>
          </h3>
      </li>
+     {% endif %}
      {% endfor %}
  </ul>
 </div>
