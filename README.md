@@ -1,6 +1,6 @@
 ### Jake Van Alstyne
 
-My Jekyll powered GitHub page.
+My Jekyll powered GitHub homepage.
 
 ## License
 
