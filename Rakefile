@@ -75,12 +75,16 @@ task :haiku do
   open(filename, 'w') do |haiku|
     haiku.puts "---"
     haiku.puts "layout: haiku"
+    haiku.puts "category: Haikus"
     haiku.puts "title: \"#{title.gsub(/-/,' ')}\""
-    haiku.puts 'description: ""'
-    haiku.puts "category: "
-    haiku.puts "tags: []"
     haiku.puts "---"
     haiku.puts "{% include JB/setup %}"
+    haiku.puts ""
+    haiku.puts ""
+    haiku.puts ""
+    haiku.puts ""
+    haiku.puts ""
+    haiku.puts "![--\"#{title.gsub(/-/,' ')}\"--]({{ site.url }}/assets/\"#{title.gsub(/-/,' ')}\".jpg)"
   end
 end # task :haiku
 
