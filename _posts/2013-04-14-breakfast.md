@@ -7,7 +7,7 @@ title: "Breakfast"
 
 The first and best meal
 
-Despite the lunch fans, is good
+Despite the lunch crowd, is good
 
 enough to eat twice
 
