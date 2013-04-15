@@ -7,7 +7,7 @@ title: "Breakfast"
 
 The first and best meal
 
-Despite the lunch crowd, is good
+Forget brunch, breakfast is good
 
 enough to eat twice
 
