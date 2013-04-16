@@ -9,7 +9,7 @@ group: navigation
 <div>
                         <h1>Developer / Programmer / Engineer</h1>
                         <h2>iOS, Mac OS X, Web, C++, Objective-C, Interactive 3D Graphics</h2>
-                        <!--<h3>Master of Science - Computing - 2012</h3>-->
+                        <h3>Master of Science - Computing - 2013</h3>
                         <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
                        <br/>
 <p>
