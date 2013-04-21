@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Ways to reach me
+tagline: Ways of reaching me
 group: navigation
 ---
 {% include JB/setup %}
@@ -13,7 +13,7 @@ group: navigation
       document.getElementById('email_contact').href = _jvObfuscatedHREF;
   </script>
 <hr/>
-<p>Bitcoin Address: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
+<p>BTC: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
 <a href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xDF764E342927DD2F">PGP Public Key</a><br/>
 <pre>
