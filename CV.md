@@ -19,8 +19,8 @@ iOS, Mac OS X, Web
 
 + MySQL, PostgresSQL, SQLite
 
-## Master of Science - Computing - 2013
-## Bachelor of Science - Chemical Engineer - 2008
+### Master of Science - Computing - 2013
+### Bachelor of Science - Chemical Engineer - 2008
 
 <div>
                        <br/>
