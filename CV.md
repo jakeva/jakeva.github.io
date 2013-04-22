@@ -18,6 +18,8 @@ iOS, Mac OS X, Web
 
 + HTML5, CSS3, PHP, JavaScript, Python
 
++ AJAX, JSON, RESTful APIs, SOAP
+
 + MySQL, PostgresSQL, SQLite
 
 ***
