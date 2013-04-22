@@ -10,9 +10,9 @@ group: navigation
                         <h1>Software Engineer</h1>
                         <h2>Interactive 3D Graphics, Data Visualization</h2>
                         <h2>iOS, Mac OS X, Web</h2>
-                        <h2>C, C++, Objective-C</h2>
-                        <h2>HTML5, CSS3, PHP, JavaScript, Python</h2>
-                        <h2>MySQL, PostgresSQL, SQLite</h2>
+                        <h3>C, C++, Objective-C</h3>
+                        <h3>HTML5, CSS3, PHP, JavaScript, Python</h3>
+                        <h3>MySQL, PostgresSQL, SQLite</h3>
                         <h3>Master of Science - Computing - 2013</h3>
                         <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
                        <br/>
