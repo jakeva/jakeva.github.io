@@ -146,14 +146,17 @@ iOS, Mac OS X, Web
                         <ul>
                         <li>
                             <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
-                            <p>Units of Code is a web app I built out of frustration with existing online code snippet repositories. The community is new, but growing.</p>
+                            <p>A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online, built using JQuery, Python, PHP and CodeIgniter MVC framework. Planned future improvements include providing an API for developers.</p>
                         </li>
+                        <li>
+                            <a href="http://pms.leadsys.co">pms.leadsys.co</a>
+                            <p>A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
+                            </p>
                         <li>
 	                        <a href="http://www.eggdevil.com">www.EggDevil.com</a>
+                            <p>A homepage for my iOS / Mac OS X portfolio</p>
                         </li>
-                        <li>
-	                        <a href="http://www.eggdevil.com">www.JakeVanAlstyne.com</a>
-                        </li>
+
                         </ul>
                         </ul>
                         <br/><br/>
