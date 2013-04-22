@@ -24,7 +24,7 @@ iOS, Mac OS X, Web
 
 ***
 ### Master of Science - Computing - 2013
-### Bachelor of Science - Chemical Engineer - 2008
+### Bachelor of Science - Chemical Engineering - 2008
 ***
 <div>
                        <br/>
@@ -152,6 +152,7 @@ iOS, Mac OS X, Web
                             <a href="http://pms.leadsys.co">pms.leadsys.co</a>
                             <p>A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
                             </p>
+                        </li>
                         <li>
 	                        <a href="http://www.eggdevil.com">www.EggDevil.com</a>
                             <p>A homepage for my iOS / Mac OS X portfolio</p>
