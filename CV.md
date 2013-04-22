@@ -9,6 +9,7 @@ group: navigation
 
 Software Engineer
 =================
+***
 Interactive 3D Graphics, Data Visualization
 -------------------------------------------
 iOS, Mac OS X, Web
@@ -18,7 +19,7 @@ iOS, Mac OS X, Web
 + HTML5, CSS3, PHP, JavaScript, Python
 
 + MySQL, PostgresSQL, SQLite
-
+***
 ### Master of Science - Computing - 2013
 ### Bachelor of Science - Chemical Engineer - 2008
 
