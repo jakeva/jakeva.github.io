@@ -20,6 +20,7 @@ iOS, Mac OS X, Web
 Master of Science - Computing - 2013
 ------------------------------------
 Bachelor of Science - Chemical Engineer - 2008
+----------------------------------------------
 
 <div>
                        <br/>
