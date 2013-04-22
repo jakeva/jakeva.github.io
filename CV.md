@@ -73,10 +73,14 @@ iOS, Mac OS X, Web
                         <br/>
                     	<h3>Technologies</h3>
                     	<li>C, C++, Objective-C</li>
+                        <li>Cocoa, Cocoa-touch</li>
+                        <li>CoreData, CoreAnimation, CoreGraphics</li>
+                        <li>HTML5, CSS3, PHP, JavaScript, Python</li>
+                        <li>AJAX, JSON, XML, RESTful APIs, SOAP</li>
                     	<li>Java</li>
-                    	<li>Python</li>
                     	<li>MySQL, PostgreSQL, etc</li>
-                    	<li>HTML, CSS, PHP, jQuery, Bootstrap</li>
+                    	<li>jQuery, Bootstrap</li>
+                        <li>Zend MVC, CodeIgnitor</li>
                     	<li>Cocoa(-touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc</li>
                     	</ul>
                         <br/><br/>
