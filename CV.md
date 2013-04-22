@@ -14,13 +14,13 @@ Interactive 3D Graphics, Data Visualization
 iOS, Mac OS X, Web
 ------------------
 + C, C++, Objective-C
+
 + HTML5, CSS3, PHP, JavaScript, Python
+
 + MySQL, PostgresSQL, SQLite
 
-Master of Science - Computing - 2013
-------------------------------------
-Bachelor of Science - Chemical Engineer - 2008
-----------------------------------------------
+## Master of Science - Computing - 2013
+## Bachelor of Science - Chemical Engineer - 2008
 
 <div>
                        <br/>
