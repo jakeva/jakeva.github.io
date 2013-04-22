@@ -10,16 +10,18 @@ group: navigation
 Software Engineer
 =================
 Interactive 3D Graphics, Data Visualization
+-------------------------------------------
+iOS, Mac OS X, Web
+------------------
++ C, C++, Objective-C
++ HTML5, CSS3, PHP, JavaScript, Python
++ MySQL, PostgresSQL, SQLite
 
+Master of Science - Computing - 2013
+------------------------------------
+Bachelor of Science - Chemical Engineer - 2008
 
 <div>
-                        <h2>Interactive 3D Graphics, Data Visualization</h2>
-                        <h2>iOS, Mac OS X, Web</h2>
-                        <h3>C, C++, Objective-C</h3>
-                        <h3>HTML5, CSS3, PHP, JavaScript, Python</h3>
-                        <h3>MySQL, PostgresSQL, SQLite</h3>
-                        <h3>Master of Science - Computing - 2013</h3>
-                        <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
                        <br/>
 <p>
                 <a href="#" id="email_contact">Contact Me</a>
