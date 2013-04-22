@@ -7,7 +7,9 @@ group: navigation
 {% include JB/setup %}
 
 <div>
-                        <h1>Software Engineer</h1>
+Software Engineer
+=================
+
                         <h2>Interactive 3D Graphics, Data Visualization</h2>
                         <h2>iOS, Mac OS X, Web</h2>
                         <h3>C, C++, Objective-C</h3>
