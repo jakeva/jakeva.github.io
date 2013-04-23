@@ -5,11 +5,9 @@ tagline: Curriculum Vitae
 group: navigation
 ---
 {% include JB/setup %}
-
-
 Software Engineer
 =================
-***
+*   *   *
 Interactive 3D Graphics, Data Visualization
 -------------------------------------------
 iOS, Mac OS X, Web
