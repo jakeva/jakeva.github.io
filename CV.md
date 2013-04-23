@@ -107,8 +107,8 @@ University of Utah, Computer Science Department -- January 2009 - December 2011
 
 Independent Developer
 =====================
-
 + Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.
++ This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.
 
 iOS
 ---
@@ -166,11 +166,10 @@ This video shows the historical climate record of Earth. Early on in the record 
 Academics
 =========
 
-Master of Science - Computing - 2013
+Master of Science - Computing - Graphics and Visualization - 2013
 ------------------------------------
-+ Graphics and Visualization
+<ul><li><a href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
 
-+ <a href="./assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a>
 
 Bachelor of Science - Chemical Engineering - 2008
 -------------------------------------------------
