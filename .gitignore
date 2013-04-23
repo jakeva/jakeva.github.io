@@ -74,3 +74,5 @@ Thumbs.db
 _posts/Blog Posts alias
 project.sublime-project
 project.sublime-workspace
+preview/*
+

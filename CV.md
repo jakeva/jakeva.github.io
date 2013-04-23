@@ -46,143 +46,147 @@ iOS, Mac OS X, Web
 <div style="margin: 50px; float: right;">
 <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&catId=&defaultTab=0&rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&catId=&defaultTab=0&rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
 </div>
+<hr/>
+<br/>
 
-<div>
-                        <hr/>
+Skills
+======
+Building Intuitive Software
+---------------------------
++ Object Oriented Design, Test Driven Development
++ Focused, elegant, self-documenting code
++ Detailed UI, UX design
++ 3D Graphics - OpenGL, GLSL, CUDA
++ Mac OS X, iOS
++ PHP MVC
+
+Problem Solving
+---------------
++ Numerical Techniques
++ CAGD, Image Processing
++ Signal Processing, Fourier Transforms
++ Complexity Analysis
++ Data Analysis / Visualization
++ Scientific and Industrial Applications
+
+Technologies
+------------
++ C, C++, Objective-C
++ Cocoa, Cocoa-touch
++ CoreData, CoreAnimation, CoreGraphics
++ HTML5, CSS3, PHP, JavaScript, Python
++ AJAX, JSON, XML, RESTful APIs, SOAP
++ Java
++ MySQL, PostgreSQL, etc
++ jQuery, Bootstrap
++ Zend MVC, CodeIgnitor
++ Cocoa(+touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc
+
+*   *   *
+
+Professional Employment
+=======================
+
+K'nowbe Works, LLC -- April 2012 - November 2012
+------------------------------------------------
++ 3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
++ Bidirectional A* heuristic path finding, gaussian smoothing, image processing, large point cloud rendering, ray tracing, and GPU shaders
++ In addition to developing software tools for the company, I helped maintain existing code, find and fix bugs, manage the build and revision control, as well as contributing knowledge and experience
++ We worked as an agile development team and we used Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
+
+FlexSim Software, LLC -- December 2011 - March 2012
+---------------------------------------------------
++ Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API
++ Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework
+
+University of Utah, Computer Science Department -- January 2009 - December 2011
+-------------------------------------------------------------------------------
++ Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI
+
+*   *   *
+
+Independent Developer
+=====================
+
++ Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.
+
+iOS
+---
+
++ PictureThis! - A free slideshow app
+
+    <a href="itms://itunes.com/apps/eggdevil/picturethis">
+        <img src="assets/picturethis_icon.png" alt="onCue">
+        <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
+    </a>
+
+Mac OS X
+--------
+
++ onCue - A free and simple utility to take control of your USB camera
+
+    <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
+        <img src="assets/oncue_icon.png" alt="onCue">
+    </a>
+    <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
+        <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
+    </a>
+    <p>
+    Mac OS X 10.8 Direct Download -
+    <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a><br/>
+    <a href="https://github.com/jakeva/oncue">Source code</a>
+    </p>
+
+Web
+---
+
++ <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
+
+    A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online, built using JQuery, Python, PHP and CodeIgniter MVC framework. Planned future improvements include providing an API for developers.
+
++ <a href="http://pms.leadsys.co">pms.leadsys.co</a>
+
+    A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
+
++ <a href="http://www.eggdevil.com">www.EggDevil.com</a>
+
+    A homepage for my iOS / Mac OS X portfolio
+
+Visualizations
+-------------
+
++ Historical Climate Data
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/h7gMk-x78gc" frameborder="0"> </iframe>
+This video shows the historical climate record of Earth. Early on in the record there are very few stations reporting data, but by the mid-20th century Earth's temperature was being measured almost ubiquitously. It was my goal to visualize this record. This was done in Python using VTK. Source code is available [here](https://github.com/jakeva/Historical-Climate-Visualization). (Also, if you like the music, that was my work too.)
 
 
-                        <br/>
-                    	<h2>Skills</h2>
-                    	<ul>
-                    	<h3>Building Intuitive Software</h3>
-                    	<li>Object Oriented Design, Test Driven Development</li>
-                    	<li>Focused, elegant, self-documenting code</li>
-                    	<li>Detailed UI, UX design</li>
-                    	<li>3D Graphics - OpenGL, GLSL, CUDA</li>
-                    	<li>Mac OS X, iOS</li>
-                    	<li>Linux, BSD</li>
-                    	<li>Windows 7 MFC / COM</li>
-                        <br/>
-                    	<h3>Problem Solving</h3>
-                    	<li>Numerical Techniques</li>
-                    	<li>CAGD, Image Processing</li>
-                    	<li>Signal Processing, Fourier Transforms</li>
-                    	<li>Complexity Analysis</li>
-                    	<li>Data Analysis / Visualization</li>
-                    	<li>Scientific and Industrial Applications</li>
-                        <br/>
-                    	<h3>Technologies</h3>
-                    	<li>C, C++, Objective-C</li>
-                        <li>Cocoa, Cocoa-touch</li>
-                        <li>CoreData, CoreAnimation, CoreGraphics</li>
-                        <li>HTML5, CSS3, PHP, JavaScript, Python</li>
-                        <li>AJAX, JSON, XML, RESTful APIs, SOAP</li>
-                    	<li>Java</li>
-                    	<li>MySQL, PostgreSQL, etc</li>
-                    	<li>jQuery, Bootstrap</li>
-                        <li>Zend MVC, CodeIgnitor</li>
-                    	<li>Cocoa(-touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc</li>
-                    	</ul>
-                        <br/><br/>
-                        <h2>Professional Employment</h2>
-                        <ul>
-                    	<h3>K'nowbe Works, LLC -- April 2012 - November 2012</h3>
-                    	<ul>
-                    	<li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
-                    	</li>
-                    	<li>Bidirectional A* heuristic path finding, gaussian smoothing, image processing, large point cloud rendering, ray tracing, and GPU shaders
-                    	</li>
-                    	<li>In addition to developing tools that are in and of themselves sellable products, I helped maintain existing code, find and fix bugs, manage the build and revision control, as well as contributing knowledge and experience
-						</li>
-						<li>
-						We worked as an agile development team and we used Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
-						</li>
-			           	</ul>
-                        <br/>
-                    	<h3>FlexSim Software, LLC -- December 2011 - March 2012</h3>
-                    	<ul>
-                    	<li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
-                    	<li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li></ul>
-                    	<br/>
-                        <h3>University of Utah, Computer Science Department -- January 2009 - December 2011</h3>
-                    	<ul>
-                    	<li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
-                    	</ul>
-                        </ul>
-                        <br/><br/>
-                        <h2>Independent Developer</h2>
-                        <ul>
-                        <ul>
-                        <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.</li>
-                        </ul>
-                        <br/>
-                        <h3>iOS</h3>
-                        <ul><li>
-                            <h4>PictureThis!</h4><p> - A free slideshow app</p>
-                            <a href="itms://itunes.com/apps/eggdevil/picturethis">
-                                <img src="assets/picturethis_icon.png" alt="onCue">
-                                <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
-                            </a>
-                        </li></ul>
-                        <br/>
-                        <h3>Mac OS X</h3>
-                        <ul><li><h4>
-                            onCue </h4> <p>- A free and simple utility to take control of your USB camera
-                        </p>
-                            <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
-                                <img src="assets/oncue_icon.png" alt="onCue">
-                            </a>
-                            <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
-                                <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
-                            </a><p>
-                                Mac OS X 10.8 Direct Download -
+*   *   *
 
-                            <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a><br/>
-                            <a href="https://github.com/jakeva/oncue">Source code</a>
-                        </p>
-                        </li></ul>
-                        <br/>
-                        <h3>Web</h3>
-                        <ul>
-                        <li>
-                            <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
-                            <p>A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online, built using JQuery, Python, PHP and CodeIgniter MVC framework. Planned future improvements include providing an API for developers.</p>
-                        </li>
-                        <li>
-                            <a href="http://pms.leadsys.co">pms.leadsys.co</a>
-                            <p>A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
-                            </p>
-                        </li>
-                        <li>
-	                        <a href="http://www.eggdevil.com">www.EggDevil.com</a>
-                            <p>A homepage for my iOS / Mac OS X portfolio</p>
-                        </li>
+Academics
+=========
 
-                        </ul>
-                        </ul>
-                        <br/><br/>
-                        <h2>Academics</h2>
-                        <ul>
-                        <!--
-                        <h3>Master of Science - Computing - 2012</h3>
-                        <h4>Graphics and Visualization</h4>
-                        <ul>
-                        <li>Numerical Sequestration of Rational Surfaces in Toroidal Magnetic Field Simulation Data - (available on request)</li>
-                        </ul>-->
-                        <h3>Bachelor of Science - Chemical Engineering - 2008</h3>
-                        <ul>
-                        	<li><a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a></li>
-	                        <li>John Zink award - 2007</li>
-                        </ul>
-                        <h3>Teaching</h3>
-                        <ul>
-                        <h4>Instructor</h4>
-                        <li>CS 1400 - Introduction to Computer Science -- June 2010 - August 2010 </li>
-                        <h4>Teaching Assistant</h4>
-                        <li>CS 1410 - Computer Science I -- August 2010 - December 2010</li>
-                        <li>CS 2420 - Computer Science II / EAE -- January 2011 - May 2011</li>
-                        <li>CS 3810 - Computer Systems -- August 2011 - December 2011</li>
-                        </ul>
-                        </ul>
-                    </div>
+Master of Science - Computing - 2013
+------------------------------------
++ Graphics and Visualization
 
++ <a href="./assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a>
+
+Bachelor of Science - Chemical Engineering - 2008
+-------------------------------------------------
++ <a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
+
++ John Zink award - 2007
+
+Teaching
+========
+
+Instructor
+----------
++ CS 1400 - Introduction to Computer Science -- June 2010 - August 2010
+
+Teaching Assistant
+------------------
++ CS 1410 - Computer Science I -- August 2010 - December 2010
++ CS 2420 - Computer Science II / EAE -- January 2011 - May 2011
++ CS 3810 - Computer Systems -- August 2011 - December 2011
