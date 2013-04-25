@@ -105,7 +105,7 @@ University of Utah, Computer Science Department -- January 2009 - December 2011
 
 Independent Developer
 =====================
-+ Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, QuartzCore, CoreVideo, and QTKit.
++ Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.
 + This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.
 
 iOS
@@ -156,7 +156,13 @@ Visualizations
 + Historical Climate Data
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/YFdnqXrvwv0" frameborder="0"> </iframe>
-This video shows the historical climate record of Earth. Early on in the record there are very few stations reporting data, but by the mid-20th century Earth's temperature was being measured almost ubiquitously. It was my goal to visualize this record. One of the key things I noticed by doing this was that while stations near the equator tended to report pretty much near the average temperatures, stations in the more extreme parts of the hemispheres report much warmer than average temperatures. This is true year round, but especially during the colder months. Keep an eye out for the large blue spheres mixed in with average sized red spheres.
+This video shows the historical climate record of Earth. Early on in the record there are very few stations reporting data, but by the mid-20th century Earth's temperature was being measured almost ubiquitously. It was my goal to visualize this record.
+
+I did this by visualizing the data in two ways, first the spheres are colored by actual temperature (ie, dark blue is near freezing, dark red is ~80 - 100 degrees F). Secondly, the spheres are sized in relation to the average temperature for that time of the year. In other words, large red spheres indicate greater than average temperature where the actual temperature is fairly warm. Large blue spheres indicate a warmer than average temperature at a low temperature, i.e. it should be much cooler. Smaller spheres indicate a cooler than average temperature, but we don't see many of those in here. The average used in the comparison is calculated from the complete set of data for each month, which means it is likely to be skewed towards warmer temperatures. This is the best I can do, given the nature of data, but even with this bias there are an abundance of very large spheres in this visualization, which suggests the effects of warming shown are actually somewhat muted. How much would be difficult to assess.
+
+One of the key things I noticed by doing this was that while stations near the equator tended to report pretty much near average temperatures, stations in the more extreme parts of the hemispheres report much warmer than average temperatures. This is true year round, but especially during the colder months. Keep an eye out for the large blue spheres mixed in with average sized red spheres.
+
+The effect is most pronounced in the blue spheres. This was the biggest surprise for me. (Of course, I'm not a climatologist). It suggests to me that not only is warming most definitely occurring, it's effects are most pronounced in the regimes where warming will have possibly the most dramatic effect. Interesting.
 
 This was done in Python using VTK. Source code is available [here](https://github.com/jakeva/Historical-Climate-Visualization). (Also, if you like the music, that was my work too.)
 
