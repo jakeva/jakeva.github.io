@@ -12,4 +12,4 @@ So it is all relative
 Please pardon the pun
 
 
-![--"Space-time"--]({{ site.url }}/assets/"space-time".jpg)
+![--"Space-time"--]({{ site.url }}/assets/space-time.jpg)
