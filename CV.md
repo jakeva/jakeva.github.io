@@ -25,6 +25,7 @@ iOS, Mac OS X, Web
 ### Bachelor of Science - Chemical Engineering - 2008
 ***
 <div>
+    <img style="margin-top:5px; float: left; margin-right:10px; border:1px solid #000; width:350px;" src="assets/me.png"></img>
                        <br/>
 <p>
                 <a href="#" id="email_contact">Contact Me</a>

@@ -9,7 +9,7 @@ group: navigation
 <div class="floatingBox" style="margin-top:25px">
  <ul class="haikus">
       {% for haiku in site.posts %}
-      {% if haiku.categories contains 'Haikus' %}
+      {% if haiku.category contains 'Haikus' %}
       <li>
           <h3>
               <a href="{{ haiku.url }}">
