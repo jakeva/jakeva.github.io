@@ -84,6 +84,12 @@ Technologies
 
 Professional Employment
 =======================
+Stem Innovation, LLC -- May 2013 - Present
+----------------------------------------
++ iOS Main Product development
++ Entire product overhaul
++ Asynchronous webservice interactivity and local/remote connectivity
++ Novel architecture design specific to app needs
 
 K'nowbe Works, LLC -- April 2012 - November 2012
 ------------------------------------------------
