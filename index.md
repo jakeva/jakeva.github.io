@@ -11,7 +11,7 @@ I am a freelance Web, iOS and Mac OS X developer currently living in <a href="ht
       var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
       document.getElementById('email_contact').href = _jvObfuscatedHREF;
   </script>
-   <img style="margin-top:5px; float: left; margin-right:10px; border:1px solid #000; width:350px;" src="assets/me.png"></img>
+   <img style="margin-top:5px; float: left; margin-right:10px; border:1px solid #000; width:200px;" src="assets/me.png"></img>
 </span>
 
 <div class="floatingBox" style="margin-top:225px">
