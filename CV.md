@@ -180,16 +180,17 @@ This was done in Python using VTK. Source code is available [here](https://githu
 
 Academics
 =========
-
 Master of Science - Computing - Graphics and Visualization - 2013
+=======================================
 University of Utah
-------------------------------------
+---------------
 <ul><li><a href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
 
 
 Bachelor of Science - Chemical Engineering - 2008
+=============================
 University of Utah
--------------------------------------------------
+---------------
 + <a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
 
 + John Zink award - 2007
