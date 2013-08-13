@@ -10,7 +10,7 @@ tags: [internet, bookmarks]
 Bookmarks
 ---------
 
-Bookmarks used to be so easy for me. How? I never used them, that's how. Of course, that created a problem for me if I ever wanted to backtrack and visit something I found earlier, so I started bookmarking.
+Bookmarks used to be so easy for me. How? I never used them, that's how. Of course, that created a problem for me if I ever wanted to backtrack and visit something I found earlier, so I started bookmarking. Now I've got something like 2000 fully cached and searchable bookmarks organized by tags.
 
 Now I have quite a few, but many people have vastly more bookmarks than I do. I can't imagine how they get that many, but then again I'm not really as much a net addict as many other people. In any case, I consider my collection modest, but essential.
 
