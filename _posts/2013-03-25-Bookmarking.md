@@ -10,9 +10,9 @@ tags: [internet, bookmarks]
 Bookmarks
 ---------
 
-Bookmarks used to be so easy for me. How? I never used them, that's how. That quickly became impractical, now I've got over 1500 bookmarks (not really that many..), and each is meticulously organized and tagged.
+Bookmarks used to be so easy for me. How? I never used them, that's how. Of course, that created a problem for me if I ever wanted to backtrack and visit something I found earlier, so I started bookmarking.
 
-Many people have vastly more bookmarks than I do, from a cursory look online. I can't imagine how they get that many, but then again I'm not really as much a net addict as many other people. My collection is modest, but essential.
+Now I have quite a few, but many people have vastly more bookmarks than I do. I can't imagine how they get that many, but then again I'm not really as much a net addict as many other people. In any case, I consider my collection modest, but essential.
 
 The number of bookmarks a person has is only one part of the problem. How many browsers do you use? Well, whatever your answer, unless you're a web developer or power user, you likely keep your bookmarks with your favorite browser. That's what I did in the beginning too, when I finally started bookmarking. It worked too, because I was using Chrome and at the time it was the only browser to let you sign in and instantly have all your stuff. I could go to school, login in to Chrome (after installing it) and have every single bookmark I had ever bookmarked.
 
@@ -26,9 +26,9 @@ Initially, I did some searching and settled on [XMarks](http://www.xmarks.com). 
 
 I gave it another few shots, but in the end, XMarks was not my knight in shining armor. Maybe it is for some people. For me, it was worse than the problem it was supposed to solve.
 
-So what works for me? [Pinboard](https://pinboard.in), that's what. For about 10 bucks, up front and non-recurring, you get an online repository for your bookmarks. For 25$ a year (including the first 10), they'll save off a webcrawled copy for you, so if your bookmarked site is taken offline, you still have it. This is MY solution.
+So what works for me? [Pinboard](https://pinboard.in), that's what. For about 10$, up front and non-recurring, you get an online repository for your bookmarks. For about 25$ a year (including the first 10), they'll save off a webcrawled copy for you, so if your bookmarked site is taken offline, you still have it. This is MY solution.
 
-I 'innovated' one last piece myself, though. After moving all my bookmarks to Pinboard, I deleted every last one from my browsers. Then, I set up a single folder in each containing no more than ten of my most important, including a bookmarklet to add the current page to Pinboard, and a bookmark to my Pinboard collection itself. EDIT: I've actually added a second folder for my most common web development sites for quicker access. So, two folders on the bookmark bar of each browser, and everything else is treated as a sort of quality control queue into my Pinboard account, which I clean up periodically.
+I 'innovated' one last piece myself, though. After moving all my bookmarks to Pinboard, I deleted every last one from my browsers. Then, I set up an efficient and small system on each of my browsers. A couple of static folders on the bookmark bar of each browser, and everything else is conceptually queued up to be added into my Pinboard account, which I clean up periodically.
 
 Now, when I find a webpage I think I want to bookmark, I bookmark it to the toolbar folder of the browser I'm in. This way, I don't needlessly clutter up my Pinboard with junk links, I save the ones I want. Then, when I have time to go through them, I add them to Pinboard and remove them from the toolbar. This yields the effect of using browser bookmarks as a sort of quality control queue into my Pinboard collection.
 
