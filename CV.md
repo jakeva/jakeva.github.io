@@ -130,19 +130,15 @@ iOS
 Mac OS X
 --------
 
-+ onCue - A free and simple utility to take control of your USB camera
++ onCue 2 - A simple utility to take control of your USB camera
 
-    <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
+    <a href="http://www.theoncueapp.com">
         <img src="assets/oncue_icon.png" alt="onCue">
     </a>
-    <a href="http://itunes.apple.com/us/app/oncue/id474607978?ls=1&amp;mt=12">
+    <a href="https://itunes.apple.com/us/app/oncue2/id676984416?ls=1&amp;mt=12">
         <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
     </a>
     <p>
-    Mac OS X 10.8 Direct Download -
-    <a href="http://www.eggdevil.com/assets/onCue-1.25.1.dmg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'DMG', this.href]);">onCue 1.25.1</a><br/>
-    <a href="https://github.com/jakeva/oncue">Source code</a>
-    </p>
 
 Web
 ---
