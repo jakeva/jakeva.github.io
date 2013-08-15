@@ -11,13 +11,13 @@ group: navigation
 Software Engineer
 =================
 *   *   *
-Interactive 3D Graphics, Data Visualization
--------------------------------------------
-iOS, Mac OS X, Web
-------------------
-+ C, C++, Objective-C
+Interactive 3D Graphics, Data Visualization Specialist
+------------------------------------------------------
+Full Stack Developer -- iOS, Mac OS X, Web Technologies
+-------------------------------------------------------
++ C, C++, Objective-C, Python, Java
 
-+ HTML5, CSS3, PHP, JavaScript, Python, MySQL
++ HTML5, CSS3, PHP, JavaScript, MySQL
 
 + AJAX, XML, JSON, RESTful APIs, SOAP
 
@@ -56,8 +56,8 @@ Building Intuitive Software
 + Object Oriented Design, Test Driven Development
 + Focused, elegant, self-documenting code
 + Detailed UI, UX design
-+ 3D Graphics - OpenGL, GLSL, CUDA
-+ Mac OS X, iOS
++ 3D Interactive Graphics - OpenGL, GLSL, CUDA
++ Full stack developer - Architectural design and development
 
 Problem Solving
 ---------------
@@ -70,7 +70,7 @@ Problem Solving
 
 Technologies
 ------------
-+ Mac, Linux, OpenBSD, Windows
++ Mac OS X, iOS, Linux, OpenBSD, Windows
 + C, C++, Objective-C, Java
 + Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc
 + HTML5, CSS3, PHP, JavaScript, Python
@@ -86,7 +86,7 @@ Professional Employment
 Stem Innovation, LLC -- May 2013 - Present
 ----------------------------------------
 + iOS Main Product development
-+ Entire product overhaul
++ Complete product redesign and overhaul
 + Asynchronous webservice interactivity and local/remote connectivity
 + App Architecture
 
