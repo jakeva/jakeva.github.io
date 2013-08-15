@@ -17,11 +17,10 @@ iOS, Mac OS X, Web
 ------------------
 + C, C++, Objective-C
 
-+ HTML5, CSS3, PHP, JavaScript, Python
++ HTML5, CSS3, PHP, JavaScript, Python, MySQL
 
-+ AJAX, JSON, RESTful APIs, SOAP
++ AJAX, XML, JSON, RESTful APIs, SOAP
 
-+ MySQL, PostgresSQL, SQLite
 
 ***
 ### Master of Science - Computing - 2013
@@ -59,7 +58,6 @@ Building Intuitive Software
 + Detailed UI, UX design
 + 3D Graphics - OpenGL, GLSL, CUDA
 + Mac OS X, iOS
-+ PHP MVC
 
 Problem Solving
 ---------------
@@ -72,16 +70,14 @@ Problem Solving
 
 Technologies
 ------------
-+ C, C++, Objective-C
-+ Cocoa, Cocoa-touch
-+ CoreData, CoreAnimation, CoreGraphics
++ Mac, Linux, OpenBSD, Windows
++ C, C++, Objective-C, Java
++ Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc
 + HTML5, CSS3, PHP, JavaScript, Python
 + AJAX, JSON, XML, RESTful APIs, SOAP
-+ Java
 + MySQL, PostgreSQL, etc
 + jQuery, Bootstrap
 + Zend MVC, CodeIgnitor
-+ Cocoa(+touch), UIKit, AVFoundation, CoreData, CoreVideo, StoreKit, etc
 
 *   *   *
 
@@ -92,14 +88,14 @@ Stem Innovation, LLC -- May 2013 - Present
 + iOS Main Product development
 + Entire product overhaul
 + Asynchronous webservice interactivity and local/remote connectivity
-+ Novel architecture design specific to app needs
++ App Architecture
 
 K'nowbe Works, LLC -- April 2012 - November 2012
 ------------------------------------------------
 + 3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
 + Bidirectional A* heuristic path finding, gaussian smoothing, image processing, large point cloud rendering, ray tracing, and GPU shaders
-+ In addition to developing software tools for the company, I helped maintain existing code, find and fix bugs, manage the build and revision control, as well as contributing knowledge and experience
-+ We worked as an agile development team and we used Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
++ I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software to make it as lifelike as possible. 
++ Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
 
 FlexSim Software, LLC -- December 2011 - March 2012
 ---------------------------------------------------
@@ -149,10 +145,6 @@ Web
 + <a href="http://pms.leadsys.co">pms.leadsys.co</a>
 
     A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
-
-+ <a href="http://www.eggdevil.com">www.EggDevil.com</a>
-
-    A homepage for my iOS / Mac OS X portfolio
 
 Visualizations
 -------------
