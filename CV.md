@@ -138,7 +138,6 @@ Mac OS X
     <a href="https://itunes.apple.com/us/app/oncue2/id676984416?ls=1&amp;mt=12">
         <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
     </a>
-    <p>
 
 Web
 ---
