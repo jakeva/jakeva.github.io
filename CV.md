@@ -92,13 +92,13 @@ Stem Innovation, LLC -- May 2013 - Present
 
 K'nowbe Works, LLC -- April 2012 - November 2012
 ------------------------------------------------
-* 3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
-     + Bidirectional A* heuristic path finding 
-     + Gaussian smoothing 
-     + Image processing
-     + Large point cloud rendering
-     + Ray tracing
-     + GPU shaders
+- 3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
+    - Bidirectional A* heuristic path finding 
+    - Gaussian smoothing 
+    - Image processing
+    - Large point cloud rendering
+    - Ray tracing
+    - GPU shaders
 + I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software to make it as lifelike as possible. 
 + Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
 
