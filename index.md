@@ -16,7 +16,7 @@ html, body {
 }
 
 @media only screen and (max-width: 600px) {
-     background: url(assets/me.jpeg) no-repeat center center fixed; 
+     background: url(assets/me.jpeg) no-repeat 100% 100% fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
