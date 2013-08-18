@@ -27,7 +27,7 @@ I am a graphics specialist, and a full-stack Web, iOS and Mac OS X developer cur
     document.getElementById('email_contact').href = _jvObfuscatedHREF;
 </script>
 
-<div class="floatingBox" style="float:left; margin-top:75px">
+<div class="well floatingBox" style="float:left; margin-top:75px">
 <hr>
  <ul class="posts">
       {% for post in site.posts %}
