@@ -104,6 +104,7 @@ html, body {
 <h1>Professional Employment</h1>
 <hr/>
 <h2>Stem Innovation, LLC  -  May 2013 - Present</h2>
+<h3>iOS Engineer</h3>
 <ul>
     <li>iOS Main Product development</li>
     <li>Complete product redesign and overhaul</li>
@@ -116,7 +117,8 @@ html, body {
 <hr/>
 
 <h2>K'nowbe Works, LLC  -  April 2012 - November 2012</h2>
-<ul>
+<h3>Software Engineer</h3>
+<ul>    
     <li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL</li>
     <li>Bidirectional A* heuristic path finding </li>
     <li>Gaussian smoothing </li>
@@ -131,6 +133,7 @@ html, body {
 <hr/>
 
 <h2>FlexSim Software, LLC  -  December 2011 - March 2012</h2>
+<h3>Software Engineer</h3>
 <ul>
     <li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
     <li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li>
@@ -139,6 +142,7 @@ html, body {
 <hr/>
 
 <h2>University of Utah, Computer Science Department  -  January 2009 - December 2011</h2>
+<h3>Software Engineer</h3>
 <ul>
     <li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client.</li>
     <li>HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
@@ -150,6 +154,7 @@ html, body {
 
 <div class="well">
 <h1>Independent Work</h1>
+<h2>Freelance Developer / Designer</h2>
 <hr/>
 <ul>
     <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.</li>
@@ -206,9 +211,6 @@ html, body {
 <h2>Visualizations</h2>
 <ul>
     <li><h3>Historical Climate Data</h3>
-
-    
-<br/>
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/YFdnqXrvwv0" frameborder="0"> </iframe>
 <p>
