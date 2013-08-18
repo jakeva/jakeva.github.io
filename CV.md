@@ -227,7 +227,7 @@ This was done in Python using VTK. Source code is available [here](https://githu
 
 </div>
 
-<hr/><br/>
+<hr/>
 
 <div class="well">
 <h1>Academics</h1>
