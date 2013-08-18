@@ -7,20 +7,20 @@ tagline: Almost never updated
 
 <style media="screen" type="text/css">
 
+@media only (max-width: 600px) {
+     background: url(assets/me.jpeg) no-repeat center center fixed; 
+     -webkit-background-size: contain;
+     -moz-background-size: contain;
+     -o-background-size: contain;
+     background-size: contain;
+}
+
 html, body {
     background: url(assets/me.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-@media only screen and (max-width: 600px) {
-     background: url(assets/me.jpeg) no-repeat center center fixed; 
-     -webkit-background-size: contain;
-     -moz-background-size: contain;
-     -o-background-size: contain;
-     background-size: contain;
 }
 
 </style>
