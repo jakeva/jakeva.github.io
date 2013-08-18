@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Ways of reaching me
+tagline: Reach me
 group: navigation
 ---
 {% include JB/setup %}
