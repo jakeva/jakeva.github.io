@@ -29,7 +29,7 @@ html, body {
 <p><a href="http://bitcoin.org/en/">BTC</a>: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
 <a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xDF764E342927DD2F">PGP Public Key</a><br/>
-<pre>
+<!-- <pre>
 	-----BEGIN PGP PUBLIC KEY BLOCK-----
 	Version: GnuPG/MacGPG2 v2.0.19 (Darwin)
 
@@ -93,6 +93,6 @@ html, body {
 	eU9hMlZ0d+y/U4o6QOQbDU+yv8q2eXqwQAOkaD3kEKJ/uqFcMvHpnTSF
 	=HWfR
 	-----END PGP PUBLIC KEY BLOCK-----
-</pre>
+</pre> -->
 </span>
 </div>
