@@ -12,10 +12,10 @@ I am a freelance Web, iOS and Mac OS X developer currently living in <a href="ht
   </script>
 </span>
 
-<img style="margin-top:5px; float: left; margin-right:10px; border:1px solid #000;" src="assets/me.jpeg"></img>
+<img style="margin-top:5px; float: left; margin-right:10px; border:1px solid #000;" src="assets/me.jpeg">
 
 <div class="floatingBox" style="float:left; margin-top:225px">
-<hr/>
+<hr>
  <ul class="posts">
       {% for post in site.posts %}
       {% if post.category contains 'Haikus' %}
