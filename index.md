@@ -27,8 +27,7 @@ I am a graphics specialist and a full-stack Web, iOS and Mac OS X developer curr
     document.getElementById('email_contact').href = _jvObfuscatedHREF;
 </script>
 
-<div class="well floatingBox" style="float:left; margin-top:75px">
-<hr>
+<div class="well floatingBox" style="float:left;">
  <ul class="posts">
       {% for post in site.posts %}
       {% if post.category contains 'Haikus' %}
