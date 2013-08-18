@@ -10,7 +10,7 @@ group: navigation
 <style media="screen" type="text/css">
 
 html, body {
-    background: url(assets/sunset.jpg) no-repeat center center fixed; 
+    background: url(assets/ocean.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -191,17 +191,15 @@ Master of Science - Computing - Graphics and Visualization - 2013
 --------------------------------------------------------
 University of Utah
 ---------------
-<ul><li><a href="/assets/report.pdf" target="_blank">Master's Project: Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
+<ul><li>Master's Project: <a href="/assets/report.pdf" target="_blank"> Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
 
 
 Bachelor of Science - Chemical Engineering - 2008
 ------------------------------------------
 University of Utah
 ---------------
-+ <a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">Undergraduate Research Project: High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
-
-+ John Zink award - 2007
-
++ Undergraduate Research Project:<a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286"> High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
++ John Zink Award - 2007
 + Chemical Engineering Departmental Full Tuition Waiver - 2006-2007
 
 Teaching

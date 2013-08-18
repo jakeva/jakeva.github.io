@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  color: #bbb;
+  color: #ddd;
   text-shadow: 1px 1px 1px black;
   height: 100%;
   font-family: "Spinnaker", serif;
@@ -18,7 +18,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
-  color: #999;
+  color: #ddd;
   text-rendering: optimizelegibility;
   font-family: "Spinnaker", serif; }
 
@@ -34,7 +34,7 @@ a {
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
-  color: #999999; }
+  color: #ddd; }
 
 h1, h2 {
   margin: 0 0 15px; }
