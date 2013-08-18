@@ -13,7 +13,6 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width:1500px;
 }
 
 </style>
