@@ -101,29 +101,29 @@ K'nowbe Works, LLC -- April 2012 - November 2012
 - Large point cloud rendering
 - Ray tracing
 - GPU shaders
-- I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software to make it as lifelike as possible. 
+- I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software resulting in incredible realism. 
 - Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
 
 FlexSim Software, LLC -- December 2011 - March 2012
 ---------------------------------------------------
-+ Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API
-+ Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework
+- Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API
+- Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework
 
 University of Utah, Computer Science Department -- January 2009 - December 2011
 -------------------------------------------------------------------------------
-+ Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI
+- Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI
 
 *   *   *
 
 Independent Developer
 =====================
-+ Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.
-+ This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.
+- Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.
+- This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.
 
 iOS
 ---
 
-+ PictureThis! - A free slideshow app
+- PictureThis! - A free slideshow app
 
     <a href="itms://itunes.com/apps/eggdevil/picturethis">
         <img src="assets/picturethis_icon.png" alt="onCue">
@@ -133,7 +133,7 @@ iOS
 Mac OS X
 --------
 
-+ onCue 2 - A simple utility to take control of your USB camera
+- onCue 2 - A simple utility to take control of your USB camera
 
     <a href="http://www.theoncueapp.com">
         <img src="assets/oncue_icon.png" alt="onCue">
@@ -145,11 +145,11 @@ Mac OS X
 Web
 ---
 
-+ <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
+- <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
 
     A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online, built using JQuery, Python, PHP and CodeIgniter MVC framework. Planned future improvements include providing an API for developers.
 
-+ <a href="http://pms.leadsys.co">pms.leadsys.co</a>
+- <a href="http://pms.leadsys.co">pms.leadsys.co</a>
 
     A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
 
@@ -180,16 +180,18 @@ Master of Science - Computing - Graphics and Visualization - 2013
 --------------------------------------------------------
 University of Utah
 ---------------
-<ul><li><a href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
+<ul><li><a href="/assets/report.pdf" target="_blank">Master's Project: Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
 
 
 Bachelor of Science - Chemical Engineering - 2008
 ------------------------------------------
 University of Utah
 ---------------
-+ <a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
++ <a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286">Undergraduate Research Project: High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
 
 + John Zink award - 2007
+
++ Chemical Engineering Departmental Full Tuition Waiver - 2006-2007
 
 Teaching
 ========
