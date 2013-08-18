@@ -18,6 +18,7 @@ html, body {
 
 </style>
 
+<div class="well">
 <span>
 <a href="#" id="email_contact">Send me email</a>
  <script type="text/javascript" >
@@ -94,3 +95,4 @@ html, body {
 	-----END PGP PUBLIC KEY BLOCK-----
 </pre>
 </span>
+</div>
