@@ -18,7 +18,7 @@ The number of bookmarks a person has is only one part of the problem. How many b
 
 Then one day, Safari came out with a new version.
 
-The new version was fantastic, but you guessed it, what about my bookmarks? Well I did what everyone does: I imported them into Safari. Groovy. But then I had the nerve to add a bookmark. What browser was I in? I don't recall, but this is what brought me to the realization that my bookmarking system was deeply flawed. My bookmarks quickly fell out of sync (I also use Firefox regularly, of course). This became an enormous headache for me, because WHERE THE **** DID I SAVE THAT BOOKMARK I'M LOOKING FOR RIGHT THE **** NOW? Bookmarking is intended to obviate remembering: if I have to remember where I saved my bookmark, how different is that from remembering where the site I want is located?
+The new version was fantastic, but you guessed it, what about my bookmarks? Well I did what everyone does: I imported them into Safari. Groovy. But then I had the nerve to add a bookmark. What browser was I in? I don't recall, but this is what brought me to the realization that my bookmarking system was deeply flawed. My bookmarks quickly fell out of sync (I also use Firefox regularly, of course). This became an enormous headache for me, because WHERE THE **** DID I SAVE THAT BOOKMARK I'M LOOKING FOR RIGHT THE **** NOW? Bookmarking is intended to obviate remembering: **if I have to remember where I saved my bookmark, how different is that from remembering where the site I want is located?**
 
 My ideal solution would allow me to quickly drill down to my bookmark using at most a few relevant tags, and have a single point of access so I only have one thing to remember, regardless of platform or machine I'm on.
 
