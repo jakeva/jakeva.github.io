@@ -6,6 +6,18 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<style media="screen" type="text/css">
+
+html, body {
+    background: url(assets/sunset.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+</style>
+
 <span>
 <a href="#" id="email_contact">Send me email</a>
  <script type="text/javascript" >
