@@ -26,9 +26,9 @@ html, body {
       document.getElementById('email_contact').href = _jvObfuscatedHREF;
   </script>
 <hr/>
-<p><a href="http://bitcoin.org/en/">BTC</a>: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
+	<p><a href="http://bitcoin.org/en/">BTC</a>: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
-<a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xDF764E342927DD2F">PGP Public Key</a><br/>
+<a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xDF764E342927DD2F">PGP Public Key</a>
 <!-- <pre>
 	-----BEGIN PGP PUBLIC KEY BLOCK-----
 	Version: GnuPG/MacGPG2 v2.0.19 (Darwin)
