@@ -28,7 +28,9 @@ html, body {
 <hr/>
 	<p><a href="http://bitcoin.org/en/">BTC</a>: 18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 <hr/>
-<p><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xDF764E342927DD2F">PGP Public Key</a></p>
+<p>
+	<a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xDF764E342927DD2F">PGP Public Key</a>
+</p>
 
 </span>
 </div>
