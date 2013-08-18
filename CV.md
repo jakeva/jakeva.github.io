@@ -16,6 +16,14 @@ html, body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+     background: url(assets/me.jpeg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
 </style>
 
 Software Engineer
@@ -36,6 +44,7 @@ Full Stack Developer -- iOS, Mac OS X, Web Technologies
 ### Master of Science - Computing - 2013
 ### Bachelor of Science - Chemical Engineering - 2008
 ***
+
 <div>
                        <br/>
 <p>
@@ -44,6 +53,7 @@ Full Stack Developer -- iOS, Mac OS X, Web Technologies
             var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
             document.getElementById('email_contact').href = _jvObfuscatedHREF;
     </script></p>
+
                        <hr/>
     <p>
 <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
@@ -56,6 +66,7 @@ Full Stack Developer -- iOS, Mac OS X, Web Technologies
 <div style="margin: 50px; float: right;">
 <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=&amp;defaultTab=0&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=&amp;defaultTab=0&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
 </div>
+
 <hr/>
 <br/>
 

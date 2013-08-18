@@ -16,6 +16,14 @@ html, body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+     background: url(assets/me.jpeg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
 </style>
 
 <div class="floatingBox" style="margin-top:25px">
