@@ -11,7 +11,7 @@ group: navigation
 Software Engineer
 =================
 *   *   *
-Interactive 3D Graphics, Data Visualization Specialist
+Interactive 3D Graphics &amp; Data Visualization Specialist
 ------------------------------------------------------
 Full Stack Developer -- iOS, Mac OS X, Web Technologies
 -------------------------------------------------------
@@ -165,7 +165,7 @@ I did this by visualizing the data in two ways, first the spheres are colored by
 
 One of the key things I noticed by doing this was that while stations near the equator tended to report pretty much near average temperatures, stations in the more extreme parts of the hemispheres report much warmer than average temperatures. This is true year round, but especially during the colder months. Keep an eye out for the large blue spheres mixed in with average sized red spheres.
 
-The effect is most pronounced in the blue spheres. This was the biggest surprise for me. (Of course, I'm not a climatologist). It suggests to me that not only is warming most definitely occurring, it's effects are most pronounced in the regimes where warming will have possibly the most dramatic effect. Interesting.
+The effect is most pronounced in the blue spheres. This was the biggest surprise for me. (Of course, I'm not a climatologist). It suggests to me that not only is warming most definitely occurring, it's effects are most pronounced in the colder regions of the Earth where warming will have possibly the most dramatic effect. Interesting.
 
 This was done in Python using VTK. Source code is available [here](https://github.com/jakeva/Historical-Climate-Visualization). (Also, if you like the music, that was my work too.)
 
