@@ -16,51 +16,39 @@ html, body {
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
-     background: url(assets/me.jpeg) no-repeat center center fixed; 
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-}
-
 </style>
 
-Software Engineer
-=================
-*   *   *
-Interactive 3D Graphics &amp; Data Visualization Specialist
-------------------------------------------------------
-Full Stack Developer -- iOS, Mac OS X, Web Technologies
--------------------------------------------------------
-+ C, C++, Objective-C, Python, Java
+<div class="well">
+    <h1>Software Engineer</h1>
+    <hr/>
+    <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
+    <h2>Full Stack Developer - iOS, Mac OS X, Web Technologies</h2>
+    <hr/>
+    <h3>C, C++, Objective-C, Python, Java</h3>
+    <h3>PHP, JavaScript, MySQL, HTML5, CSS3</h3>
+    <h3>XML, JSON, RESTful APIs</h3>
+    <h3>Architecture &amp; Design</h3>
+</div>
 
-+ HTML5, CSS3, PHP, JavaScript, MySQL
+<div class="well">
+    <h2>Master of Science - Computing - 2013</h2>
+    <h2>Bachelor of Science - Chemical Engineering - 2008</h2>
+</div>
 
-+ AJAX, XML, JSON, RESTful APIs, SOAP
-
-
-***
-### Master of Science - Computing - 2013
-### Bachelor of Science - Chemical Engineering - 2008
-***
-
-<div>
-                       <br/>
+<div class="well">
 <p>
-                <a href="#" id="email_contact">Contact Me</a>
+<a href="#" id="email_contact">Contact Me</a>
     <script type="text/javascript" >
             var _jvObfuscatedHREF0 = "mai";var _jvObfuscatedHREF1 = "lto";var _jvObfuscatedHREF2 = ":jak";var _jvObfuscatedHREF3 = "eva";var _jvObfuscatedHREF4 = "@gm";var _jvObfuscatedHREF5 = "ail";var _jvObfuscatedHREF6 = ".co";var _jvObfuscatedHREF7 = "m";var _jvObfuscatedHREF  = _jvObfuscatedHREF0+_jvObfuscatedHREF1+_jvObfuscatedHREF2+_jvObfuscatedHREF3+_jvObfuscatedHREF4+_jvObfuscatedHREF5+_jvObfuscatedHREF6+_jvObfuscatedHREF7;
             document.getElementById('email_contact').href = _jvObfuscatedHREF;
     </script></p>
-
-                       <hr/>
-    <p>
+<hr/>
+<p>
 <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
 </p>
-                    <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
-          <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
-          			</img></a>
+<a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
+<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
+</img></a>
 </div>
 
 <div style="margin: 50px; float: right;">
@@ -70,116 +58,160 @@ Full Stack Developer -- iOS, Mac OS X, Web Technologies
 <hr/>
 <br/>
 
-Skills
-======
-Building Intuitive Software
----------------------------
-+ Object Oriented Design, Test Driven Development
-+ Focused, elegant, self-documenting code
-+ Detailed UI, UX design
-+ 3D Interactive Graphics - OpenGL, GLSL, CUDA
-+ Full stack developer - Architectural design and development
+<div class="well">
+<h1>Skills</h1>
+<hr/>
+<h2>Building Intuitive Software</h2>
+<ul>
+    <li>Object Oriented Design, Test Driven Development</li>
+    <li>Focused, Elegant, Self-Documenting Code</li>
+    <li>Detailed UI, UX Design</li>
+    <li>3D Interactive Graphics - OpenGL, GLSL, CUDA</li>
+    <li>Full Stack Developer - Back to Front Architectural Design and Development</li>
+</ul>
 
-Problem Solving
----------------
-+ Numerical Techniques
-+ CAGD, Image Processing
-+ Signal Processing, Fourier Transforms
-+ Complexity Analysis
-+ Data Analysis / Visualization
-+ Scientific and Industrial Applications
+<hr/>
 
-Technologies
-------------
-+ Mac OS X, iOS, Linux, OpenBSD, Windows
-+ C, C++, Objective-C, Java
-+ Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc
-+ HTML5, CSS3, PHP, JavaScript, Python
-+ AJAX, JSON, XML, RESTful APIs, SOAP
-+ MySQL, PostgreSQL, etc
-+ jQuery, Bootstrap
-+ Zend MVC, CodeIgnitor
+<h2>Problem Solving</h2>
+<ul>
+    <li>Numerical Techniques</li>
+    <li>CAGD, Image Processing</li>
+    <li>Signal Processing, Fourier Transforms</li>
+    <li>Complexity Analysis</li>
+    <li>Data Analysis / Visualization</li>
+    <li>Scientific and Industrial Applications</li>
+</ul>
 
-*   *   *
+<hr/>
 
-Professional Employment
-=======================
-Stem Innovation, LLC -- May 2013 - Present
-----------------------------------------
-- iOS Main Product development
-- Complete product redesign and overhaul
-- App Architecture
-- Asynchronous RESTful web-service interaction and polling
-- Local/remote device connectivity
-- Live multiple-source data streaming
+<h2>Technologies</h2>
+<ul>
+    <li>Mac OS X, iOS, Linux, OpenBSD, Windows</li>
+    <li>C, C++, Objective-C, Java</li>
+    <li>Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc</li>
+    <li>HTML5, CSS3, PHP, JavaScript, Python</li>
+    <li>AJAX, JSON, XML, RESTful APIs, SOAP</li>
+    <li>MySQL, PostgreSQL, etc</li>
+    <li>jQuery, Bootstrap</li>
+    <li>Zend MVC, CodeIgnitor</li>
+</ul>
+</div>
 
-K'nowbe Works, LLC -- April 2012 - November 2012
-------------------------------------------------
-- 3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL
-- Bidirectional A* heuristic path finding 
-- Gaussian smoothing 
-- Image processing
-- Large point cloud rendering
-- Ray tracing
-- GPU shaders
-- I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software resulting in incredible realism. 
-- Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD
+<hr/>
+<br/>
 
-FlexSim Software, LLC -- December 2011 - March 2012
----------------------------------------------------
-- Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API
-- Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework
+<div class="well">
+<h1>Professional Employment</h1>
+<hr/>
+<h2>Stem Innovation, LLC  -  May 2013 - Present</h2>
+<ul>
+    <li>iOS Main Product development</li>
+    <li>Complete product redesign and overhaul</li>
+    <li>App Architecture</li>
+    <li>Asynchronous RESTful web-service interaction and polling</li>
+    <li>Local/remote device connectivity</li>
+    <li>Live multiple-source data streaming</li>
+</ul>
 
-University of Utah, Computer Science Department -- January 2009 - December 2011
--------------------------------------------------------------------------------
-- Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client. HTML, CSS, JavaScript, jQuery and jQuery-UI
+<hr/>
 
-*   *   *
+<h2>K'nowbe Works, LLC  -  April 2012 - November 2012</h2>
+<ul>
+    <li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL</li>
+    <li>Bidirectional A* heuristic path finding </li>
+    <li>Gaussian smoothing </li>
+    <li>Image processing</li>
+    <li>Large point cloud rendering</li>
+    <li>Ray tracing</li>
+    <li>GPU shaders</li>
+    <li>I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software resulting in incredible realism.</li>
+    <li>Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD</li>
+</ul>
 
-Independent Developer
-=====================
-- Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.
-- This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.
+<hr/>
 
-iOS
----
+<h2>FlexSim Software, LLC  -  December 2011 - March 2012</h2>
+<ul>
+    <li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
+    <li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li>
+</ul>
 
-- PictureThis! - A free slideshow app
+<hr/>
 
+<h2>University of Utah, Computer Science Department  -  January 2009 - December 2011</h2>
+<ul>
+    <li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client.</li>
+    <li>HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
+</ul>
+</div>
+
+<hr/>
+<br/>
+
+<div class="well">
+<h1>Independent Work</h1>
+<hr/>
+<ul>
+    <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.</li>
+    <li>This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.</li>
+</ul>
+
+<hr/>
+<!-- <h2>iOS</h2>
+<ul>
+<li>PictureThis! - A free slideshow app
     <a href="itms://itunes.com/apps/eggdevil/picturethis">
         <img src="assets/picturethis_icon.png" alt="onCue">
         <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
     </a>
+</li>
+</ul> -->
 
-Mac OS X
---------
+<h2>Mac OS X</h2>
+<ul>
+    <li><h2><a href="http://www.theoncueapp.com">onCue 2</a></h2></li>    
+    <ul>
+        <li>A simple utility to take control of your USB camera</li>
+        <li>
+            <a href="http://www.theoncueapp.com">
+                <img src="assets/oncue_icon.png" alt="onCue">
+            </a>
+            <a href="https://itunes.apple.com/us/app/oncue2/id676984416?ls=1&amp;mt=12">
+                <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
+            </a>
+        </li>
+    </ul>
+</ul>
 
-- onCue 2 - A simple utility to take control of your USB camera
+<hr/>
 
-    <a href="http://www.theoncueapp.com">
-        <img src="assets/oncue_icon.png" alt="onCue">
-    </a>
-    <a href="https://itunes.apple.com/us/app/oncue2/id676984416?ls=1&amp;mt=12">
-        <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
-    </a>
+<h2>Web</h2>
+<ul>
+    <li><a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a></li>
+    <ul>
+        <li>A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online</li>
+        <li>Built using JQuery, Python, PHP and CodeIgniter MVC framework</li>
+        <li>Planned future improvements include providing an API for developers.</li>
+    </ul>
 
-Web
----
+    <li><a href="http://pms.leadsys.co">pms.leadsys.co</a></li>
+    <ul>
+        <li>A lead generation and tracking web application I built for one of my clients.</li>
+        <li>Uses Python, PHP, Zend MVC framework.</li>
+    </ul>
+</ul>
 
-- <a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a>
+<hr/>
 
-    A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online, built using JQuery, Python, PHP and CodeIgniter MVC framework. Planned future improvements include providing an API for developers.
+<h2>Visualizations</h2>
+<ul>
+    <li><h3>Historical Climate Data</h3>
 
-- <a href="http://pms.leadsys.co">pms.leadsys.co</a>
-
-    A lead generation and tracking web application I built for one of my clients, uses Python, PHP, Zend MVC framework.
-
-Visualizations
--------------
-
-+ Historical Climate Data
+    
+<br/>
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/YFdnqXrvwv0" frameborder="0"> </iframe>
+<p>
 This video shows the historical climate record of Earth. Early on in the record there are very few stations reporting data, but by the mid-20th century Earth's temperature was being measured almost ubiquitously. It was my goal to visualize this record.
 
 I did this by visualizing the data in two ways, first the spheres are colored by actual temperature (ie, dark blue is near freezing, dark red is ~80 - 100 degrees F). Secondly, the spheres are sized in relation to the average temperature for that time of the year. In other words, large red spheres indicate greater than average temperature where the actual temperature is fairly warm. Large blue spheres indicate a warmer than average temperature at a low temperature, i.e. it should be much cooler. Smaller spheres indicate a cooler than average temperature, but we don't see many of those in here. The average used in the comparison is calculated from the complete set of data for each month, which means it is likely to be skewed towards warmer temperatures. This is the best I can do, given the nature of data, but even with this bias there are an abundance of very large spheres in this visualization, which suggests the effects of warming shown are actually somewhat muted. How much would be difficult to assess.
@@ -189,38 +221,48 @@ One of the key things I noticed by doing this was that while stations near the e
 The effect is most pronounced in the blue spheres. This was the biggest surprise for me. (Of course, I'm not a climatologist). It suggests to me that not only is warming most definitely occurring, it's effects are most pronounced in the colder regions of the Earth where warming will have possibly the most dramatic effect. Interesting.
 
 This was done in Python using VTK. Source code is available [here](https://github.com/jakeva/Historical-Climate-Visualization). (Also, if you like the music, that was my work too.)
+</p>
+</li>
+</ul>
 
+</div>
 
-*   *   *
+<hr/><br/>
 
-Academics
-=========
+<div class="well">
+<h1>Academics</h1>
+<hr/>
+<h2>Master of Science - Computing - Graphics and Visualization - 2013</h2>
+<h3>University of Utah</h3>
+<ul>
+    <li>Master's Project: <a href="/assets/report.pdf" target="_blank"> Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
+</ul>
 
+<hr/>
 
-Master of Science - Computing - Graphics and Visualization - 2013
---------------------------------------------------------
-University of Utah
----------------
-<ul><li>Master's Project: <a href="/assets/report.pdf" target="_blank"> Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li></ul>
+<h2>Bachelor of Science - Chemical Engineering - 2008</h2>
+<h3>University of Utah</h3>
+<ul>
+    <li>Undergraduate Research Project:<a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286"> High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a></li>
+    <li>John Zink Award - 2007</li>
+    <li>Chemical Engineering Departmental Full Tuition Waiver - 2006-2007</li>
+</ul>
+</div>
 
+<div class="well">
+<h1>Teaching</h1>
+<hr/>
+<h2>Instructor</h2>
+<ul>
+    <li>CS 1400 - Introduction to Computer Science - June 2010 - August 2010</li>
+</ul>
 
-Bachelor of Science - Chemical Engineering - 2008
-------------------------------------------
-University of Utah
----------------
-+ Undergraduate Research Project:<a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286"> High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a>
-+ John Zink Award - 2007
-+ Chemical Engineering Departmental Full Tuition Waiver - 2006-2007
+<hr/>
 
-Teaching
-========
-
-Instructor
-----------
-+ CS 1400 - Introduction to Computer Science -- June 2010 - August 2010
-
-Teaching Assistant
-------------------
-+ CS 1410 - Computer Science I -- August 2010 - December 2010
-+ CS 2420 - Computer Science II / EAE -- January 2011 - May 2011
-+ CS 3810 - Computer Systems -- August 2011 - December 2011
+<h2>Teaching Assistant</h2>
+<ul>
+    <li>CS 1410 - Computer Science I - August 2010 - December 2010</li>
+    <li>CS 2420 - Computer Science II / EAE - January 2011 - May 2011</li>
+    <li>CS 3810 - Computer Systems - August 2011 - December 2011</li>
+</ul>
+</div>
