@@ -12,17 +12,17 @@ Bookmarks
 
 Bookmarks used to be so easy for me. How? I never used them, that's how. Of course, that created a problem for me if I ever wanted to backtrack and visit something I found earlier, so I started bookmarking. Now I've got something like 2000 fully cached and searchable bookmarks organized by tags.
 
-Now I have quite a few, but many people have vastly more bookmarks than I do. I can't imagine how they get that many, but then again I'm not really as much a net addict as many other people. In any case, I consider my collection modest, but essential.
+Naturally, many people have vastly more bookmarks than I do. I can't imagine how they get that many, I've worked hard to collect my own, but then again I'm not really as much a net addict as many other people. In any case, I consider my collection modest, but essential.
 
 The number of bookmarks a person has is only one part of the problem. How many browsers do you use? Well, whatever your answer, unless you're a web developer or power user, you likely keep your bookmarks with your favorite browser. That's what I did in the beginning too, when I finally started bookmarking. It worked too, because I was using Chrome and at the time it was the only browser to let you sign in and instantly have all your stuff. I could go to school, login in to Chrome (after installing it) and have every single bookmark I had ever bookmarked.
 
-Then one day, Safari came out with a new version.
+Then one day, (dun, dun, dun) Safari came out with a new version. *And I wanted it.*
 
-The new version was fantastic, but you guessed it, what about my bookmarks? Well I did what everyone does: I imported them into Safari. Groovy. But then I had the nerve to add a bookmark. What browser was I in? I don't recall, but this is what brought me to the realization that my bookmarking system was deeply flawed. My bookmarks quickly fell out of sync (I also use Firefox regularly, of course). This became an enormous headache for me, because WHERE THE **** DID I SAVE THAT BOOKMARK I'M LOOKING FOR RIGHT THE **** NOW? Bookmarking is intended to obviate remembering: *if I have to remember where I saved my bookmark, how different is that from remembering where the site I want is located?*
+The new version was fantastic, but you guessed it, what about my bookmarks? Well I did what everyone does: I imported them into Safari. Groovy. But then I had the nerve to add a bookmark. What browser was I in? I quickly came to the realization that my bookmarking system was deeply flawed. My bookmarks easily fell out of sync (I also use Firefox regularly, of course). This became an enormous headache for me, because WHERE THE **** DID I SAVE THAT BOOKMARK I'M LOOKING FOR RIGHT THE **** NOW? Bookmarking is intended to obviate remembering: *if I have to remember where I saved my bookmark, how does that solve the problem of not having to remember where the site I want is located?* It doesn't. It's a trade-off of one problem for another identical one.
 
 My ideal solution would allow me to quickly drill down to my bookmark using at most a few relevant tags, and have a single point of access so I only have one thing to remember, regardless of platform or machine I'm on.
 
-Initially, I did some searching and settled on [XMarks](http://www.xmarks.com). Let me tell you something... *it almost worked*. I was so near satisfaction, until the syncing process duplicated all my bookmarks in one of my browsers, and deleted them all from another. Maybe I screwed up the setup, but if it's that easy to screw up, it doesn't solve the problem either.
+Initially, I did some searching and settled on [XMarks](http://www.xmarks.com). Let me tell you something... *it almost worked*. I was very near satisfaction, until the syncing process duplicated all my bookmarks in one of my browsers, and deleted them all from another. Maybe I screwed up the setup, but if it's that easy to screw up, it doesn't solve the problem either.
 
 I gave it another few shots, but in the end, XMarks was not my knight in shining armor. Maybe it is for some people. For me, it was worse than the problem it was supposed to solve.
 
