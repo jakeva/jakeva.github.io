@@ -6,7 +6,6 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<!-- ![Me](assets/me2.jpeg "Me") -->
 <style media="screen" type="text/css">
 
 html, body {
@@ -15,6 +14,7 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width:1500px;
 }
 
 </style>
