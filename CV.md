@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-![Me](assets/me2.png "Me")
+![Me](assets/me2.jpeg "Me")
 
 Software Engineer
 =================
