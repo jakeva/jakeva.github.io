@@ -106,6 +106,7 @@ html, body {
 <h2>Stem Innovation, LLC  -  May 2013 - Present</h2>
 <h3>iOS Engineer</h3>
 <ul>
+    <li>Objective-C main app, C and C++ core modules</li>
     <li>iOS Main Product development</li>
     <li>Complete product redesign and overhaul</li>
     <li>App Architecture</li>
