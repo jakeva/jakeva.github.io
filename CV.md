@@ -25,7 +25,7 @@ html, body {
     <h2>Full Stack Developer - iOS, Mac OS X, Web Technologies</h2>
     <hr/>
     <h3>C, C++, Objective-C, Python, Java</h3>
-    <h3>PHP, JavaScript, MySQL, HTML5, CSS3</h3>
+    <h3>PHP, JS, MySQL, HTML5, CSS3</h3>
     <h3>XML, JSON, RESTful APIs</h3>
     <h3>Architecture &amp; Design</h3>
 </div>
@@ -76,7 +76,7 @@ html, body {
 <ul>
     <li>Numerical Techniques</li>
     <li>CAGD, Image Processing</li>
-    <li>Signal Processing, Fourier Transforms</li>
+    <li>Signal Processing</li>
     <li>Complexity Analysis</li>
     <li>Data Analysis / Visualization</li>
     <li>Scientific and Industrial Applications</li>
@@ -103,7 +103,7 @@ html, body {
 <div class="well">
 <h1>Professional Employment</h1>
 <hr/>
-<h2>Stem Innovation, LLC  -  May 2013 - Present</h2>
+<h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
 <h3>iOS Engineer</h3>
 <ul>
     <li>IZON iOS App Architecture</li>
@@ -115,7 +115,7 @@ html, body {
 
 <hr/>
 
-<h2>K'nowbe Works, LLC  -  April 2012 - November 2012</h2>
+<h2>K'nowbe Works, LLC  -  April 2012 - February 2013</h2>
 <h3>Software Engineer</h3>
 <ul>    
     <li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL</li>
