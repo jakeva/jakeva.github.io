@@ -89,7 +89,7 @@ html, body {
     <li>Mac OS X, iOS, Linux, OpenBSD, Windows</li>
     <li>C, C++, Objective-C, Java</li>
     <li>Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc</li>
-    <li>HTML5, CSS3, PHP, JavaScript, Python</li>
+    <li>HTML5, CSS3, PHP, JS, Python</li>
     <li>AJAX, JSON, XML, RESTful APIs, SOAP</li>
     <li>MySQL, PostgreSQL, etc</li>
     <li>jQuery, Bootstrap</li>
@@ -106,12 +106,10 @@ html, body {
 <h2>Stem Innovation, LLC  -  May 2013 - Present</h2>
 <h3>iOS Engineer</h3>
 <ul>
+    <li>IZON iOS App Architecture</li>
     <li>Objective-C main app, C and C++ core modules</li>
-    <li>iOS Main Product development</li>
-    <li>Complete product redesign and overhaul</li>
-    <li>App Architecture</li>
-    <li>Asynchronous RESTful web-service interaction and polling</li>
-    <li>Local/remote device connectivity</li>
+    <li>Asynchronous RESTful web-service interaction</li>
+    <li>Local/remote viewing</li>
     <li>Live multiple-source data streaming</li>
 </ul>
 
