@@ -106,7 +106,7 @@ html, body {
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
 <h3>iOS Engineer</h3>
 <ul>
-    <li><a href="http://steminnovation.com/default.php?req=ac&aid=4">IZON</a> iOS App Architecture</li>
+    <li><a href="http://steminnovation.com/default.php?req=ac&amp;aid=4">IZON</a> iOS App Architecture</li>
     <li>Objective-C main app, C and C++ core modules</li>
     <li>Asynchronous RESTful web-services</li>
     <li>Local/remote video streaming</li>
