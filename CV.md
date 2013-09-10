@@ -22,12 +22,13 @@ html, body {
     <h1>Software Engineer</h1>
     <hr/>
     <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
-    <h2>Full Stack Developer - iOS, Mac OS X, Web Technologies</h2>
+    <h2>Full Stack Developer - iOS, Mac OS X, Web</h2>
     <hr/>
     <h3>C, C++, Objective-C, Python, Java</h3>
     <h3>PHP, JS, MySQL, HTML5, CSS3</h3>
-    <h3>XML, JSON, RESTful APIs</h3>
-    <h3>Architecture &amp; Design</h3>
+    <h3>Apache, Node.js, Nginx</h3>
+    <h3>RESTful APIs</h3>
+    <h3>Full App Architecture &amp; Design</h3>
 </div>
 
 <div class="well">
@@ -79,7 +80,7 @@ html, body {
     <li>Signal Processing</li>
     <li>Complexity Analysis</li>
     <li>Data Analysis / Visualization</li>
-    <li>Scientific and Industrial Applications</li>
+    <li>Geometric Design</li>
 </ul>
 
 <hr/>
@@ -90,7 +91,7 @@ html, body {
     <li>C, C++, Objective-C, Java</li>
     <li>Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc</li>
     <li>HTML5, CSS3, PHP, JS, Python</li>
-    <li>AJAX, JSON, XML, RESTful APIs, SOAP</li>
+    <li>AJAX, JSON, XML, REST, SOAP</li>
     <li>MySQL, PostgreSQL, etc</li>
     <li>jQuery, Bootstrap</li>
     <li>Zend MVC, CodeIgnitor</li>
