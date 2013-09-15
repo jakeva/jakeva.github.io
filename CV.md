@@ -111,7 +111,7 @@ html, body {
     <li>IZON iOS app architecture</li>
     <li>3rd party design, developed from the ground up</li>
     <li>Obj-C main app, C and C++ core modules (ffmpeg, rtp client, etc)</li>
-    <li>Heavy use of NSOperation & NSOperationQueue, GCD, etc</li>
+    <li>Heavy use of NSOperation &amp; NSOperationQueue, GCD, etc</li>
     <li>Live local / remote video feeds ( via Bonjour, P2P, or Proxy )</li>
     <li>Multiple-source data polling</li>
 </ul>
