@@ -27,7 +27,7 @@ html, body {
     <h3>C, C++, Objective-C, Python, Java</h3>
     <h3>PHP, JS, MySQL, HTML5, CSS3</h3>
     <h3>Apache, Node.js, Nginx</h3>
-    <h3>RESTful APIs</h3>
+    <h3>MVC, CRUD, RESTful APIs</h3>
     <h3>Full App Architecture &amp; Design</h3>
 </div>
 
