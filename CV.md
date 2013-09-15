@@ -108,10 +108,12 @@ html, body {
 <h3>iOS Engineer</h3>
 <ul>
     <li><a href="http://steminnovation.com/default.php?req=ac&amp;aid=4">IZON</a> iOS App Architecture</li>
-    <li>Objective-C main app, C and C++ core modules</li>
-    <li>Asynchronous RESTful web-services</li>
-    <li>Local/remote video streaming</li>
-    <li>Live multiple-source data streaming</li>
+    <li>IZON iOS app architecture</li>
+    <li>3rd party design, developed from the ground up</li>
+    <li>Obj-C main app, C and C++ core modules (ffmpeg, rtp client, etc)</li>
+    <li>Heavy use of NSOperation & NSOperationQueue, GCD, etc</li>
+    <li>Live local / remote video feeds ( via Bonjour, P2P, or Proxy )</li>
+    <li>Multiple-source data polling</li>
 </ul>
 
 <hr/>
