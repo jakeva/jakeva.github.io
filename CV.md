@@ -108,7 +108,6 @@ html, body {
 <h3>iOS Engineer</h3>
 <ul>
     <li><a href="http://steminnovation.com/default.php?req=ac&amp;aid=4">IZON</a> iOS App Architecture</li>
-    <li>IZON iOS app architecture</li>
     <li>3rd party design, developed from the ground up</li>
     <li>Obj-C main app, C and C++ core modules (ffmpeg, rtp client, etc)</li>
     <li>Heavy use of NSOperation &amp; NSOperationQueue, GCD, etc</li>
