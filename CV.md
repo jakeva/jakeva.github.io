@@ -104,6 +104,11 @@ html, body {
 <div class="well">
 <h1>Professional Employment</h1>
 <hr/>
+<h2>NTTData  -  September 2013 - Current</h2>
+<h3>iOS Technology Consultant</h3>
+
+<hr/>
+
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
 <h3>iOS Engineer</h3>
 <ul>
