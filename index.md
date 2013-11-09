@@ -1,7 +1,7 @@
 ---
 layout: page
-title: a (web)log
-tagline: Almost never updated
+title: Epic Scrolls of Loquaciousness
+tagline: …or the random brain stirrings of *this* guy here
 ---
 {% include JB/setup %}
 
