@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Epic Scrolls of Loquaciousness
-tagline: …or the random brain stirrings of *this* guy here
+title: Pages of notes
+tagline: Simplicity is the ultimate sophistication.
 ---
 {% include JB/setup %}
 
