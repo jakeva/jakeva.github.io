@@ -164,7 +164,7 @@ html, body {
 <hr/>
 <ul>
     <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.</li>
-    <li>This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that some of the coolest things I've done I'm not able to show as they were paid for by private clients, but ideally you should get a sense of what I can do.</li>
+    <li>This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that much of what I do I'm not able to show as the work was paid for by private clients and the results are not available publically.</li>
 </ul>
 
 <hr/>
