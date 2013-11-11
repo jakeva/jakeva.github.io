@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pages of notes
+title: Thoughts
 tagline: Simplicity is the ultimate sophistication.
 ---
 {% include JB/setup %}
