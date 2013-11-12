@@ -105,7 +105,7 @@ html, body {
 <h1>Professional Employment</h1>
 <hr/>
 <h2>NTTData  -  September 2013 - Current</h2>
-<h3>iOS Technology Consultant</h3>
+<h3>iOS Consultant</h3>
 
 <hr/>
 
