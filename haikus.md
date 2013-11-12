@@ -9,7 +9,7 @@ group: navigation
 <style media="screen" type="text/css">
 
 html, body {
-    background: url(assets/ocean.jpg) no-repeat center center fixed; 
+    background: url(assets/grass.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
