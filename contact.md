@@ -30,7 +30,7 @@ html, body {
 <hr/>
 <p>
 	<a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xDF764E342927DD2F">PGP Public Key</a>
-  <span>Fingerprint: 36FB 56C8 BF35 70F8 5B3D D186 9996 3EA3 D022 97B9</span>
+  <p>Fingerprint: 36FB 56C8 BF35 70F8 5B3D D186 9996 3EA3 D022 97B9</p>
 </p>
 
 </span>
