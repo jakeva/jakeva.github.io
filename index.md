@@ -24,7 +24,7 @@ I'm a software developer currently living in <a href="https://maps.google.com/ma
 </div>
 </hr>
 <div>
-<img src="assets/jake.png" alt="Jake" width="250px">
+<img src="assets/jake.png" alt="Jake" width="100px">
 </div>
 </h4>
 </span>
