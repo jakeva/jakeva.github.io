@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Thinking…
-tagline: Simplicity is the ultimate sophistication.
+title: Impressions
+tagline: Simplicity is the ultimate sophistication
 ---
 {% include JB/setup %}
 
 <style media="screen" type="text/css">
 
 html, body {
-    background: url(assets/me.jpeg) no-repeat center center fixed; 
+    background: url(assets/grass.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,7 @@ html, body {
 
 <span>
 <h4 class="well">
-I am a graphics specialist and a full-stack Web, iOS and Mac OS X developer currently living in <a href="https://maps.google.com/maps/place?ftid=0x87523d9488d131ed:0x5b53b7a0484d31ca&amp;q=Salt+Lake+City,+UT&amp;hl=en&amp;ie=UTF8&amp;ll=40.760779,-111.891047&amp;spn=0.00052,0.000687&amp;t=h&amp;z=11&amp;vpsrc=0">Salt Lake City, Utah</a>. I wrote my first code when I was 8 years old. I'm still writing software, and I've done a whole lot of other stuff too. It was a lot of fun when I started, these days it's just ridiculous. If you're looking for a disciplined developer with an eye for design, please <a href="#" id="email_contact">get in touch</a>.
+I'm a software developer currently living in <a href="https://maps.google.com/maps/place?ftid=0x87523d9488d131ed:0x5b53b7a0484d31ca&amp;q=Salt+Lake+City,+UT&amp;hl=en&amp;ie=UTF8&amp;ll=40.760779,-111.891047&amp;spn=0.00052,0.000687&amp;t=h&amp;z=11&amp;vpsrc=0">Salt Lake City, Utah</a>. I wrote my first bit of code when I was 8 years old. I'm still writing software, and I've done a whole lot of other stuff too. It was a lot of fun when I started, these days it's just ridiculous. If you're looking for a disciplined developer with an eye for design, please <a href="#" id="email_contact">get in touch</a>.
 </h4>
 </span>
 <script type="text/javascript" >
