@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Impressions
+title: Hard Logic
 tagline: Simplicity is the ultimate sophistication
 ---
 {% include JB/setup %}
