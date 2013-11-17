@@ -21,14 +21,14 @@ html, body {
 <div class="well">
     <h1>Software Engineer</h1>
     <hr/>
-    <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
     <h2>Full Stack Developer - iOS, Mac OS X, Web</h2>
+    <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
     <hr/>
-    <h3>C, C++, Objective-C, Python, Java</h3>
-    <h3>PHP, JS, MySQL, HTML5, CSS3</h3>
-    <h3>Apache, Node.js, Nginx</h3>
+    <h3>C, C++, Objective-C, Python</h3>
+    <h3>PHP, MySQL, HTML5, CSS3, JS</h3>
     <h3>MVC, CRUD, RESTful APIs</h3>
     <h3>Full App Architecture &amp; Design</h3>
+    <h3>Author of <a href="http://www.theoncueapp.com">onCue 2</a></h3>
 </div>
 
 <div class="well">
