@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hard Logic
+title: Irresistable Logic
 tagline: Simplicity is the ultimate sophistication
 ---
 {% include JB/setup %}
