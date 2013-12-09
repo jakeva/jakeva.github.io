@@ -25,9 +25,9 @@ html, body {
     <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
     <hr/>
     <h3>C, C++, Objective-C, Python</h3>
-    <h3>PHP, MySQL, HTML5, CSS3, JS</h3>
-    <h3>MVC, CRUD, RESTful APIs</h3>
-    <h3>Full App Architecture &amp; Design</h3>
+    <h3>PHP, MySQL, JQuery, EC2, Linux, Apache</h3>
+    <h3>MVC, RESTful Web Service APIs</h3>
+    <h3>App Architecture &amp; Design</h3>
     <h3>Author of <a href="http://www.theoncueapp.com">onCue 2</a></h3>
 </div>
 
