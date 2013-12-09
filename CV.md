@@ -202,12 +202,6 @@ html, body {
         <li>A lead generation and tracking web application I built for one of my clients.</li>
         <li>Uses Python, PHP, Zend MVC framework.</li>
     </ul>
-    <li><a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a></li>
-    <ul>
-        <li>A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online</li>
-        <li>Built using JQuery, Python, PHP and CodeIgniter MVC framework</li>
-        <li>Planned future improvements include providing an API for developers.</li>
-    </ul>
 </ul>
 
 <hr/>
