@@ -226,7 +226,7 @@ One of the key things I noticed by doing this was that while stations near the e
 
 The effect is most pronounced in the blue spheres. This was the biggest surprise for me. (Of course, I'm not a climatologist). It suggests to me that not only is warming most definitely occurring, it's effects are most pronounced in the colder regions of the Earth where warming will have possibly the most dramatic effect. Interesting.
 
-This was done in Python using VTK. Source code is available [here](https://github.com/jakeva/Historical-Climate-Visualization). (Also, if you like the music, that was my work too.)
+This was done in Python using VTK. Source code is available <a href="https://github.com/jakeva/Historical-Climate-Visualization">here</a>. (Also, if you like the music, that was my work too.)
 </p>
 </li>
 </ul>
