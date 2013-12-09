@@ -164,7 +164,6 @@ html, body {
 <hr/>
 <ul>
     <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.</li>
-    <li>This is a sampling of my work. I have a number of projects in various stages of development, and they will be added here as they are completed. Note that much of what I do I'm not able to show as the work was paid for by private clients and the results are not available publically.</li>
 </ul>
 
 <hr/>
@@ -198,17 +197,16 @@ html, body {
 
 <h2>Web</h2>
 <ul>
+    <li><a href="http://pms.leadsys.co">pms.leadsys.co</a></li>
+    <ul>
+        <li>A lead generation and tracking web application I built for one of my clients.</li>
+        <li>Uses Python, PHP, Zend MVC framework.</li>
+    </ul>
     <li><a href="http://www.unitsofcode.com">www.UnitsOfCode.com</a></li>
     <ul>
         <li>A web application I designed and built for myself, it is a public webservice for storing and sharing code snippets online</li>
         <li>Built using JQuery, Python, PHP and CodeIgniter MVC framework</li>
         <li>Planned future improvements include providing an API for developers.</li>
-    </ul>
-
-    <li><a href="http://pms.leadsys.co">pms.leadsys.co</a></li>
-    <ul>
-        <li>A lead generation and tracking web application I built for one of my clients.</li>
-        <li>Uses Python, PHP, Zend MVC framework.</li>
     </ul>
 </ul>
 
@@ -243,7 +241,7 @@ This was done in Python using VTK. Source code is available [here](https://githu
 <h2>Master of Science - Computing - Graphics and Visualization - 2013</h2>
 <h3>University of Utah</h3>
 <ul>
-    <li>Master's Project: <a href="/assets/report.pdf" target="_blank"> Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
+    <li>Master's Project: <a href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
 </ul>
 
 <hr/>
