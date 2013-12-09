@@ -5,7 +5,7 @@
 /* Override some defaults */
 html, body {
   background-color: #2a4a2a;
-  /*background: url(../images/bgs/body.png) repeat; */
+  background: url(../images/bgs/body.png) repeat; 
 }
 
 body {
