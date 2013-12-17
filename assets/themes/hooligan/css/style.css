@@ -5,9 +5,13 @@
 /* Override some defaults */
 html, body {
   background-color: #2a4a2a;
-  background: url(../images/bgs/body.png) repeat; 
+  /*background: url(../images/bgs/body.png) repeat; */
+  background: url(../../../grass.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 body {
   color: #ddd;
   text-shadow: 1px 1px 1px black;
