@@ -28,7 +28,7 @@ html, body {
     <h3>PHP, MySQL, JQuery, EC2, Linux, Apache</h3>
     <h3>MVC, RESTful Web Service APIs</h3>
     <h3>App Architecture &amp; Design</h3>
-    <h3>Author of <a href="http://www.theoncueapp.com">onCue 2</a></h3>
+    <h3>Author of <a href="http://www.theoncueapp.com">OnCue 2</a></h3>
 </div>
 
 <div class="well">
@@ -179,12 +179,12 @@ html, body {
 
 <h2>Mac OS X</h2>
 <ul>
-    <li><h2><a href="http://www.theoncueapp.com">onCue 2</a></h2></li>    
+    <li><h2><a href="http://www.theoncueapp.com">OnCue 2</a></h2></li>    
     <ul>
         <li>A simple utility to take control of your USB camera</li>
         <li>
             <a href="http://www.theoncueapp.com">
-                <img src="assets/oncue_icon.png" alt="onCue">
+                <img src="assets/oncue_icon.png" alt="OnCue 2">
             </a>
             <a href="https://itunes.apple.com/us/app/oncue2/id676984416?ls=1&amp;mt=12">
                 <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
