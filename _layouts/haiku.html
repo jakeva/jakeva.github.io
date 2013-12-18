@@ -11,8 +11,8 @@ layout: default
   </h1>
 </div>
 
-<div class="well row">
-  <div class="span8">
+<div class="row">
+  <div class="well span8">
     {{ content }}
     <hr>
     <div class="pagination btn-group">
@@ -32,7 +32,7 @@ layout: default
     {% include JB/comments %}
   </div>
 
-  <div class="span4">
+  <div class="well span3">
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
