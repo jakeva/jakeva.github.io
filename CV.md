@@ -216,7 +216,7 @@ This was done in Python using VTK. Source code is available <a href="https://git
 <h2>Master of Science - Computing - Graphics and Visualization - 2013</h2>
 <h3>University of Utah</h3>
 <ul>
-    <li>Master's Project: <a onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'Masters Project Report']);"> href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
+    <li>Master's Project: <a onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'Masters Project Report']);" href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
 </ul>
 
 <hr/>
