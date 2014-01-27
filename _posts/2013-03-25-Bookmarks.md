@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bookmark syncing"
+title: "Bookmarks"
 description: "How I'm solving the problem of bookmarks in the 21st century"
 category: General
 tags: [internet, bookmarks]
@@ -24,7 +24,7 @@ Initially, I did some searching and settled on [XMarks](http://www.xmarks.com). 
 
 I gave it another few shots, but in the end, XMarks was not my knight in shining armor. Maybe it is for some people. For me, it was worse than the problem it was supposed to solve.
 
-So what works for me? [Pinboard](https://pinboard.in), that's what. For about 10$, up front and non-recurring, you get an online repository for your bookmarks. For about 25$ a year (including the first 10), they'll save off a webcrawled copy for you, so if your bookmarked site is taken offline, you still have it. This is MY solution.
+So what works for me? [Pinboard](https://pinboard.in), that's what. For about 10$, up front and non-recurring, you get an online repository for your bookmarks. For about 25$ a year (including the first 10), they'll save off a webcrawled copy for you, so if your bookmarked site is taken offline, you still have it. This is MY solution. I keep all my bookmarks private, but it does have some pretty cool sharing features. You can see what other people you're connected to are bookmarking, and copy those into your own if you like. It's like an internet smorgasbord.
 
 I 'innovated' one last piece myself, though. After moving all my bookmarks to Pinboard, I deleted everything from my browsers. Then, I set up an efficient and small system on each of my browsers. A couple of static folders on the bookmark bar of each browser for the most indispensible links, including a dumping ground where everything is queued up to be added into my Pinboard account, which I do periodically.
 
