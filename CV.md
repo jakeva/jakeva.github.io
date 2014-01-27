@@ -16,7 +16,8 @@ group: navigation
     <h3>PHP, MySQL, JQuery, EC2, Linux, Apache</h3>
     <h3>MVC, RESTful Web Service APIs</h3>
     <h3>App Architecture &amp; Design</h3>
-    <h3>Author of <a href="http://www.theoncueapp.com">OnCue 2</a></h3>
+    <h3>Founder of <a href="http://www.EggDevil.com">EggDevil Software</a></h3>
+    <h3>Author of <a href="http://www.theoncueapp.com">OnCue 2</a> iOS and Mac OS X Apps</h3>
 </div>
 
 <div class="well">
