@@ -20,8 +20,8 @@ group: navigation
 </div>
 
 <div class="well">
-    <h2>Master of Science - Computing - 2013</h2>
-    <h2>Bachelor of Science - Chemical Engineering - 2008</h2>
+    <h2>M.Sc. Computing - 2013</h2>
+    <h2>B.Sc. Chemical Engineering - 2008</h2>
 </div>
 
 <div class="well">
@@ -37,9 +37,9 @@ group: navigation
 </img></a>
 </div>
 
-<div style="margin: 50px; float: right;">
+<!-- <div style="margin: 50px; float: right;">
 <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=&amp;defaultTab=0&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=&amp;defaultTab=0&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
-</div>
+</div> -->
 
 <hr/>
 <br/>
