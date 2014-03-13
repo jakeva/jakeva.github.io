@@ -29,9 +29,6 @@ group: navigation
     <p>
         <a id="email_contact">Contact Me</a>
     </p>
-
-    <hr/>
-    
     <p>
         <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
     </p>
