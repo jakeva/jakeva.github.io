@@ -16,7 +16,7 @@ tagline: Simplicity is the ultimate sophistication
 </h4>
 </span>
 
-<div class="well floatingBox" style="float:left;">
+<!-- <div class="well floatingBox" style="float:left;">
  <ul class="posts">
       {% for post in site.posts %}
       {% if post.category contains 'Haikus' %}
@@ -37,4 +37,4 @@ tagline: Simplicity is the ultimate sophistication
      {% endif %}
      {% endfor %}
  </ul>
-</div>
+</div> -->
