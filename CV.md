@@ -28,6 +28,9 @@ group: navigation
 <div class="well">
 <p>
     <a id="email_contact">Contact Me</a>
+    <a href="http://stackexchange.com/users/150664">
+    <img src="http://stackexchange.com/users/flair/150664.png?theme=dark" width="208" height="58" alt="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+</a>
 </p>
 <hr/>
 <p>
