@@ -36,13 +36,13 @@ group: navigation
 </p>
     <a href="http://stackexchange.com/users/150664">
     <img src="http://stackexchange.com/users/flair/150664.png?theme=dark" width="208" height="58" alt="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-    </img></a>
-    
+    </a>
+
     <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
     <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
     </img></a>
 <!--     <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object> -->
-</div>
+<!-- </div> -->
 
 <!-- <div style="margin: 50px; float: right;">
 <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=&amp;defaultTab=0&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=&amp;defaultTab=0&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
