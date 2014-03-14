@@ -9,7 +9,7 @@ group: navigation
 <div class="well">
     <h1>Software Engineer</h1>
     <hr/>
-    <h2>Full Stack Developer - iOS, Mac OS X, Web</h2>
+    <h2>Full Stack Developer - iOS, OS X, Web</h2>
     <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
     <hr/>
     <h3>C, C++, Objective-C, Python</h3>
@@ -92,9 +92,13 @@ group: navigation
 <div class="well">
 <h1>Professional Employment</h1>
 <hr/>
-<h2>NTTData  -  September 2013 - Current</h2>
+<h2>USANA  -  March 2014 - Present</h2>
+<h3>iOS Engineer</h3>
+<hr/>
+<h2>NTTData  -  September 2013 - February 2014</h2>
 <h3>iOS Consultant</h3>
-
+		<li>CoreData</li>
+		<li>RESTful APIs</li>
 <hr/>
 
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
