@@ -41,7 +41,7 @@ group: navigation
     </img></a>
     <hr/>
     <!-- <div style="float: right;"> -->
-        <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
+        <object alt="" width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed><p>Plugin Missing. Normally you'd see my Elance profile here.</p></object>
     <!-- </div> -->
 </div>
 
