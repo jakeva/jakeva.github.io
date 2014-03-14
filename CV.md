@@ -33,9 +33,9 @@ group: navigation
         <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
     </p>
     <hr/>
-    <a href="http://stackexchange.com/users/150664">
-        <img src="http://stackexchange.com/users/flair/150664.png?theme=dark" width="208" height="58" alt="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-    </a>
+		<a href="http://stackoverflow.com/users/364015/jakev">
+			<img src="http://stackoverflow.com/users/flair/364015.png?theme=clean" width="208" height="58" alt="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+		</a>
     <hr/>
     <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
         <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
