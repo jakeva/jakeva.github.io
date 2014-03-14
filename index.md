@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Irresistible Logic
+title: Quaere verum
 tagline: Simplicity is the ultimate sophistication
 ---
 {% include JB/setup %}
