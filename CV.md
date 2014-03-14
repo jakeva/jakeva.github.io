@@ -90,6 +90,41 @@ group: navigation
 <br/>
 
 <div class="well">
+<h1>Recent Projects</h1>
+<hr/>
+<h2>OnCue Mac OS X app and iOS companion app  -  October 2011 - Present</h2>
+<h3>Owner / Developer</h3>
+<ul>
+	<li>Motion detection and remote video streaming</li>
+	<li>OpenGL, GPUImage, GLSL</li>
+</ul>
+<hr/>
+<h2>OurPlan iPad App  -  September 2013 - Present</h2>
+<h3>iOS Engineer</h3>
+<ul>
+	<li>Construction scheduling application</li>
+	<li>Multiple Core Data stores, remote synchronization</li>
+	<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+<hr/>
+<h2>Lacrosse Stats  -  November 2013 - Present</h2>
+<h3>iOS Engineer</h3>
+<ul>
+	<li>Sports statistics application</li>
+	<li>Core Data, Remote data retrieval, Premium features via In App Purchase</li>
+	<li>Custom UI / UX design / implementation</li>
+</ul>
+<hr/>
+<h2>Izon iPad / iPhone app  -  May 2013 - September 2013</h2>
+<h3>iOS Engineer</h3>
+<ul>
+	<li>Remote video streaming application</li>
+	<li>Core Data, P2P / Proxy Streaming</li>
+	<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+</div>
+
+<div class="well">
 <h1>Professional Employment</h1>
 <hr/>
 <h2>USANA  -  March 2014 - Present</h2>
@@ -97,8 +132,10 @@ group: navigation
 <hr/>
 <h2>NTTData  -  September 2013 - February 2014</h2>
 <h3>iOS Consultant</h3>
+<ul>
 		<li>CoreData</li>
 		<li>RESTful APIs</li>
+</ul>
 <hr/>
 
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
