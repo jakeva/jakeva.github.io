@@ -41,7 +41,7 @@ group: navigation
         <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
     </img></a>
     <hr/>
-    <object width="300" height="360"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&catId=10183&defaultTab=2&rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&catId=10183&defaultTab=2&rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="360"></embed><p>Plugin Missing (Adobe Flash). Normally you'd see my Elance profile here.</p></object>
+    <object width="300" height="360"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="360"></embed><p>Plugin Missing (Adobe Flash). Normally you'd see my Elance profile here.</p></object>
 </div>
 
 <hr/>
