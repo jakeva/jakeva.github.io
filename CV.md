@@ -9,7 +9,7 @@ group: navigation
 <div class="well">
     <h1>Software Engineer</h1>
     <hr/>
-    <h2>Full Stack Developer - iOS, Mac OS X, Web</h2>
+    <h2>Full Stack Developer - iOS, OS X, Web</h2>
     <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
     <hr/>
     <h3>C, C++, Objective-C, Python</h3>
@@ -32,17 +32,16 @@ group: navigation
     <p>
         <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
     </p>
-    <a href="http://stackexchange.com/users/150664">
-        <img src="http://stackexchange.com/users/flair/150664.png?theme=dark" width="208" height="58" alt="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-    </a>
+    <hr/>
+		<a href="http://stackoverflow.com/users/364015/jakev">
+			<img src="http://stackoverflow.com/users/flair/364015.png?theme=clean" width="208" height="58" alt="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+		</a>
     <hr/>
     <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
         <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
     </img></a>
     <hr/>
-    <!-- <div style="float: right;"> -->
-        <object width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed></object>
-    <!-- </div> -->
+    <object width="300" height="360"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="360"></embed><p>Plugin Missing (Adobe Flash). Normally you'd see my Elance profile here.</p></object>
 </div>
 
 <hr/>
@@ -91,11 +90,52 @@ group: navigation
 <br/>
 
 <div class="well">
+<h1>Recent Projects</h1>
+<hr/>
+<h2>OnCue OSX and iOS app  -  October 2011 - Present</h2>
+<h3>Owner / Developer</h3>
+<ul>
+	<li>Motion detection and remote video streaming</li>
+	<li>OpenGL, GPUImage, GLSL</li>
+</ul>
+<hr/>
+<h2>OurPlan iPad App  -  September 2013 - Present</h2>
+<h3>iOS Engineer</h3>
+<ul>
+	<li>Construction scheduling application</li>
+	<li>Multiple Core Data stores, remote synchronization</li>
+	<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+<hr/>
+<h2>Lacrosse Stats  -  November 2013 - Present</h2>
+<h3>iOS Engineer</h3>
+<ul>
+	<li>Sports statistics application</li>
+	<li>Core Data, Remote data retrieval, Premium features via In App Purchase</li>
+	<li>Custom UI / UX design / implementation</li>
+</ul>
+<hr/>
+<h2>Izon iPad / iPhone app  -  May 2013 - September 2013</h2>
+<h3>iOS Engineer</h3>
+<ul>
+	<li>Remote video streaming application</li>
+	<li>Core Data, P2P / Proxy Streaming</li>
+	<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+</div>
+
+<div class="well">
 <h1>Professional Employment</h1>
 <hr/>
-<h2>NTTData  -  September 2013 - Current</h2>
+<h2>USANA  -  March 2014 - Present</h2>
+<h3>iOS Engineer</h3>
+<hr/>
+<h2>NTTData  -  September 2013 - February 2014</h2>
 <h3>iOS Consultant</h3>
-
+<ul>
+		<li>CoreData</li>
+		<li>RESTful APIs</li>
+</ul>
 <hr/>
 
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
