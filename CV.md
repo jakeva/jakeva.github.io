@@ -92,7 +92,7 @@ group: navigation
 <div class="well">
 <h1>Recent Projects</h1>
 <hr/>
-<h2>OnCue Mac OS X app and iOS companion app  -  October 2011 - Present</h2>
+<h2>OnCue OSX and iOS app  -  October 2011 - Present</h2>
 <h3>Owner / Developer</h3>
 <ul>
 	<li>Motion detection and remote video streaming</li>
