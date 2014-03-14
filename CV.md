@@ -32,6 +32,7 @@ group: navigation
     <p>
         <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
     </p>
+    <hr/>
     <a href="http://stackexchange.com/users/150664">
         <img src="http://stackexchange.com/users/flair/150664.png?theme=dark" width="208" height="58" alt="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for jakev on Stack Exchange, a network of free, community-driven Q&amp;A sites">
     </a>
@@ -40,9 +41,7 @@ group: navigation
         <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
     </img></a>
     <hr/>
-    <!-- <div style="float: right;"> -->
-        <object alt="" width="160" height="405"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-160.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="160" height="405"></embed><p height="25">Plugin Missing. Normally you'd see my Elance profile here.</p></object>
-    <!-- </div> -->
+    <object width="300" height="360"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&catId=10183&defaultTab=2&rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&catId=10183&defaultTab=2&rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="360"></embed><p>Plugin Missing (Adobe Flash). Normally you'd see my Elance profile here.</p></object>
 </div>
 
 <hr/>
