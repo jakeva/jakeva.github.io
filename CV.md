@@ -247,6 +247,9 @@ This video shows the historical climate record of Earth. Early on in the record 
 I did this by visualizing the data in two ways, first the spheres are colored by actual temperature (ie, dark blue is near freezing, dark red is ~80 - 100 degrees F). Secondly, the spheres are sized in relation to the average temperature for that time of the year. In other words, large red spheres indicate greater than average temperature where the actual temperature is fairly warm. Large blue spheres indicate a warmer than average temperature at a low temperature, i.e. it should be much cooler. Smaller spheres indicate a cooler than average temperature.
 </p>
 <p>
+This was created for a grad school vis project in a class with a very lazy teacher, so there is quite a bit of room for improvement (although, I did get an 'A' on the project and in the class).
+</p>
+<p>
 Improvements that could be made include using a logarithmic scale so that small differences don't carry much weight, and so that large differences aren't so dramatic and chaotic. Furthermore, the code could pretty easily be modified to represent any subset of the data, such as showing only greater than average differences or so that each frame shows a given month across years, in order to improve the integrity of the comparison.
 </p> 
 <p>
