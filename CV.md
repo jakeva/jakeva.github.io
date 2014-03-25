@@ -242,10 +242,15 @@ group: navigation
 <iframe width="560" height="315" src="http://www.youtube.com/embed/YFdnqXrvwv0" frameborder="0"> </iframe>
 <p>
 This video shows the historical climate record of Earth. Early on in the record there are very few stations reporting data, but by the mid-20th century Earth's temperature was being measured almost ubiquitously. It was my goal to visualize this record.
-
+</p>
+<p>
 I did this by visualizing the data in two ways, first the spheres are colored by actual temperature (ie, dark blue is near freezing, dark red is ~80 - 100 degrees F). Secondly, the spheres are sized in relation to the average temperature for that time of the year. In other words, large red spheres indicate greater than average temperature where the actual temperature is fairly warm. Large blue spheres indicate a warmer than average temperature at a low temperature, i.e. it should be much cooler. Smaller spheres indicate a cooler than average temperature.
-
-This was done in Python using VTK. Source code is available <a href="https://github.com/jakeva/Historical-Climate-Visualization">here</a>. (Also, if you like the music, that was my work too.)
+</p>
+<p>
+Improvements that could be made include using a logarithmic scale so that small differences don't carry much weight, and so that large differences aren't so dramatic and chaotic. Furthermore, the code could pretty easily be modified to represent any subset of the data, such as showing only greater than average differences or so that each frame shows a given month across years, in order to improve the integrity of the comparison.
+</p> 
+<p>
+This was done in Python using VTK. Source code is available <a href="https://github.com/jakeva/Historical-Climate-Visualization">here</a>. The music was composed and recorded by myself for no reason, and happened to match the length of the video, so I used it.
 </p>
 </li>
 </ul>
