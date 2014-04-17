@@ -5,7 +5,6 @@ tagline: Simplicity is the ultimate sophistication
 ---
 {% include JB/setup %}
 
-<span>
 <h4 class="well" style="min-height:130px">
 <div>
   <p style="display:inline">
@@ -14,7 +13,6 @@ tagline: Simplicity is the ultimate sophistication
   </p>
 </div>
 </h4>
-</span>
 
 <!-- <div class="well floatingBox" style="float:left;">
  <ul class="posts">
