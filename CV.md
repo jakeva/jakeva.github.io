@@ -139,7 +139,7 @@ Improved enterprise reporting modules in internal iOS application, created a cus
 		<li>RESTful APIs</li>
 </ul>
 <p>
-Improving and extending existing iOS app. Converted SQLite data model to CoreData, increased responsiveness in remote synchronization, etc</p>
+Improved and extended existing iOS app. Converted SQLite data model to CoreData, increased responsiveness in remote synchronization, etc</p>
 <hr/>
 
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
