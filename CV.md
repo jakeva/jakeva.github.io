@@ -17,7 +17,7 @@ group: navigation
     <h3>MVC, RESTful Web Service APIs</h3>
     <h3>App Architecture &amp; Design</h3>
     <h3>Founder of <a href="http://www.EggDevil.com">EggDevil Software</a></h3>
-    <h3>Author of <a href="http://www.theoncueapp.com">OnCue 2</a> iOS and Mac OS X Apps</h3>
+    <h3>Author of <a href="http://www.theoncueapp.com">OnCue</a> iOS and Mac OS X Apps</h3>
 </div>
 
 <div class="well">
@@ -107,7 +107,7 @@ group: navigation
 	<li>Custom Calendar UI / UX design / implementation</li>
 </ul>
 <hr/>
-<h2>Lacrosse Stats  -  November 2013 - Present</h2>
+<h2>Lacrosse Stats  -  November 2013 - February 2014</h2>
 <h3>iOS Engineer</h3>
 <ul>
 	<li>Sports statistics application</li>
@@ -129,6 +129,8 @@ group: navigation
 <hr/>
 <h2>USANA  -  March 2014 - Present</h2>
 <h3>iOS Engineer</h3>
+<p>
+Improved enterprise reporting modules in internal iOS application, created a custom tree based reporting view. Short term contract position.</p>
 <hr/>
 <h2>NTTData  -  September 2013 - February 2014</h2>
 <h3>iOS Consultant</h3>
@@ -136,6 +138,8 @@ group: navigation
 		<li>CoreData</li>
 		<li>RESTful APIs</li>
 </ul>
+<p>
+Improving and extending existing iOS app. Converted SQLite data model to CoreData, increased responsiveness in remote synchronization, etc</p>
 <hr/>
 
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
@@ -208,7 +212,7 @@ group: navigation
 
 <h2>Mac OS X</h2>
 <ul>
-    <li><h2><a href="http://www.theoncueapp.com">OnCue 2</a></h2></li>    
+    <li><h2><a href="http://www.theoncueapp.com">OnCue</a></h2></li>    
     <ul>
         <li>A simple utility to take control of your USB camera</li>
         <li>
