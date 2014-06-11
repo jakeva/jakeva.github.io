@@ -9,7 +9,7 @@ group: navigation
 <div class="well">
     <h1>Software Engineer</h1>
     <hr/>
-    <h2>Full Stack Developer - iOS, OS X, Web</h2>
+    <h2>iOS, OS X, Web</h2>
     <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
     <hr/>
     <h3>C, C++, Objective-C, Python</h3>
