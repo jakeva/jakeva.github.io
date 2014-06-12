@@ -37,7 +37,7 @@ group: navigation
 			<img src="http://stackoverflow.com/users/flair/364015.png?theme=clean" width="208" height="58" alt="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 		</a>
     <hr/>
-    <a href="http://www.linkedin.com/pub/jake-van-alstyne/39/95a/a54">
+    <a href="http://www.linkedin.com/in/jakeva">
         <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
     </img></a>
     <hr/>
@@ -145,7 +145,7 @@ Improved and extended existing iOS app. Converted SQLite data model to CoreData,
 <h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
 <h3>iOS Engineer</h3>
 <ul>
-    <li><a href="http://steminnovation.com/default.php?req=ac&amp;aid=4">IZON</a> iOS App Architecture</li>
+    <li><a href="https://itunes.apple.com/us/app/izon/id549682052?mt=8">IZON</a> iOS App Architecture</li>
     <li>3rd party design, developed from the ground up</li>
     <li>Obj-C main app, C and C++ core modules (ffmpeg, rtp client, etc)</li>
     <li>Heavy use of NSOperation &amp; NSOperationQueue, GCD, etc</li>
