@@ -75,12 +75,12 @@ group: navigation
 
 <h2>Technologies</h2>
 <ul>
-    <li>Mac OS X, iOS, Linux, OpenBSD, Windows</li>
-    <li>C, C++, Objective-C, Java</li>
+    <li>Mac OS X, iOS</li>
+    <li>C, C++, Objective-C, Swift</li>
     <li>Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc</li>
-    <li>HTML5, CSS3, PHP, JS, Python</li>
+    <li>HTML5, CSS3, PHP, JS</li>
     <li>AJAX, JSON, XML, REST, SOAP</li>
-    <li>MySQL, PostgreSQL, etc</li>
+    <li>MySQL, PostgreSQL, SQLite, etc</li>
     <li>jQuery, Bootstrap</li>
     <li>Zend MVC, CodeIgnitor</li>
 </ul>
@@ -127,7 +127,13 @@ group: navigation
 <div class="well">
 <h1>Professional Employment</h1>
 <hr/>
-<h2>USANA  -  March 2014 - Present</h2>
+<h2>Selfie  -  May 2014 - Present</h2>
+<h3>iOS Engineer</h3>
+<p>
+Core iOS app development. Bug fixes, feature enhancements, etc.</p>
+<hr/>
+
+<h2>USANA  -  March 2014 - April 2014</h2>
 <h3>iOS Engineer</h3>
 <p>
 Improved enterprise reporting modules in internal iOS application, created a custom tree based reporting view. Short term contract position.</p>
@@ -191,24 +197,13 @@ Improved and extended existing iOS app. Converted SQLite data model to CoreData,
 <hr/>
 <br/>
 
-<div class="well">
+<!-- <div class="well">
 <h1>Independent Work</h1>
 <h2>Freelance Developer / Designer</h2>
 <hr/>
 <ul>
     <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.</li>
 </ul>
-
-<hr/>
-<!-- <h2>iOS</h2>
-<ul>
-<li>PictureThis! - A free slideshow app
-    <a href="itms://itunes.com/apps/eggdevil/picturethis">
-        <img src="assets/picturethis_icon.png" alt="onCue">
-        <img src="assets/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Free on the App Store">
-    </a>
-</li>
-</ul> -->
 
 <h2>Mac OS X</h2>
 <ul>
@@ -264,7 +259,7 @@ This was done in Python using VTK. Source code is available <a href="https://git
 
 </div>
 
-<hr/>
+<hr/> -->
 
 <div class="well">
 <h1>Academics</h1>
