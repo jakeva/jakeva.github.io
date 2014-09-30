@@ -86,6 +86,12 @@ group: navigation
 <div class="well">
 <h1>Recent Projects</h1>
 <hr/>
+<h2>Selfie for iPhone app  -  May 2014 - Present</h2>
+<h3>Senior iOS Developer</h3>
+<ul>
+    <li>An innovative social networking app for face to face conversations</li>
+</ul>
+<hr/>
 <h2>OnCue OSX and iOS app  -  October 2011 - Present</h2>
 <h3>Owner / Developer</h3>
 <ul>
@@ -121,7 +127,7 @@ group: navigation
 <div class="well">
 <h1>Professional Employment</h1>
 <hr/>
-<h2>Selfie  -  May 2014 - Present</h2>
+<h2>Selfie Inc. -  May 2014 - Present</h2>
 <h3>iOS Engineer</h3>
 <p>
 Core iOS app development. Bug fixes, feature enhancements, etc.</p>
