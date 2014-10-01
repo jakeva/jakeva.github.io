@@ -128,7 +128,7 @@ group: navigation
 <h1>Professional Employment</h1>
 <hr/>
 <h2>Selfie Inc. -  May 2014 - Present</h2>
-<h3>iOS Engineer</h3>
+<h3>Senior iOS Developer</h3>
 <p>
 Core iOS app development. Bug fixes, feature enhancements, etc.</p>
 <hr/>
