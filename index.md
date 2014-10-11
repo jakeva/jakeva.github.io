@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quaere verum
-tagline: Simplicity is the ultimate sophistication
+tagline: Pulvis et umbra sumus
 ---
 {% include JB/setup %}
 
