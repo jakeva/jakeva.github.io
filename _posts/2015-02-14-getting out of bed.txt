@@ -1,0 +1,14 @@
+---
+layout: haiku
+category: Haikus
+title: "Getting out of bed"
+---
+{% include JB/setup %}
+
+No no no no no
+
+No no no no no no no
+
+No no no no no
+
+![--"Bed"--]({{ site.url }}/assets/fetal-bed.jpg)
