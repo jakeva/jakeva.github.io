@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haikus
-tagline: Syllables restrained
+tagline: Syllables and such
 group: navigation
 ---
 {% include JB/setup %}
