@@ -11,4 +11,5 @@ No no no no no no no
 
 No no no no no
 
-![--"Bed"--]({{ site.url }}/assets/fetal-bed.jpg)
+
+![--Bed--]({{ site.url }}/assets/fetal-bed.jpg)
