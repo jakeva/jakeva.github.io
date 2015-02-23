@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Quaere verum
-tagline: Pulvis et umbra sumus
+title: Home
+tagline: Welcome
 ---
 {% include JB/setup %}
 
