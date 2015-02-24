@@ -55,7 +55,7 @@ module JB
 end #JB
 
 # Usage: rake haiku title="A Title" [date="2012-02-09"]
-desc "Begin a new haiku in #{CONFIG['haikus']}"
+desc "Begin a new haiku in #{CONFIG['posts']} -- Usage: rake post title='A Title' [date='2012-02-09']"
 task :haiku do
   abort("rake aborted: '#{CONFIG['haikus']}' directory not found.") unless FileTest.directory?(CONFIG['haikus'])
   title = ENV["title"] || "new-haiku"
@@ -89,7 +89,7 @@ task :haiku do
 end # task :haiku
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
-desc "Begin a new post in #{CONFIG['posts']}"
+desc "Begin a new post in #{CONFIG['posts']} -- Usage: rake post title='A Title' [date='2012-02-09']"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
@@ -145,7 +145,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server"
+  system "jekyll -t serve"
 end # task :preview
 
 # Public: Alias - Maintains backwards compatability for theme switching.
