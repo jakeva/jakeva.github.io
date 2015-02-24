@@ -4,6 +4,7 @@ _theme_packages/*
 Thumbs.db
 .DS_Store
 .sass_cache/*
+.sass-cache/*
 !.gitkeep
 
 .rbenv-version
@@ -75,4 +76,4 @@ _posts/Blog Posts alias
 project.sublime-project
 project.sublime-workspace
 preview/*
-
+assets/themes/hooligan/css/style.css.map

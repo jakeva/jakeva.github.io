@@ -1,22 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Spinnaker);
 /* Partials */
+@import url(http://fonts.googleapis.com/css?family=Spinnaker);
 /* Theme Vars */
 /* Compass Vars */
 /* Override some defaults */
 html, body {
   background-color: #2a4a2a;
   /*background: url(../images/bgs/body.png) repeat; */
-  background: url(../../../grass.jpg) no-repeat center center fixed; 
+  background: url(../../../grass.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
+  background-size: cover; }
+
 body {
   color: #ddd;
   text-shadow: 1px 1px 1px black;
   height: 100%;
-  font-family: "Spinnaker", serif;
+  font-family: 'Spinnaker', serif;
   font-size: 14px; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,16 +24,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #ddd;
   text-rendering: optimizelegibility;
-  font-family: "Spinnaker", serif; }
+  font-family: 'Spinnaker', serif; }
 
 a {
-  color: #4cb4e8;
-  -webkit-transition: all 0.3s;
+  color: #579EE8;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s; }
   a:hover {
-    color: #d4edf9;
+    color: #deecfa;
     text-decoration: none; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -69,15 +69,41 @@ hr {
 .navbar {
   margin-bottom: 0; }
   .navbar div.navbar-inner {
-    -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0; }
     .navbar div.navbar-inner a.brand {
       padding: 10px 20px; }
     .navbar div.navbar-inner ul.nav:first-child li a {
       padding: 12px 10px 8px; }
+
+.navbar-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1F2F1F;
+  background-image: -moz-linear-gradient(top, #1F2F1F, #101E12);
+  background-image: -ms-linear-gradient(top, #1F2F1F, #101E12);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1F2F1F), to(#101E12));
+  background-image: -webkit-linear-gradient(top, #1F2F1F, #101E12);
+  background-image: -o-linear-gradient(top, #1F2F1F, #101E12);
+  background-image: linear-gradient(to bottom, #1f2f1f, #101e12);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color', GradientType=0);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1); }
+  .navbar-inner .active {
+    background-image: -moz-linear-gradient(top, #101E12, #1F2F1F);
+    background-image: -ms-linear-gradient(top, #101E12, #1F2F1F);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#101E12), to(#1F2F1F));
+    background-image: -webkit-linear-gradient(top, #101E12, #1F2F1F);
+    background-image: -o-linear-gradient(top, #101E12, #1F2F1F);
+    background-image: linear-gradient(to bottom, #101e12, #1f2f1f);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color', endColorstr='$navbar-to-gradient-color', GradientType=0); }
 
 .container > footer {
   margin-top: 20px;
@@ -86,26 +112,6 @@ hr {
 .container > footer p {
   text-align: center;
   /* center align it with the container */ }
-
-  .navbar-inner{
-    padding-left:20px;
-    padding-right:20px;
-    background-color:#1F2F1F;
-    background-image:-moz-linear-gradient(top, #101E12, #1F2F1F);
-    background-image:-ms-linear-gradient(top, #101E12, #1F2F1F);
-    background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#101E12), to(#1F2F1F));
-    background-image:-webkit-linear-gradient(top, #101E12, #1F2F1F);
-    background-image:-o-linear-gradient(top, #101E12, #1F2F1F);
-    background-image:linear-gradient(top, #101E12, #1F2F1F);
-    background-repeat:repeat-x;
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1E4523', endColorstr='#1F2F1F', GradientType=0);
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
-    border-radius:4px;
-    -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  }
 
 /* Content */
 .content {
@@ -129,8 +135,8 @@ hr {
 
 /* Page header tweaks */
 .page-header {
-  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   background: #202020;
   background-color: rgba(0, 0, 0, 0.3);
@@ -150,8 +156,8 @@ hr {
 
 /* Page footer tweaks */
 .page-footer {
-  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   background: #202020;
   background-color: rgba(0, 0, 0, 0.3);
@@ -174,14 +180,14 @@ hr {
 
 /* Pagination */
 div.pagination li a {
-  -webkit-box-shadow: 0px 1px 1px black;
-  -moz-box-shadow: 0px 1px 1px black;
-  box-shadow: 0px 1px 1px black; }
+  -moz-box-shadow: 0px 1px 1px #000;
+  -webkit-box-shadow: 0px 1px 1px #000;
+  box-shadow: 0px 1px 1px #000; }
 
 /* Buttons */
 a.btn, a.btn.disabled {
   color: rgba(255, 255, 255, 0.7);
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px #000;
   background: rgba(0, 0, 0, 0.2);
   border: none;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
@@ -204,7 +210,7 @@ a.btn, a.btn.disabled {
     line-height: 28px; }
   .tag_box a.active {
     background: #57A957;
-    border: 1px solid #4c964d;
+    border: 1px solid #4C964D;
     color: #FFF; }
   .tag_box a span {
     vertical-align: super;
@@ -259,10 +265,8 @@ div.content div#page-index {
   div.container {
     padding: 0px 20px; }
     div.container div.page-header {
-      -webkit-border-radius: 0;
       -moz-border-radius: 0;
-      -ms-border-radius: 0;
-      -o-border-radius: 0;
+      -webkit-border-radius: 0;
       border-radius: 0; } }
 /* Posts */
 article.post header {
@@ -280,18 +284,18 @@ div.posts article div.date {
   font-size: 10px;
   padding: 10px 0; }
   div.posts article div.date time {
-    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
     -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
     box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
     background: #202020;
     background-color: rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
     padding: 5px 10px; }
 
 /* This is for your Custom Content. */
 strong {
   color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
