@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/eggdevil
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.jakeva.com
+  * I am eggdevil (https://keybase.io/eggdevil) on keybase.
+  * I have a public key with fingerprint 9CDA D1CA 92D7 A685 4E01  E516 FE2B 3B0B F337 B568
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "9cdad1ca92d7a6854e01e516fe2b3b0bf337b568",
+            "host": "keybase.io",
+            "key_id": "fe2b3b0bf337b568",
+            "kid": "010197a2297977e914c6e423c683b91a181afcb80e1c03ad1df39dddd9ca6e5b24d10a",
+            "uid": "222d827425359798e0a025b9d6572d19",
+            "username": "eggdevil"
+        },
+        "service": {
+            "hostname": "www.jakeva.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1435270334,
+    "expire_in": 157680000,
+    "prev": "8057bb12d501bebf3988d2b1db37646d64ca32b858db8f46e60f9824186a7680",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.14
+Comment: https://keybase.io/crypto
+
+yMIeAnicbZJbSJRBFMfXMlGhzEq6EBFfFES2zsx3nX0qScvIS0ZUlC4z38yuX5v7
+bbvrqpiR1ZMb1UMlWISFkb1IV8wH84JoqRimEEQXpKheKlOSotDmE3trXoY55///
+zTmH07t4oSs1YfPs+GTFR96XMNidXeHaf+7EkxqJ2qxa8tRIAT53+aygn4dDYSsY
+lTwSNhlh0CQYMZ1ohqpwALkKNR9HVKaA+mRZp6pmSJlSmR1xHAJDSYS7LVvExMNr
+MRH9jz4wlwAQQKwThLCOdZ1jqJgaV5BsaoZMMSTQgMRnUgNwaAJZ1MJ8MmbiYJNo
+XKVIYRAQgauYwyGEmIF0BamyKogGBwQglWKmqTpiEDvCCA8HSTkXau73Mx6zjkm1
+mZKIxiyTOyNwOplXVFZWuo+SAI8Rt2mXC3cobEdt0z4mcmXRaMjjWKPVoTktp955
+ipdaQSYGKQwxHo5YdlDyQKE0o5aDhYqsIh3IspIp8aqQFeZey1GoumYAcZxveEwg
+DaDqlELEVAApF9PDhsEQhYzKuqZoTFNMIiNqqAajhk/RuAZ82EAKNDTisCSnr+NB
+W/LookziF8iI5Q+SaEWYS7U9XUcSXQmprqRFC5xVcKWmLP23IF+akl31Q7guaQZl
+9Lxqqb0DlJylhYHlM+MTQzfjyeba37dKV+698jxpQ+jmp9MlXd3vJzxyf1HTg4mH
+W92PGq8PVX3r3P7hdkFX27a72Rm+9avy8OrhNWd6OxM9k7OlsGNJcWXDvrFCV+Gz
+7IarO892/+q7OLltuqAm/iLr1NielM/uXZeycLN3tKh0Rc9oS/nUm6lQ/7u89sYL
+W4re4uLDuRtPXkvnHUf5lXs/C04MbPI3D1aNTLHcurbq9tacG00DP+KX8893724G
+B5oa09LspO3LrJJ7Lwdma+Kxp8Nukh7vWGyDg+pIfZ11/9H3/KxD0z93XHp8a2NR
+sX/t19J1r4f/tLT+BcpALzc=
+=7b/t
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eggdevil
+
+==================================================================
