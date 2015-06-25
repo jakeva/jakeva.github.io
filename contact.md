@@ -13,6 +13,10 @@ group: navigation
 </p>
 <hr/>
 <p>
+	<a href="https://keybase.io/eggdevil">Keybase.io</a>
+</p>
+<hr/>
+<p>
 	<a href="https://bitcoin.org/en">BTC</a>
 	<p>18VemeGcEuqsU3M3VRfuuoFjZRDfrNsTXu</p>
 </p>
