@@ -30,7 +30,6 @@ group: navigation
 <h3>B.Sc. Chemical Engineering - University of Utah - 2008</h3>
 
 <ul>
-<li>Dean&#8217;s List</li>
 <li>High temperation fixed bed mercury sequestration on a non-carbonaceous substrate</li>
 </ul>
 
