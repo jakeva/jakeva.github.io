@@ -197,10 +197,11 @@ at the University of Utah) developing a web portal for a client.</li>
 
 <ul>
 <li>Designed, developed and deployed numerous iPhone and Mac OS apps for clients and independently. Submitted dozens of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, AVFoundation, QTKit, GameKit, CoreVideo, OpenGL, OpenGL-ES, Cocos&#8211;2D, etc</li>
-<li><a href="http://www.theoncueapp.com"><img src="assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>  -  </a>OnCue - A motion activated surveillance system for the iSight camera with remote viewing capability via the companion iOS app.
+<li>OnCue - A motion activated surveillance system for the iSight camera with remote viewing capability via the companion iOS app.
 
 <ul>
 <li>Full product development from concept to deployment on App Store</li>
+<a href="http://www.theoncueapp.com"><img src="assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/></a>
 </ul></li>
 </ul>
 
@@ -223,7 +224,7 @@ at the University of Utah) developing a web portal for a client.</li>
 
 <ul>
 <li>Numerical Techniques</li>
-<li>Scientific Computing \&amp;\ Visualization</li>
+<li>Scientific Computing &amp; Visualization</li>
 <li>CAGD, Image Processing</li>
 <li>Signal Processing</li>
 <li>Complexity Analysis</li>
