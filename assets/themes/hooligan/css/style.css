@@ -73,40 +73,6 @@ hr {
       color: #111;
       padding: 12px 10px 8px; }
 
-.nav > li {
-  background-color: transparent;
-  background-image: transparent;
-  background-image: transparent;
-  background-image: transparent;
-  background-image: transparent;
-  background-image: transparent;
-  background-image: transparent; }
-  .nav > li :hover {
-    background-color: #000;
-    background-image: -moz-linear-gradient(center top, #ccc, #444);
-    background-image: -ms-linear-gradient(top, #ccc, #444);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(#444));
-    background-image: -webkit-linear-gradient(top, #ccc, #444);
-    background-image: -o-linear-gradient(top, #ccc, #444);
-    background-image: linear-gradient(to bottom, #cccccc, #444444); }
-
-.navbar .btn-navbar {
-  background-color: #000;
-  background-image: -moz-linear-gradient(center top, #222, #ccc);
-  background-image: -ms-linear-gradient(top, #222, #ccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222), to(#ccc));
-  background-image: -webkit-linear-gradient(top, #222, #ccc);
-  background-image: -o-linear-gradient(top, #222, #ccc);
-  background-image: linear-gradient(to bottom, #222222, #cccccc); }
-  .navbar .btn-navbar:hover {
-    background-color: #000;
-    background-image: -moz-linear-gradient(center top, #ccc, #444);
-    background-image: -ms-linear-gradient(top, #ccc, #444);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(#444));
-    background-image: -webkit-linear-gradient(top, #ccc, #444);
-    background-image: -o-linear-gradient(top, #ccc, #444);
-    background-image: linear-gradient(to bottom, #cccccc, #444444); }
-
 .navbar-inner {
   padding-left: 20px;
   padding-right: 20px;

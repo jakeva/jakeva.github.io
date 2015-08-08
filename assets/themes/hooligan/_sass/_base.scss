@@ -6,10 +6,6 @@ $navbar-from-gradient-color: #777;
 $navbar-to-gradient-color: #ccc;
 $navbar-from-gradient-color-active: #ccc;
 $navbar-to-gradient-color-active: #333;
-$navbar-button-color: #000;
-$navbar-button-from-gradient-color: #222;
-$navbar-button-to-gradient-color: #ccc;
-$navbar-button-from-gradient-color-hover: #ccc;
 $navbar-button-to-gradient-color-hover: #444;
 
 /* Compass Vars */
@@ -101,44 +97,6 @@ hr {
   		}
   	}
   }
-}
-
-.nav > li {
-	background-color:rgba(0,0,0,0);
-	background-image:rgba(0,0,0,0);
-	background-image:rgba(0,0,0,0);
-	background-image:rgba(0,0,0,0);
-	background-image:rgba(0,0,0,0);
-	background-image:rgba(0,0,0,0);
-	background-image:rgba(0,0,0,0);
-	:hover {
-		background-color: $navbar-button-color;
-		background-image: -moz-linear-gradient(center top , $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		background-image:-ms-linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-button-from-gradient-color-hover), to($navbar-button-to-gradient-color-hover));
-		background-image:-webkit-linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		background-image:-o-linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		background-image:linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-	}
-}
-
-.navbar .btn-navbar {
-    background-color: $navbar-button-color;
-    background-image: -moz-linear-gradient(center top , $navbar-button-from-gradient-color, $navbar-button-to-gradient-color);
-    background-image:-ms-linear-gradient(top, $navbar-button-from-gradient-color, $navbar-button-to-gradient-color);
-	  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-button-from-gradient-color), to($navbar-button-to-gradient-color));
-	  background-image:-webkit-linear-gradient(top, $navbar-button-from-gradient-color, $navbar-button-to-gradient-color);
-	  background-image:-o-linear-gradient(top, $navbar-button-from-gradient-color, $navbar-button-to-gradient-color);
-	  background-image:linear-gradient(top, $navbar-button-from-gradient-color, $navbar-button-to-gradient-color);
-	  &:hover {
-	  	background-color: $navbar-button-color;
-	    background-image: -moz-linear-gradient(center top , $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-	    background-image:-ms-linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-button-from-gradient-color-hover), to($navbar-button-to-gradient-color-hover));
-		  background-image:-webkit-linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		  background-image:-o-linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-		  background-image:linear-gradient(top, $navbar-button-from-gradient-color-hover, $navbar-button-to-gradient-color-hover);
-	  }
 }
 
 .navbar-inner{
