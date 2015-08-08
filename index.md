@@ -12,7 +12,7 @@ tagline: Developer
   </p>
 </div>
 
-<!-- <div class="well floatingBox" style="float:left;">
+<!-- <div class="floatingBox" style="float:left;">
  <ul class="posts">
       {% for post in site.posts %}
       {% if post.category contains 'Haikus' %}
