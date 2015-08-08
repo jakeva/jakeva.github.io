@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="well floatingBox" style="margin-top:25px">
+<div class="floatingBox" style="margin-top:25px">
  <ul class="haikus">
       {% for haiku in site.posts %}
       {% if haiku.category contains 'Haikus' %}

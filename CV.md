@@ -6,292 +6,290 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="well">
-    <h1>Software Engineer</h1>
-    <hr/>
-    <h2>iOS, OS X, Web</h2>
-    <h2>Interactive 3D Graphics &amp; Data Visualization Specialist</h2>
-    <hr/>
-    <h3>C, C++, Objective-C, Python</h3>
-    <h3>PHP, MySQL, JQuery, EC2, Linux, Apache</h3>
-    <h3>MVC, RESTful Web Service APIs</h3>
-    <h3>App Architecture &amp; Design</h3>
-    <h3>Founder of <a href="http://www.EggDevil.com">EggDevil Software</a></h3>
-    <h3>Author of <a href="http://www.theoncueapp.com">OnCue</a> iOS and Mac OS X Apps</h3>
-</div>
+<h1>Software Developer</h1>
 
-<div class="well">
-    <h2>M.Sc. Computing - 2013</h2>
-    <h2>B.Sc. Chemical Engineering - 2008</h2>
-</div>
+<hr>
 
-<div class="well">
-    <p>
-        <a id="email_contact">Contact Me</a>
-    </p>
-    <p>
-        <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">PDF</a>
-    </p>
-    <hr/>
-		<a href="http://stackoverflow.com/users/364015/jakev">
-			<img src="http://stackoverflow.com/users/flair/364015.png?theme=clean" width="208" height="58" alt="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-		</a>
-    <hr/>
-    <a href="http://www.linkedin.com/in/jakeva">
-        <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
-    </img></a>
-    <hr/>
-    <object width="300" height="360"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=4976878&amp;catId=10183&amp;defaultTab=2&amp;rid=356VC" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="360"></embed><p>Plugin Missing (Adobe Flash). Normally you'd see my Elance profile here.</p></object>
-</div>
+<h3>iOS, OS X, Web</h3>
 
-<div class="well">
-<h1>Skills</h1>
-<hr/>
-<h2>Building Intuitive Software</h2>
+<h3>Interactive 3D Graphics &amp; Data Visualization Specialist</h3>
+
+<h3>Objective-C, Swift, C, C++</h3>
+
+<hr>
+
+<h2>EDUCATION</h2>
+
+<h3>M.Sc. Computing - University of Utah - 2013</h3>
+
 <ul>
-    <li>Object Oriented Design, Test Driven Development</li>
-    <li>Focused, Elegant, Self-Documenting Code</li>
-    <li>Detailed UI, UX Design</li>
-    <li>3D Interactive Graphics - OpenGL, GLSL, CUDA</li>
-    <li>Full Stack Developer - Back to Front Architectural Design and Development</li>
+<li>Graphics and Visualization</li>
+<li>Improvements to rational surface analysis in toroidal magnetic confinement fields</li>
 </ul>
 
-<hr/>
+<h3>B.Sc. Chemical Engineering - University of Utah - 2008</h3>
 
-<h2>Problem Solving</h2>
 <ul>
-    <li>Numerical Techniques</li>
-    <li>CAGD, Image Processing</li>
-    <li>Signal Processing</li>
-    <li>Complexity Analysis</li>
-    <li>Data Analysis / Visualization</li>
-    <li>Geometric Design</li>
+<li>Dean&#8217;s List</li>
+<li>High temperation fixed bed mercury sequestration on a non-carbonaceous substrate</li>
 </ul>
 
-<hr/>
+<hr>
 
-<h2>Technologies</h2>
-<ul>
-    <li>Mac OS X, iOS</li>
-    <li>C, C++, Objective-C, Swift</li>
-    <li>Cocoa, Cocoa-touch, CoreData, CoreAnimation, CoreGraphics, UIKit, AVFoundation, CoreVideo, StoreKit, etc</li>
-    <li>HTML5, CSS3, PHP, JS</li>
-    <li>AJAX, JSON, XML, REST, SOAP</li>
-    <li>MySQL, PostgreSQL, SQLite, etc</li>
-    <li>jQuery, Bootstrap</li>
-    <li>Zend MVC, CodeIgnitor</li>
-</ul>
-</div>
-
-<div class="well">
-<h1>Recent Projects</h1>
-<hr/>
-<h2>Selfie for iPhone app  -  May 2014 - Present</h2>
-<h3>Senior iOS Developer</h3>
-<ul>
-    <li>An innovative social networking app for face to face conversations</li>
-</ul>
-<hr/>
-<h2>OnCue OSX and iOS app  -  October 2011 - Present</h2>
-<h3>Owner / Developer</h3>
-<ul>
-	<li>Motion detection and remote video streaming</li>
-	<li>OpenGL, GPUImage, GLSL</li>
-</ul>
-<hr/>
-<h2>OurPlan iPad App  -  September 2013 - Present</h2>
-<h3>iOS Engineer</h3>
-<ul>
-	<li>Construction scheduling application</li>
-	<li>Multiple Core Data stores, remote synchronization</li>
-	<li>Custom Calendar UI / UX design / implementation</li>
-</ul>
-<hr/>
-<h2>Lacrosse Stats  -  November 2013 - February 2014</h2>
-<h3>iOS Engineer</h3>
-<ul>
-	<li>Sports statistics application</li>
-	<li>Core Data, Remote data retrieval, Premium features via In App Purchase</li>
-	<li>Custom UI / UX design / implementation</li>
-</ul>
-<hr/>
-<h2>Izon iPad / iPhone app  -  May 2013 - September 2013</h2>
-<h3>iOS Engineer</h3>
-<ul>
-	<li>Remote video streaming application</li>
-	<li>Core Data, P2P / Proxy Streaming</li>
-	<li>Custom Calendar UI / UX design / implementation</li>
-</ul>
-</div>
-
-<div class="well">
-<h1>Professional Employment</h1>
-<hr/>
-<h2>Selfie Inc. -  May 2014 - Present</h2>
-<h3>Senior iOS Developer</h3>
 <p>
-Core iOS app development. Bug fixes, feature enhancements, etc.</p>
-<hr/>
-
-<h2>USANA  -  March 2014 - April 2014</h2>
-<h3>iOS Engineer</h3>
-<p>
-Improved enterprise reporting modules in internal iOS application, created a custom tree based reporting view. Short term contract position.</p>
-<hr/>
-<h2>NTTData  -  September 2013 - February 2014</h2>
-<h3>iOS Consultant</h3>
-<ul>
-		<li>CoreData</li>
-		<li>RESTful APIs</li>
-</ul>
-<p>
-Improved and extended existing iOS app. Converted SQLite data model to CoreData, increased responsiveness in remote synchronization, etc</p>
-<hr/>
-
-<h2>Stem Innovation, LLC  -  March 2013 - September 2013</h2>
-<h3>iOS Engineer</h3>
-<ul>
-    <li><a href="https://itunes.apple.com/us/app/izon/id549682052?mt=8">IZON</a> iOS App Architecture</li>
-    <li>3rd party design, developed from the ground up</li>
-    <li>Obj-C main app, C and C++ core modules (ffmpeg, rtp client, etc)</li>
-    <li>Heavy use of NSOperation &amp; NSOperationQueue, GCD, etc</li>
-    <li>Live local / remote video feeds ( via Bonjour, P2P, or Proxy )</li>
-    <li>Multiple-source data polling</li>
-</ul>
-
-<hr/>
-
-<h2>K'nowbe Works, LLC  -  April 2012 - February 2013</h2>
-<h3>Software Engineer</h3>
-<ul>    
-    <li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL</li>
-    <li>Bidirectional A* heuristic path finding </li>
-    <li>Gaussian smoothing </li>
-    <li>Image processing</li>
-    <li>Large point cloud rendering</li>
-    <li>Ray tracing</li>
-    <li>GPU shaders</li>
-    <li>I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software resulting in incredible realism.</li>
-    <li>Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD</li>
-</ul>
-
-<hr/>
-
-<h2>FlexSim Software, LLC  -  December 2011 - March 2012</h2>
-<h3>Software Engineer</h3>
-<ul>
-    <li>Product development team, maintaining and improving the core products in C++ and custom engine scripting, using the Windows API</li>
-    <li>Made numerous improvements to the main product GUI and design, as well as to the core graphics and simulation engine-- improving efficiency and performance, as well as deploying a comprehensive TDD / unit testing framework</li>
-</ul>
-
-<hr/>
-
-<h2>University of Utah, Computer Science Department  -  January 2009 - December 2011</h2>
-<h3>Software Engineer</h3>
-<ul>
-    <li>Software Development Center at SCI (Scientific Computing Institute at the University of Utah) developing a web portal for a client.</li>
-    <li>HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
-</ul>
-</div>
-
-<!-- <div class="well">
-<h1>Independent Work</h1>
-<h2>Freelance Developer / Designer</h2>
-<hr/>
-<ul>
-    <li>Designed, developed and deployed numerous iPhone and Mac OS apps independently. Submitted a number of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, and QTKit.</li>
-</ul>
-
-<h2>Mac OS X</h2>
-<ul>
-    <li><h2><a href="http://www.theoncueapp.com">OnCue</a></h2></li>    
-    <ul>
-        <li>A simple utility to take control of your USB camera</li>
-        <li>
-            <a href="http://www.theoncueapp.com">
-                <img src="assets/oncue_icon.png" alt="OnCue 2">
-            </a>
-            <a href="https://itunes.apple.com/us/app/oncue2/id676984416?ls=1&amp;mt=12">
-                <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_165x40_0824.png" alt="Free on the App Store">
-            </a>
-        </li>
-    </ul>
-</ul>
-
-<hr/>
-
-<h2>Web</h2>
-<ul>
-    <li><a href="http://pms.leadsys.co">pms.leadsys.co</a></li>
-    <ul>
-        <li>A lead generation and tracking web application I built for one of my clients.</li>
-        <li>Uses Python, PHP, Zend MVC framework.</li>
-    </ul>
-</ul>
-
-<hr/>
-
-<h2>Visualizations</h2>
-<ul>
-    <li><h3>Historical Climate Data</h3>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/YFdnqXrvwv0" frameborder="0"> </iframe>
-<p>
-This video shows the historical climate record of Earth. Early on in the record there are very few stations reporting data, but by the mid-20th century Earth's temperature was being measured almost ubiquitously. It was my goal to visualize this record.
+    <a id="email_contact">Contact Me</a>
 </p>
 <p>
-I did this by visualizing the data in two ways, first the spheres are colored by actual temperature (ie, dark blue is near freezing, dark red is ~80 - 100 degrees F). Secondly, the spheres are sized in relation to the average temperature for that time of the year. In other words, large red spheres indicate greater than average temperature where the actual temperature is fairly warm. Large blue spheres indicate a warmer than average temperature at a low temperature, i.e. it should be much cooler. Smaller spheres indicate a cooler than average temperature.
+    <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">CV - PDF</a>
 </p>
-<p>
-This was created for a grad school vis project in a class with a very lazy teacher, so there is quite a bit of room for improvement (although, I did get an 'A' on the project and in the class).
-</p>
-<p>
-Improvements that could be made include using a logarithmic scale so that small differences don't carry much weight, and so that large differences aren't so dramatic and chaotic. Furthermore, the code could pretty easily be modified to represent any subset of the data, such as showing only greater than average differences or so that each frame shows a given month across years, in order to improve the integrity of the comparison.
-</p> 
-<p>
-This was done in Python using VTK. Source code is available <a href="https://github.com/jakeva/Historical-Climate-Visualization">here</a>. The music was composed and recorded by myself for no reason, and happened to match the length of the video, so I used it.
-</p>
-</li>
-</ul>
 
-</div>
+<hr>
 
-<hr/> -->
+<a href="http://stackoverflow.com/users/364015/jakev">
+    <img src="http://stackoverflow.com/users/flair/364015.png?theme=dark" width="208" height="58" alt="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for jakev at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
 
-<div class="well">
-<h1>Academics</h1>
-<hr/>
-<h2>Master of Science - Computing - Graphics and Visualization - 2013</h2>
-<h3>University of Utah</h3>
+<hr>
+
+<a href="http://www.linkedin.com/in/jakeva">
+    <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jake Van Alstyne's profile on LinkedIn">
+</a>
+
+<hr>
+
+<h2>RECENT PROJECTS</h2>
+
+<h3>Selfie for iPhone app - May 2014 - Present</h3>
+
+<h4>Senior iOS Developer</h4>
+
 <ul>
-    <li>Master's Project: <a onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'Masters Project Report']);" href="/assets/report.pdf" target="_blank">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
+<li>An innovative social networking app for face to face conversations</li>
 </ul>
 
-<hr/>
+<h3>OnCue OSX and iOS app - October 2011 - Present</h3>
 
-<h2>Bachelor of Science - Chemical Engineering - 2008</h2>
-<h3>University of Utah</h3>
+<h4>Owner / Developer</h4>
+<a href="http://www.theoncueapp.com"><img src="assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>
 <ul>
-    <li>Undergraduate Research Project:<a href="http://www3.aiche.org/Proceedings/AuthorDetails.aspx?PersonID=41286"> High Temperature Chemi-Sorption of Mercury on a Non-Carbonaceous Substrate</a></li>
-    <li>John Zink Award - 2007</li>
-    <li>Chemical Engineering Departmental Full Tuition Waiver - 2006-2007</li>
+<li>Motion detection and remote video streaming</li>
+<li>OpenGL, GPUImage, GLSL</li>
 </ul>
-</div>
 
-<div class="well">
-<h1>Teaching</h1>
-<hr/>
-<h2>Instructor</h2>
+<h3>OurPlan iPad App - September 2013 - Present</h3>
+
+<h4>iOS Developer</h4>
+
 <ul>
-    <li>CS 1400 - Introduction to Computer Science - June 2010 - August 2010</li>
+<li>Construction scheduling application</li>
+<li>Multiple Core Data stores, remote synchronization</li>
+<li>Custom Calendar UI / UX design / implementation</li>
 </ul>
 
-<hr/>
+<h3>Lacrosse Stats - November 2013 - February 2014</h3>
 
-<h2>Teaching Assistant</h2>
+<h4>iOS Engineer</h4>
+
 <ul>
-    <li>CS 1410 - Computer Science I - August 2010 - December 2010</li>
-    <li>CS 2420 - Computer Science II / EAE - January 2011 - May 2011</li>
-    <li>CS 3810 - Computer Systems - August 2011 - December 2011</li>
+<li>Sports statistics application</li>
+<li>Core Data, Remote data retrieval, Premium features via In App
+Purchase</li>
+<li>Custom UI / UX design / implementation</li>
 </ul>
-</div>
+
+<h3>Izon iPad / iPhone app - May 2013 - September 2013</h3>
+
+<h4>iOS Developer</h4>
+
+<ul>
+<li>Remote video streaming application</li>
+<li>Core Data, P2P / Proxy Streaming</li>
+<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+
+<hr>
+
+<h2>EMPLOYMENT</h2>
+
+<h3>Selfie Inc. - May 2014 - Present</h3>
+
+<h4>Senior iOS Developer</h4>
+
+<ul>
+<li>Core iOS app development. Bug fixes, feature enhancements, etc.</li>
+</ul>
+
+<h3>USANA - March 2014 - April 2014</h3>
+
+<h4>iOS Consultant</h4>
+
+<ul>
+<li>Improved enterprise reporting modules in internal iOS application,
+created a custom tree based reporting view. Short term contract
+position.</li>
+</ul>
+
+<h3>NTTData - September 2013 - February 2014</h3>
+
+<h4>iOS Consultant</h4>
+
+<ul>
+<li>CoreData</li>
+<li>RESTful APIs</li>
+<li>Improved and extended existing iOS app. Converted SQLite data model to
+CoreData, increased responsiveness in remote synchronization, etc</li>
+</ul>
+
+<h3>Stem Innovation, LLC - March 2013 - September 2013</h3>
+
+<h4>iOS Developer</h4>
+
+<ul>
+<li>[IZON] iOS App Architecture</li>
+<li>3rd party design, developed from the ground up</li>
+<li>Obj-C main app, C and C++ core modules (ffmpeg, rtp client, etc)</li>
+<li>Heavy use of NSOperation &amp; NSOperationQueue, GCD, etc</li>
+<li>Live local / remote video feeds ( via Bonjour, P2P, or Proxy )</li>
+<li>Multiple-source data polling</li>
+</ul>
+
+<h3>K’nowbe Works, LLC - April 2012 - February 2013</h3>
+
+<h4>Graphics Engineer</h4>
+
+<ul>
+<li>3D Interactive Windows MFC COM components in C++ using OpenGL, OSG, and GLSL</li>
+<li>Bidirectional A* heuristic path finding</li>
+<li>Gaussian smoothing</li>
+<li>Image processing</li>
+<li>Large point cloud rendering</li>
+<li>Ray tracing</li>
+<li>GPU shaders</li>
+<li>I improved their core graphics engine before using those improvements to develop visually striking fully interactive 3 dimensional engineering design tools. For instance, I built a rapid geodata contouring package. I also built intelligent pipe laying design tools which used proprietary equipment modeling software resulting in incredible realism.</li>
+<li>Agile development team using Team Foundation Server as our revision control and a custom testing harness for unit tests and TDD</li>
+</ul>
+
+<h3>FlexSim Software, LLC - December 2011 - March 2012</h3>
+
+<h4>Windows Developer</h4>
+
+<ul>
+<li>Product development team, maintaining and improving the core
+products in C++ and custom engine scripting, using the Windows API</li>
+<li>Made numerous improvements to the main product GUI and design, as
+well as to the core graphics and simulation engine– improving
+efficiency and performance, as well as deploying a comprehensive TDD
+/ unit testing framework</li>
+</ul>
+
+<h3>University of Utah, Computer Science Department - January 2009 - December 2011</h3>
+
+<h4>Web Developer</h4>
+
+<ul>
+<li>Software Development Center at SCI (Scientific Computing Institute
+at the University of Utah) developing a web portal for a client.</li>
+<li>HTML, CSS, JavaScript, jQuery and jQuery-UI</li>
+</ul>
+
+<h3>Independent Work</h3>
+
+<h4>Freelance Developer / Designer</h4>
+
+<ul>
+<li>Designed, developed and deployed numerous iPhone and Mac OS apps for clients and independently. Submitted dozens of new apps and updates to the App Store. Technologies utilized include Cocoa and Cocoa-touch, UIKit, CoreData, StoreKit, WebKit, SceneKit, QuartzCore, CoreVideo, AVFoundation, QTKit, GameKit, CoreVideo, OpenGL, OpenGL-ES, Cocos&#8211;2D, etc</li>
+<li><a href="http://www.theoncueapp.com"><img src="assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>  -  </a>OnCue - A motion activated surveillance system for the iSight camera with remote viewing capability via the companion iOS app.
+
+<ul>
+<li>Full product development from concept to deployment on App Store</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>SKILLS</h2>
+
+<h3>Software Developer</h3>
+
+<ul>
+<li>Building Intuitive Software</li>
+<li>Object Oriented Design / Architecture</li>
+<li>Focused, Elegant, Self-Documenting Code</li>
+<li>Detailed UI, UX Design</li>
+<li>3D Interactive Graphics - OpenGL, GLSL, CUDA</li>
+<li>Full Stack Developer - Back to Front Architectural Design and Development</li>
+</ul>
+
+<h3>Problem Solving</h3>
+
+<ul>
+<li>Numerical Techniques</li>
+<li>Scientific Computing \&amp;\ Visualization</li>
+<li>CAGD, Image Processing</li>
+<li>Signal Processing</li>
+<li>Complexity Analysis</li>
+<li>Data Analysis / Visualization</li>
+<li>Geometric Design</li>
+</ul>
+
+<h3>Technologies</h3>
+
+<ul>
+<li>Objective-C, Swift, C, C++</li>
+<li>HTML5, CSS, JS, PHP, Python</li>
+<li>MySQL, SQLite, PostgreSQL</li>
+<li>OpenGL, GLSL</li>
+<li>Cocoa, Cocoa-touch, Windows API, MFC, COM, bash, zsh, AppleScript, \textsc{Latex}, Git</li>
+</ul>
+
+<h3>Other</h3>
+
+<ul>
+<li>Fluent in German</li>
+<li>17 years experience playing guitar</li>
+</ul>
+
+<hr>
+
+<h2>TEACHING</h2>
+
+<h3>University of Utah, Salt Lake City, Utah USA</h3>
+
+<ul>
+<li>Graduate Instructor
+
+<ul>
+<li>CS 1400 - Introduction to Computer Science</li>
+</ul></li>
+<li>Teaching Assistant
+
+<ul>
+<li>CS 3810 - Computer Organization</li>
+<li>CS 2420 - Computer Science II</li>
+<li>CS 2420 - Computer Science II EAE (Engineering Arts
+and Entertainment Track)</li>
+<li>CS 1410 - Computer Science I EAE (Engineering Arts and
+Entertainment Track)</li>
+</ul></li>
+</ul>
+
+<hr>
+
+<h2>RESEARCH</h2>
+
+<ul>
+<li>Exploration of the Material Point Method on Adaptively Refined Meshes with Hanging Nodes</li>
+<li>Rational Surface Extraction in Toroidal Magnetic Field Simulations</li>
+<li>High Temperature Fixed Bed Mercury Sequestration on a Non-Carbonaceous Substrate</li>
+</ul>
+
+<hr>
+
+<h2>HONORS</h2>
+
+<ul>
+<li>Red Hanger Scholarship</li>
+<li>John Zink Award</li>
+<li>Chemical Engineering Departmental Full Tuition Scholarship</li>
+<li>University Honors at Entrance Scholarship</li>
+</ul>

@@ -1,17 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Spinnaker);
 
 /* Theme Vars */
-$link-color: #579EE8;
-$navbar-from-gradient-color: #101E12;
-$navbar-to-gradient-color: #1F2F1F;
-$navbar-from-gradient-color-active: #1F2F1F;
-$navbar-to-gradient-color-active: #101E12;
-$navbar-button-color: #102E12;
-$navbar-button-from-gradient-color: #102E12;
-$navbar-button-to-gradient-color: #104E12;
-$navbar-button-from-gradient-color-hover: #101E12;
-$navbar-button-to-gradient-color-hover: #102E12;
-
+$link-color: #00a;
+$navbar-from-gradient-color: #777;
+$navbar-to-gradient-color: #ccc;
+$navbar-from-gradient-color-active: #ccc;
+$navbar-to-gradient-color-active: #333;
+$navbar-button-color: #000;
+$navbar-button-from-gradient-color: #222;
+$navbar-button-to-gradient-color: #ccc;
+$navbar-button-from-gradient-color-hover: #ccc;
+$navbar-button-to-gradient-color-hover: #444;
 
 /* Compass Vars */
 $default-box-shadow-color: #000;
@@ -20,18 +19,11 @@ $default-box-shadow-blur: 1px;
 
 /* Override some defaults */
 html, body {
-  background-color: #2a4a2a;
-  /*background: url(../images/bgs/body.png) repeat; */
-  background: url(../../../grass.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #efefef;
 }
 
 body {
-  color:#ddd;
-  text-shadow:1px 1px 1px black;
+  color:#222;
   height:100%;
   font-family: 'Spinnaker', serif;
   font-size: 14px;
@@ -40,7 +32,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	margin:0;
 	font-weight:normal;
-	color:#ddd;
+	color:#111;
 	text-rendering:optimizelegibility;
 	font-family: 'Spinnaker', serif;
 }
@@ -56,7 +48,7 @@ a {
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-weight:normal;
-	color:#ddd;
+	color:#111;
 }
 
 h1, h2 {
@@ -92,15 +84,18 @@ hr {
 
 /* Layout */
 .navbar {
+	color:#111;
   margin-bottom: 0;
   div.navbar-inner {
   	@include border-radius(0);
   	a.brand {
   		padding:10px 20px;
+  		color:#111;
   	}
   	ul.nav:first-child {
   		li {
   			a {
+  				color:#111;
   				padding:12px 10px 8px;
   			}
   		}
@@ -150,14 +145,14 @@ hr {
   padding-left:20px;
   padding-right:20px;
   background-color:#1F2F1F;
-  background-image:-moz-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-  background-image:-ms-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color-active), to($navbar-to-gradient-color-active));
-  background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-  background-image:-o-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-  background-image:linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+  background-image:-moz-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color-active);
+  background-image:-ms-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
+  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color), to($navbar-to-gradient-color));
+  background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
+  background-image:-o-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
+  background-image:linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
   background-repeat:repeat-x;
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color', GradientType=0);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color', endColorstr='$navbar-to-gradient-color', GradientType=0);
   -webkit-border-radius:4px;
   -moz-border-radius:4px;
   border-radius:4px;
@@ -165,14 +160,14 @@ hr {
   -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   .active {
-		background-image:-moz-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
-	  background-image:-ms-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
-	  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color), to($navbar-to-gradient-color));
-	  background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
-	  background-image:-o-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
-	  background-image:linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
+		background-image:-moz-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+	  background-image:-ms-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+	  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color-active), to($navbar-to-gradient-color-active));
+	  background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+	  background-image:-o-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+	  background-image:linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
 	  background-repeat:repeat-x;
-	  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color', endColorstr='$navbar-to-gradient-color', GradientType=0);
+	  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color-active', GradientType=0);
 	}
 }
 
@@ -189,9 +184,6 @@ hr {
 
 /* Content */
 .content {
-	img {
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-	}
 	/* when there's no page-header */
 	&.no-header {
 		padding-top:40px;
@@ -234,7 +226,7 @@ hr {
 	@include border-bottom-left-radius;
 	@include border-bottom-right-radius;
 	h1 {
-		color:#eee;
+		color:#111;
 		margin-bottom:0;
 	}
 }
@@ -253,7 +245,7 @@ hr {
 	@include border-bottom-left-radius;
 	@include border-bottom-right-radius;
 	h1 {
-		color:#eee;
+		color:#111;
 		margin-bottom:0;
 	}
 }
@@ -345,6 +337,7 @@ div.content {
 
 /* Zocial Overrides */
 .navbar a.zocial {
+	color:#111 !important;
 	padding-left:0 !important;
 	padding-right:0 !important;
 }
@@ -359,6 +352,10 @@ div.content {
 	color:#46c0fb !important;
 }
 
+.zocial.github:focus,
+.zocial.github:hover {
+	color:#ddd !important;
+}
 
 .zocial.linkedin:focus,
 .zocial.linkedin:hover {

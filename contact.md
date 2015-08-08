@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="well">
+<div>
 <span>
 <p>
 	<a id="email_contact">Email</a>
