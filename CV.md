@@ -239,7 +239,7 @@ at the University of Utah) developing a web portal for a client.</li>
 <li>HTML5, CSS, JS, PHP, Python</li>
 <li>MySQL, SQLite, PostgreSQL</li>
 <li>OpenGL, GLSL</li>
-<li>Cocoa, Cocoa-touch, Windows API, MFC, COM, bash, zsh, AppleScript, \textsc{Latex}, Git</li>
+<li>Cocoa, Cocoa-touch, Windows API, MFC, COM, bash, zsh, AppleScript, LaTeX, Git</li>
 </ul>
 
 <h3>Other</h3>
