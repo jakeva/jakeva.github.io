@@ -136,8 +136,8 @@ task :page do
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: page"
-    post.puts "title: \"#{title}\""
-    post.puts 'description: ""'
+    post.puts "title: #{title}"
+    post.puts 'tagline: '
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
