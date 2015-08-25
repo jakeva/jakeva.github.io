@@ -5,13 +5,13 @@ permalink: /:categories/:year/:month/:day/:title
 markdown: kramdown
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: pygments
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 title : Jake Van Alstyne
-tagline: Mac OSX, iOS, and Web Developer
+tagline: OS X, iOS, and Web Developer
 author :
   name : Jake Van Alstyne
   email : jakeva@gmail.com

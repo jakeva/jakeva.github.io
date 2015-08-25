@@ -3,13 +3,13 @@ require 'rake'
 require 'yaml'
 require 'time'
 
-HOOLIGAN_STYLES={
-  'assets/themes/hooligan/_sass/style.scss' => 'assets/themes/hooligan/css/style.css'
+JAKEVA_STYLES={
+  'assets/themes/jakeva/_sass/style.scss' => 'assets/themes/jakeva/css/style.css'
 }
 
 desc 'Regenerate theme CSS files'
-task :hooligan do
-  HOOLIGAN_STYLES.each do |sass,css|
+task :jakeva do
+  JAKEVA_STYLES.each do |sass,css|
     system "sass --compass #{sass} #{css}"
   end
 end
