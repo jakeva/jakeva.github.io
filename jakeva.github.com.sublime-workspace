@@ -27,7 +27,7 @@
 			"file": "Rakefile",
 			"settings":
 			{
-				"buffer_size": 12386,
+				"buffer_size": 12376,
 				"line_ending": "Unix"
 			}
 		}
@@ -370,10 +370,10 @@
 				{
 					"buffer": 2,
 					"file": "Rakefile",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12386,
+						"buffer_size": 12376,
 						"regions":
 						{
 						},
