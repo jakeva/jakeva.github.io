@@ -62,14 +62,14 @@ group: navigation
 
 <ul>
 	<li>A simple OS X menubar application for showing current BTC prices</li>
-	<li><a href="https://github.com/jakeva/BTCMonitor"></a></li>
+	<li><a href="https://github.com/jakeva/BTCMonitor">BTCMonitor on GitHub</a></li>
 </ul>
 
 <h3>BTW-wallet-hashchecker</h3>
 
 <ul>
 	<li>A lightweight OS X command line utility for rapid pw attempts on a given encrypted BTC wallet</li>
-	<li><a href="https://github.com/jakeva/BTC-wallet-hashchecker"></a></li>
+	<li><a href="https://github.com/jakeva/BTC-wallet-hashchecker">BTC-wallet-hashchecker on GitHub</a></li>
 </ul>
 
 <hr>
