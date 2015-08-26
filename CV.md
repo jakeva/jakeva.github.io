@@ -56,7 +56,25 @@ group: navigation
 
 <hr>
 
-<h2>RECENT PROJECTS</h2>
+<h2>OPEN SOURCE PROJECTS</h2>
+
+<h3>BTCMonitor</h3>
+
+<ul>
+	<li>A simple OS X menubar application for showing current BTC prices</li>
+	<li><a href="https://github.com/jakeva/BTCMonitor"></a></li>
+</ul>
+
+<h3>BTW-wallet-hashchecker</h3>
+
+<ul>
+	<li>A lightweight OS X command line utility for rapid pw attempts on a given encrypted BTC wallet</li>
+	<li><a href="https://github.com/jakeva/BTC-wallet-hashchecker"></a></li>
+</ul>
+
+<hr>
+
+<h2>PROFESSIONAL PROJECTS</h2>
 
 <h3>Selfie for iPhone app - May 2014 - Present</h3>
 
