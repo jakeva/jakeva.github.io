@@ -65,7 +65,7 @@ group: navigation
 	<li><a href="https://github.com/jakeva/BTCMonitor">BTCMonitor on GitHub</a></li>
 </ul>
 
-<h3>BTW-wallet-hashchecker</h3>
+<h3>BTC-wallet-hashchecker</h3>
 
 <ul>
 	<li>A lightweight OS X command line utility for rapid pw attempts on a given encrypted BTC wallet</li>
