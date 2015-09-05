@@ -9,6 +9,7 @@ group: navigation
 <div class="floatingBox" style="margin-top:25px">
   <ul>
     <h1>Quotes</h1>
+    <li><h3>William Gibson: People who feel safer with a gun than with guaranteed medical insurance don't yet have a fully adult concept of scary.</h3></li>
     <li><h3>Thomas Edison: Opportunity is missed by most people because it is dressed in overalls and looks like work.</h3></li>
     <li><h3>Winston Churchill: Continuous effort, not strength or intelligence, is the key to unlocking our potential.</h3></li>
     <li><h3>Oscar Wilde: I am not young enough to know everything.</h3></li>
