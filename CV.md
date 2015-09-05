@@ -24,7 +24,7 @@ group: navigation
 
 <ul>
 <li>Graphics and Visualization</li>
-<li><a href="./assets/report.pdf">Improvements to rational surface analysis in toroidal magnetic confinement fields</li></a>
+<li><a href="./assets/report.pdf">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
 </ul>
 
 <h3>B.Sc. Chemical Engineering - University of Utah - 2008</h3>
