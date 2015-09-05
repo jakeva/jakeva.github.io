@@ -24,13 +24,13 @@ group: navigation
 
 <ul>
 <li>Graphics and Visualization</li>
-<li>Improvements to rational surface analysis in toroidal magnetic confinement fields</li>
+<li><a href="./assets/report.pdf">Improvements to rational surface analysis in toroidal magnetic confinement fields</li></a>
 </ul>
 
 <h3>B.Sc. Chemical Engineering - University of Utah - 2008</h3>
 
 <ul>
-<li>High temperation fixed bed mercury sequestration on a non-carbonaceous substrate</li>
+<li><a href="http://www3.aiche.org/proceedings/Abstract.aspx?PaperID=77383">High temperation fixed bed mercury sequestration on a non-carbonaceous substrate</a></li>
 </ul>
 
 <hr>
