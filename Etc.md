@@ -40,7 +40,7 @@ group: navigation
   </ul>
   <hr/>
   <ul>
-    <h2>Not strictly Palindromes lol</h2>
+    <h1>Not strictly Palindromes lol</h1>
     <li><h3>Is it crazy how saying sentences backwards creates sentences saying how crazy it is? </h3></li>
   </ul>
   <hr/>
