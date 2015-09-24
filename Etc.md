@@ -38,6 +38,9 @@ group: navigation
     <li><h3>Ten animals I slam in a net</h3></li>
     <li><h3>Won't lovers revolt now?</h3></li>
     <h2>Not strictly Palindromes lol</h2>
+  </ul>
+  <hr/>
+  <ul>
     <li><h3>Is it crazy how saying sentences backwards creates sentences saying how crazy it is? </h3></li>
   </ul>
   <hr/>
