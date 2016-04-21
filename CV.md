@@ -76,7 +76,15 @@ group: navigation
 
 <h2>PROFESSIONAL PROJECTS</h2>
 
-<h3>Selfie for iPhone app - May 2014 - Present</h3>
+<h3>Selfie for iPhone app - October 2015 - Present</h3>
+
+<h4>Senior iOS Developer</h4>
+
+<ul>
+<li>Photo and Video Editor for Instagram</li>
+</ul>
+
+<h3>Selfie for iPhone app - May 2014 - September 2015</h3>
 
 <h4>Senior iOS Developer</h4>
 
@@ -128,7 +136,15 @@ Purchase</li>
 
 <h2>EMPLOYMENT</h2>
 
-<h3>Selfie Inc. - May 2014 - Present</h3>
+<h3>Munkee Apps LLC - October 2015 - Present</h3>
+
+<h4>Senior iOS Developer</h4>
+
+<ul>
+<li>iOS Development, implemented original ideas, bug fixes and feature enhancements for existing products</li>
+</ul>
+
+<h3>Selfie Inc. - May 2014 - September 2015</h3>
 
 <h4>Senior iOS Developer</h4>
 
