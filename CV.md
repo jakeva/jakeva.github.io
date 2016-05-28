@@ -62,7 +62,7 @@ group: navigation
 
 <ul>
 	<li>A simple OS X menubar application for showing current BTC prices</li>
-	<li><a href="https://github.com/jakeva/BTCMonitor">BTCMonitor on GitHub</a></li>
+	<li><a href="https://itunes.apple.com/us/app/btc-monitor/id1102913934?mt=12">BTCMonitor on App Store</a></li>
 </ul>
 
 <h3>BTC-wallet-hashchecker</h3>
