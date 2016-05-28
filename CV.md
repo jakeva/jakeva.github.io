@@ -60,7 +60,7 @@ group: navigation
 
 <h3>OnCue OSX and iOS app - October 2011 - Present</h3>
 <ul>
-	<li><a href="http://www.theoncueapp.com"><img src="/assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/></li>
+	<li><a href="http://www.theoncueapp.com"></a></li>
 	<li>Motion detection and remote video streaming</li>
 	<li>OpenGL, GPUImage, GLSL</li>
 </ul>
