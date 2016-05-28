@@ -24,7 +24,7 @@ group: navigation
 
 <ul>
 <li>Graphics and Visualization</li>
-<li><a href="./assets/report.pdf">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
+<li><a href="/assets/report.pdf">Improvements to rational surface analysis in toroidal magnetic confinement fields</a></li>
 </ul>
 
 <h3>B.Sc. Chemical Engineering - University of Utah - 2008</h3>
@@ -39,7 +39,7 @@ group: navigation
     <a id="email_contact">Contact Me</a>
 </p>
 <p>
-    <a href="./assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">CV - PDF</a>
+    <a href="/assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">CV - PDF</a>
 </p>
 
 <hr>
@@ -95,7 +95,7 @@ group: navigation
 <h3>OnCue OSX and iOS app - October 2011 - Present</h3>
 
 <h4>Owner / Developer</h4>
-<a href="http://www.theoncueapp.com"><img src="assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>
+<a href="http://www.theoncueapp.com"><img src="/assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>
 <ul>
 <li>Motion detection and remote video streaming</li>
 <li>OpenGL, GPUImage, GLSL</li>
@@ -235,7 +235,7 @@ at the University of Utah) developing a web portal for a client.</li>
 
 <ul>
 <li>Full product development from concept to deployment on App Store</li>
-<a href="http://www.theoncueapp.com"><img src="assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/></a>
+<a href="http://www.theoncueapp.com"><img src="/assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/></a>
 </ul></li>
 </ul>
 
