@@ -58,10 +58,10 @@ group: navigation
 
 <h2>ETC PROJECTS</h2>
 
-<h3>OnCue OSX and iOS app - October 2011 - Present</h3>
+<h3>OnCue for OS X</h3>
 <ul>
 	<li><a href="http://www.theoncueapp.com">Homepage</a></li>
-	<li>Motion detection and remote video streaming</li>
+	<li>Motion / Sound based security app</li>
 	<li>OpenGL, GPUImage, GLSL</li>
 </ul>
 
@@ -99,12 +99,12 @@ group: navigation
 <li>An innovative social networking app for face to face conversations</li>
 </ul>
 
-<h3>OnCue OSX and iOS app - October 2011 - Present</h3>
+<h3>OnCue for OS X - October 2011 - Present</h3>
 
 <h4>Owner / Developer</h4>
 <a href="http://www.theoncueapp.com"><img src="/assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>
 <ul>
-<li>Motion detection and remote video streaming</li>
+<li>Motion / Sound based security app</li>
 <li>OpenGL, GPUImage, GLSL</li>
 </ul>
 
