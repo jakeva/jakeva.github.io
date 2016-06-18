@@ -41,6 +41,7 @@ group: navigation
   <hr/>
   <ul>
     <h1>Not strictly Palindromes lol</h1>
+    <li><h3>Am I as bored as you are?</h3></li>
     <li><h3>Is it crazy how saying sentences backwards creates sentences saying how crazy it is? </h3></li>
   </ul>
   <hr/>
