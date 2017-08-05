@@ -83,7 +83,7 @@ group: navigation
 
 <h2>PROFESSIONAL PROJECTS</h2>
 
-<h3>InstaSize - October 2015 - Present</h3>
+<h3>InstaSize - October 2015 - July 2017</h3>
 
 <h4>Senior iOS Developer</h4>
 
@@ -143,7 +143,7 @@ Purchase</li>
 
 <h2>EMPLOYMENT</h2>
 
-<h3>Munkee Apps LLC - October 2015 - Present</h3>
+<h3>Munkee Apps LLC - October 2015 - July 2017</h3>
 
 <h4>Senior iOS Developer</h4>
 
