@@ -9,4 +9,4 @@ It is a fun way
 To do things you already can do
 So why not something new?
 
-![--In defense of the new MacBook Pro touchbar--]({{ site.url }}/assets/touchbar.png)
+![--In defense of the new MacBook Pro touchbar--]({{ site.url }}/assets/touchbar.jpg)
