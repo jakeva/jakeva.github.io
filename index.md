@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jake Van Alstyne
-tagline: Developer
+tagline: Software Developer
 ---
 {% include JB/setup %}
 
