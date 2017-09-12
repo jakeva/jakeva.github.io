@@ -8,7 +8,7 @@ tagline: Developer
 <div>
   <p style="display:inline">
     <img src="assets/jake.png" alt="Jake" style="margin:5px; float:left; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);">
-    <p>I am a software developer currently living in <a href="https://maps.google.com/maps/place?ftid=0x87523d9488d131ed:0x5b53b7a0484d31ca&amp;q=Salt+Lake+City,+UT&amp;hl=en&amp;ie=UTF8&amp;ll=40.760779,-111.891047&amp;spn=0.00052,0.000687&amp;t=h&amp;z=11&amp;vpsrc=0">Salt Lake City, Utah</a>. I've been developing software my whole life. Among other things.</p>
+    <p>I've been developing software my whole life. Among other things.</p>
   </p>
 </div>
 
