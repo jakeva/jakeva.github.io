@@ -14,7 +14,7 @@ group: navigation
 
 <h3>Interactive 3D Graphics &amp; Data Visualization Specialist</h3>
 
-<h3>Objective-C, Swift, C, C++</h3>
+<h3>Ruby, Rails, React, Swift, Objective-C, C, C++</h3>
 
 <hr>
 
@@ -56,92 +56,15 @@ group: navigation
 
 <hr>
 
-<h2>ETC PROJECTS</h2>
-
-<h3>OnCue for OS X</h3>
-<ul>
-	<li><a href="http://www.theoncueapp.com">Homepage</a></li>
-	<li>Motion / Sound based security app</li>
-	<li>OpenGL, GPUImage, GLSL</li>
-</ul>
-
-<h3>BTCMonitor</h3>
-
-<ul>
-	<li>A simple OS X menubar application for showing current BTC prices</li>
-	<li><a href="https://itunes.apple.com/us/app/btc-monitor/id1102913934?mt=12">BTCMonitor on App Store</a></li>
-</ul>
-
-<h3>BTC-wallet-hashchecker</h3>
-
-<ul>
-	<li>A lightweight OS X command line utility for rapid pw attempts on a given encrypted BTC wallet</li>
-	<li><a href="https://github.com/jakeva/BTC-wallet-hashchecker">BTC-wallet-hashchecker on GitHub</a></li>
-</ul>
-
-<hr>
-
-<h2>PROFESSIONAL PROJECTS</h2>
-
-<h3>InstaSize - October 2015 - July 2017</h3>
-
-<h4>Senior iOS Developer</h4>
-
-<ul>
-<li>Photo and Video Editor for Instagram</li>
-</ul>
-
-<h3>Selfie for iPhone app - May 2014 - September 2015</h3>
-
-<h4>Senior iOS Developer</h4>
-
-<ul>
-<li>An innovative social networking app for face to face conversations</li>
-</ul>
-
-<h3>OnCue for OS X - October 2011 - Present</h3>
-
-<h4>Owner / Developer</h4>
-<a href="http://www.theoncueapp.com"><img src="/assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>
-<ul>
-<li>Motion / Sound based security app</li>
-<li>OpenGL, GPUImage, GLSL</li>
-</ul>
-
-<h3>OurPlan iPad App - September 2013 - Present</h3>
-
-<h4>iOS Developer</h4>
-
-<ul>
-<li>Construction scheduling application</li>
-<li>Multiple Core Data stores, remote synchronization</li>
-<li>Custom Calendar UI / UX design / implementation</li>
-</ul>
-
-<h3>Lacrosse Stats - November 2013 - February 2014</h3>
-
-<h4>iOS Engineer</h4>
-
-<ul>
-<li>Sports statistics application</li>
-<li>Core Data, Remote data retrieval, Premium features via In App
-Purchase</li>
-<li>Custom UI / UX design / implementation</li>
-</ul>
-
-<h3>Izon iPad / iPhone app - May 2013 - September 2013</h3>
-
-<h4>iOS Developer</h4>
-
-<ul>
-<li>Remote video streaming application</li>
-<li>Core Data, P2P / Proxy Streaming</li>
-<li>Custom Calendar UI / UX design / implementation</li>
-</ul>
-
-<hr>
-
 <h2>EMPLOYMENT</h2>
+
+<h3>MAvenlink - October 2017 - Present</h3>
+
+<h4>Senior Software Engineer</h4>
+
+<ul>
+<li>Full stack development. Ruby on Rails backend, React frontend</li>
+</ul>
 
 <h3>Munkee Apps LLC - October 2015 - July 2017</h3>
 
@@ -248,6 +171,91 @@ at the University of Utah) developing a web portal for a client.</li>
 
 <hr>
 
+<h2>ETC PROJECTS</h2>
+
+<h3>OnCue for OS X</h3>
+<ul>
+	<li><a href="http://www.theoncueapp.com">Homepage</a></li>
+	<li>Motion / Sound based security app</li>
+	<li>OpenGL, GPUImage, GLSL</li>
+</ul>
+
+<h3>BTCMonitor</h3>
+
+<ul>
+	<li>A simple OS X menubar application for showing current BTC prices</li>
+	<li><a href="https://itunes.apple.com/us/app/btc-monitor/id1102913934?mt=12">BTCMonitor on App Store</a></li>
+</ul>
+
+<h3>BTC-wallet-hashchecker</h3>
+
+<ul>
+	<li>A lightweight OS X command line utility for rapid pw attempts on a given encrypted BTC wallet</li>
+	<li><a href="https://github.com/jakeva/BTC-wallet-hashchecker">BTC-wallet-hashchecker on GitHub</a></li>
+</ul>
+
+<hr>
+
+<h2>PROFESSIONAL PROJECTS</h2>
+
+<h3>InstaSize - October 2015 - July 2017</h3>
+
+<h4>Senior iOS Developer</h4>
+
+<ul>
+<li>Photo and Video Editor for Instagram</li>
+</ul>
+
+<h3>Selfie for iPhone app - May 2014 - September 2015</h3>
+
+<h4>Senior iOS Developer</h4>
+
+<ul>
+<li>An innovative social networking app for face to face conversations</li>
+</ul>
+
+<h3>OnCue for OS X - October 2011 - Present</h3>
+
+<h4>Owner / Developer</h4>
+<a href="http://www.theoncueapp.com"><img src="/assets/oncue_icon.png" alt="OnCue" style="margin:15px;"/>
+<ul>
+<li>Motion / Sound based security app</li>
+<li>OpenGL, GPUImage, GLSL</li>
+</ul>
+
+<h3>OurPlan iPad App - September 2013 - Present</h3>
+
+<h4>iOS Developer</h4>
+
+<ul>
+<li>Construction scheduling application</li>
+<li>Multiple Core Data stores, remote synchronization</li>
+<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+
+<h3>Lacrosse Stats - November 2013 - February 2014</h3>
+
+<h4>iOS Engineer</h4>
+
+<ul>
+<li>Sports statistics application</li>
+<li>Core Data, Remote data retrieval, Premium features via In App
+Purchase</li>
+<li>Custom UI / UX design / implementation</li>
+</ul>
+
+<h3>Izon iPad / iPhone app - May 2013 - September 2013</h3>
+
+<h4>iOS Developer</h4>
+
+<ul>
+<li>Remote video streaming application</li>
+<li>Core Data, P2P / Proxy Streaming</li>
+<li>Custom Calendar UI / UX design / implementation</li>
+</ul>
+
+<hr>
+
 <h2>SKILLS</h2>
 
 <h3>Software Developer</h3>
@@ -258,7 +266,7 @@ at the University of Utah) developing a web portal for a client.</li>
 <li>Focused, Elegant, Self-Documenting Code</li>
 <li>Detailed UI, UX Design</li>
 <li>3D Interactive Graphics - OpenGL, GLSL, CUDA</li>
-<li>Full Stack Developer - Back to Front Architectural Design and Development</li>
+<li>Full Stack Developer - Back to Front Development</li>
 </ul>
 
 <h3>Problem Solving</h3>
@@ -276,6 +284,7 @@ at the University of Utah) developing a web portal for a client.</li>
 <h3>Technologies</h3>
 
 <ul>
+<li>Ruby on Rails, React</li>
 <li>Objective-C, Swift, C, C++</li>
 <li>HTML5, CSS, JS, PHP, Python</li>
 <li>MySQL, SQLite, PostgreSQL</li>
@@ -287,7 +296,7 @@ at the University of Utah) developing a web portal for a client.</li>
 
 <ul>
 <li>Fluent in German</li>
-<li>17 years experience playing guitar</li>
+<li>21 years experience playing guitar</li>
 </ul>
 
 <hr>

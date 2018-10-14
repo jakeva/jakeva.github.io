@@ -8,7 +8,7 @@ tagline: Software Developer
 <div>
   <p style="display:inline">
     <img src="assets/jake.png" alt="Jake" style="margin:5px; float:left; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);">
-    <p>I've been developing software my whole life. Among other things.</p>
+    <p>I make things, mostly software things.</p>
   </p>
 </div>
 
