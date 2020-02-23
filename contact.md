@@ -17,10 +17,8 @@ group: navigation
 </p>
 <hr/>
 <p>
-	<h3>PGP Public Key Fingerprints</h3>
-	<p><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x99963EA3D02297B9">Key 1</a> -- 36FB 56C8 BF35 70F8 5B3D  D186 9996 3EA3 D022 97B9</p>
-	<p><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xEBEAD1EE47339E0B">Key 2</a> -- A42A 3ABA 85EC B48E D18A  3DF3 EBEA D1EE 4733 9E0B</p>
-	<p><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xD2C32059448E381B">Key 3</a> -- A262 ABBC D733 955A 578D  528A D2C3 2059 448E 381B</p>
+	<h3>PGP Public Key Fingerprint</h3>
+	<p><a href="https://keys.openpgp.org/search?q=EF0B%C2%A046BB%C2%A0E896%C2%A002D5%C2%A0A9A4%C2%A0%C2%A0D0E7%C2%A01FBC%C2%A03C85%C2%A0304D%C2%A06365">Key 1</a> -- EF0B 46BB E896 02D5 A9A4  D0E7 1FBC 3C85 304D 6365</p>
 </p>
 <hr/>
 <p>

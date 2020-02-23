@@ -55,7 +55,7 @@ module JB
 end #JB
 
 # Usage: rake haiku title="A Title" [date="2012-02-09"]
-desc "Begin a new haiku in #{CONFIG['posts']} -- Usage: rake post title='A Title' [date='2012-02-09']"
+desc "Begin a new haiku in #{CONFIG['haikus']} -- Usage: rake haiku title='A Title' [date='2012-02-09']"
 task :haiku do
   abort("rake aborted: '#{CONFIG['haikus']}' directory not found.") unless FileTest.directory?(CONFIG['haikus'])
   title = ENV["title"] || "new-haiku"

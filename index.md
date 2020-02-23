@@ -12,8 +12,8 @@ tagline: Software Developer
   </p>
 </div>
 
-<!-- <div class="floatingBox" style="float:left;">
- <ul class="posts">
+<div class="floatingBox" style="float:left;">
+  <ul class="posts">
       {% for post in site.posts %}
       {% if post.category contains 'Haikus' %}
       {% else %}
@@ -32,5 +32,5 @@ tagline: Software Developer
      </li>
      {% endif %}
      {% endfor %}
- </ul>
-</div> -->
+  </ul>
+</div>
