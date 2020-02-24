@@ -8,9 +8,9 @@
 </div>
 
 <div class="row">
+  {{ content }}
+  <hr>
   <span class="well span8">
-    {{ content }}
-    <hr>
     <div class="pagination btn-group">
       {% if page.previous %}
         <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>

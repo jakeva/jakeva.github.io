@@ -58,7 +58,7 @@ group: navigation
 
 <h2>EMPLOYMENT</h2>
 
-<h3>MAvenlink - October 2017 - Present</h3>
+<h3>Mavenlink - October 2017 - Present</h3>
 
 <h4>Senior Software Engineer</h4>
 
