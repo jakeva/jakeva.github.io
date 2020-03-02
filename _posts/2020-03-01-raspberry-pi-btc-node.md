@@ -143,5 +143,7 @@ Start the bitcoin client
 It will take a few minutes to start, but if you want to monitor its progress switch back to the bitcoin user and enter
 `tail -n 100 -f ~/.bitcoin/debug.log`
 
-Check it's accesible from the outside world with
+You will need to figure out how to forward port 8333 to your new btc node depending on your router.
+
+Check it's accessible from the outside world with
 `curl -sL https://bitnodes.earn.com/api/v1/nodes/me-8333/ | jq`
