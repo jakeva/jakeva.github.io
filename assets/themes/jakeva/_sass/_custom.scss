@@ -1,4 +1,19 @@
 /* This is for your Custom Content. */
 strong {
-	color:#000;
+	color:#fff;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 12px;
+}
+
+tr {
+  border-bottom: white;
+  border-bottom-width: 1px;
+  border-bottom-style: groove;
+}
+
+th, td {
+  text-align: left;
 }

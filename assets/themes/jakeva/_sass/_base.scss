@@ -1,11 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Spinnaker);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Space+Mono);
+
 
 /* Theme Vars */
-$link-color: #00a;
+$link-color: #0af;
 $navbar-from-gradient-color: #777;
 $navbar-to-gradient-color: #ccc;
-$navbar-from-gradient-color-active: #ccc;
-$navbar-to-gradient-color-active: #333;
+$navbar-from-gradient-color-active: #444;
+$navbar-to-gradient-color-active: #aaa;
 $navbar-button-to-gradient-color-hover: #444;
 
 /* Compass Vars */
@@ -15,36 +17,36 @@ $default-box-shadow-blur: 1px;
 
 /* Override some defaults */
 html, body {
-  background-color: #efefef;
+  background-color: #444;
 }
 
 body {
-  color:#222;
+  color:#ccc;
   height:100%;
-  font-family: 'Spinnaker', serif;
-  font-size: 14px;
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	margin:0;
 	font-weight:normal;
-	color:#111;
+	color:#efefef;
 	text-rendering:optimizelegibility;
-	font-family: 'Spinnaker', serif;
+	font-family: 'Montserrat', serif;
 }
 
 a {
 	color:$link-color;
 	&:hover {
-		color: lighten($link-color, 30);
-		text-decoration:none;
+		color: lighten($link-color, 60);
+    text-decoration: none;
 	}
 	@include transition(all 0.3s);
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-weight:normal;
-	color:#111;
+	color:#cdcdcd;
 }
 
 h1, h2 {
@@ -61,6 +63,8 @@ h2 {
 
 pre, code {
 	color:#ccc;
+  background-color:#111;
+  font-family: 'Space Mono', serif;
 }
 
 pre > code {
@@ -68,8 +72,8 @@ pre > code {
 	background:none;
 	box-shadow:none;
 	-moz-box-shadow: none;
-  	-webkit-box-shadow: none;
-  	-o-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
 }
 
 hr {
@@ -171,20 +175,22 @@ hr {
 
 /* Page header tweaks */
 .page-header {
+  margin: 0px -20px 20px;
+}
+.page-header, .well {
 	@include box-shadow(
 		 rgba(255, 255, 255, 0.1) 0 1px 0,
 		 rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset
 	);
 	background: #202020;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: #333;
 	border:none;
 	padding: 20px 20px 10px;
-	margin: 0px -20px 20px;
 	z-index: 0;
 	@include border-bottom-left-radius;
 	@include border-bottom-right-radius;
 	h1 {
-		color:#111;
+		color:#efefef;
 		margin-bottom:0;
 	}
 }
