@@ -1,0 +1,15 @@
+---
+layout: haiku
+category: Haikus
+title: Blacklist
+---
+{% include JB/setup %}
+
+If you blacklist me
+
+I will black you right back
+
+And we will not talk
+
+
+![--Blacklist--]({{ site.url }}/assets/1NovKUUyYfJpS.gif)
