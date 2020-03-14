@@ -3,7 +3,7 @@ layout: post
 title: "GPG & YubiKey & You"
 description: "In which I do interesting things with my YubiKey"
 category: Blog
-tags: [yubikey]
+tags: [yubikey, git, gpg]
 ---
 
 I've recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
@@ -50,6 +50,8 @@ ssb  rsa4096/015D68EE1E7AC274
 
 The usage of the first key is marked as `SC`. The second is `E`. That means the primary key can sign and certify, while the subkey can encrypt.
 
+If you have an existing key, you could use it to sign this new one to maintain a chain of custody: `gpg -u <your_old_keyid> --sign-key <longid>`
+
 While we're here, let's add separate authentication and signing keys to prepare to fill the slots on the YubiKey.
 
 ### Authentication Key
@@ -64,6 +66,14 @@ If you're still at the gpg prompt `gpg>` from the last command, exit out with Ct
 ### Signing Key
 The steps are the same as for the authentication key, only you should only have to deselect Encrypt when picking the key capabilities since by default Signing and Encryption are selected.
 If you `quit` out of here now, make sure to save or you'll lose the keys you just made.
+
+## Backup your keys
+It's a good idea to keep a backup somewhere safe.
+```
+gpg --armor --output privkey.sec --export-secret-key <longid>
+gpg --armor --output subkeys.sec --export-secret-subkeys <longid>
+gpg --armor --output pubkey.asc --export <longid>
+```
 
 ## Import key to YubiKey
 Make sure the YubiKey is plugged into your computer. Edit the key again, if you aren't already `gpg --edit-key <KEY ID>`. Enter the command `toggle` followed by `keytocard`.
@@ -83,7 +93,20 @@ Configure git for GPG signing:
 * `git config --global commit.gpgsign true`
 * `git config --global user.signingkey <KEY ID>`
 
-And let's restart the GPG agent: `gpg-connect-agent reloadagent`. Now when you make a commit, git will require the key to be present. If it's not, the commit will fail. If you want to make a signed commit and see what it looks like in the log, the command for that is `git log --show-signature`.
+And let's restart the GPG agent: `gpg-connect-agent reloadagent`. Get out of there with `/bye`. Now when you make a commit, git will require the key to be present. If it's not, the commit will fail. If you want to make a signed commit and see what it looks like in the log, the command for that is `git log --show-signature`.
+
+```
+gpg: Signature made Sat Mar 14 03:30:27 2020 MDT
+gpg:                using RSA key 05FFE31C369D8F25CFFF2167FDF8E68C5B840388
+gpg: Good signature from "Jake Van Alstyne <jakeva@gmail.com>" [ultimate]
+Author: Jake Van Alstyne 🎩 <jakeva@gmail.com>
+Date:   Sat Mar 14 03:27:35 2020 -0600
+
+    Add YubiKey Post
+```
+
+## Configure Github for the 'Verified' stamp
+`gpg --armor --export <KEY ID> | pbcopy` and take it to [add as a new GPG key on Github](https://github.com/settings/gpg/new). If you forget this stamp, your commits will still show as signed but 'Unverified'.
 
 
 {% include JB/setup %}

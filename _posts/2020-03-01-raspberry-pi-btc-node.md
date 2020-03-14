@@ -2,8 +2,8 @@
 layout: post
 title: "Raspberry Pi BTC Node"
 description: "In which I set up a Raspberry Pi to run a full BTC node"
-category:
-tags: [BTC]
+category: Blog
+tags: [BTC, Raspberry Pi]
 ---
 {% include JB/setup %}
 
