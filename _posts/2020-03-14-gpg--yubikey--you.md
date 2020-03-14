@@ -108,5 +108,8 @@ Date:   Sat Mar 14 03:27:35 2020 -0600
 ## Configure Github for the 'Verified' stamp
 `gpg --armor --export <KEY ID> | pbcopy` and take it to [add as a new GPG key on Github](https://github.com/settings/gpg/new). If you forget this stamp, your commits will still show as signed but 'Unverified'.
 
+## Etc
+Something interesting I noticed is that the gpg-agent caches the key. I removed the key from my computer before making another commit and it still got signed. It looks like this is set in `~/.gnupg/gpg-agent.conf` so just a heads up.
+
 
 {% include JB/setup %}
