@@ -22,7 +22,7 @@ tagline: Software Developer
               <a href="{{ post.url }}">
                   {{ post.title }}
               </a>
-              <span class="post-date">
+              <span class="post-date" style="float: right; padding-left: 24px;">
                   {{ post.date | date_to_string }}
              </span>
              <span>
