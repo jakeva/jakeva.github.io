@@ -1,16 +1,9 @@
 ---
 layout: page
-title: Jake Van Alstyne
-tagline: Software Developer
+title: My Blog
+tagline: Inessential Ramblings & Banal Platitudes
 ---
 {% include JB/setup %}
-
-<div>
-  <p style="display:inline">
-    <img src="assets/jake.png" alt="Jake" style="margin:5px; float:left; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);">
-    <p>I make things, mostly software things.</p>
-  </p>
-</div>
 
 <div class="floatingBox" style="float:left;">
   <ul class="posts">
