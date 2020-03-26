@@ -44,8 +44,8 @@ h2 {
   font-size: 30px; }
 
 pre, code {
-  color: #ccc;
-  background-color: #444;
+  color: #444;
+  background-color: #ccc;
   font-family: 'Space Mono', serif;
   border: none; }
 
