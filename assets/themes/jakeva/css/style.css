@@ -318,4 +318,11 @@ th, td {
 .navbar .nav > li > a {
   padding-top: 3px; }
 
+.post-date {
+  float: right;
+  padding-left: 24px; }
+
+.posts {
+  list-style-type: none; }
+
 /*# sourceMappingURL=style.css.map */
