@@ -5,10 +5,10 @@
 /* Compass Vars */
 /* Override some defaults */
 html, body {
-  background-color: #444; }
+  background-color: #fff; }
 
 body {
-  color: #ccc;
+  color: #000;
   height: 100%;
   font-family: 'Montserrat', serif;
   font-size: 16px; }
@@ -16,23 +16,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
-  color: #efefef;
+  color: #000;
   text-rendering: optimizelegibility;
   font-family: 'Montserrat', serif; }
 
 a {
-  color: #0af;
+  color: #001eff;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
   a:hover {
-    color: white;
+    color: #6678ff;
     text-decoration: none; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
-  color: #cdcdcd; }
+  color: #000; }
 
 h1, h2 {
   margin: 0 0 15px; }
@@ -45,7 +45,7 @@ h2 {
 
 pre, code {
   color: #ccc;
-  background-color: #111;
+  background-color: #444;
   font-family: 'Space Mono', serif;
   border: none; }
 
@@ -140,7 +140,7 @@ hr {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   background: #202020;
-  background-color: #333;
+  background-color: #fff;
   border: none;
   padding: 20px 20px 10px;
   z-index: 0;
@@ -151,7 +151,7 @@ hr {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px; }
   .page-header h1, .well h1 {
-    color: #efefef;
+    color: #000;
     margin-bottom: 0; }
 
 /* Page footer tweaks */
@@ -186,15 +186,15 @@ div.pagination li a {
 
 /* Buttons */
 a.btn, a.btn.disabled {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   text-shadow: 1px 1px 2px #000;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   border: none;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset; }
   a.btn:hover, a.btn.disabled:hover {
-    background: rgba(255, 255, 255, 0.05); }
+    background: rgba(0, 0, 0, 0.15); }
   a.btn.disabled, a.btn.disabled.disabled {
     color: rgba(255, 255, 255, 0.3); }
 
@@ -211,7 +211,7 @@ a.btn, a.btn.disabled {
   .tag_box a.active {
     background: #57A957;
     border: 1px solid #4C964D;
-    color: #FFF; }
+    color: #000; }
   .tag_box a span {
     vertical-align: super;
     font-size: 0.8em; }
@@ -221,7 +221,7 @@ a.btn, a.btn.disabled {
   padding: 3px 6px;
   margin: 2px;
   background: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: black;
   border-radius: 3px;
   text-decoration: none;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
@@ -229,7 +229,7 @@ a.btn, a.btn.disabled {
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset; }
   .tag_box.inline a:hover,
   .tag_box a:hover {
-    background: rgba(255, 255, 255, 0.3); }
+    background: rgba(0, 0, 0, 0.3); }
 
 /* Page-specific */
 div.content div#page-index {
@@ -301,7 +301,7 @@ div.posts article div.date {
 
 /* This is for your Custom Content. */
 strong {
-  color: #fff; }
+  color: #000; }
 
 table {
   border-collapse: collapse;

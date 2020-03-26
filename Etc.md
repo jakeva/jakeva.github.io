@@ -39,31 +39,4 @@ group: navigation
     <li><h3>Won't lovers revolt now?</h3></li>
   </ul>
   <hr/>
-  <ul>
-    <h1>Not strictly Palindromes lol</h1>
-    <li><h3>Am I as bored as you are?</h3></li>
-    <li><h3>Is it crazy how saying sentences backwards creates sentences saying how crazy it is? </h3></li>
-  </ul>
-  <hr/>
-  <ul>
-    <h1>Anagrams</h1>
-    <li><h3>Jacob Van Alstyne</h3></li>
-      <ul>
-        <h4>
-          <li>Vacantly Banjoes</li>
-          <li>Nasal Navy Object</li>
-          <li>Satan Valency Job</li>
-          <li>Castle Navy Banjo</li>
-        </h4>
-      </ul>
-    <li><h3>OnCue from EggDevil</h3></li>
-      <ul>
-        <h4>
-          <li>Confirmed Egg Ovule</li>
-          <li>Encode Gurgle Of Vim</li>
-          <li>Cloned Veggie Of Rum</li>
-          <li>Code Elf Urge Moving</li>
-        </h4>
-      </ul>
-  </ul>
 </div>
