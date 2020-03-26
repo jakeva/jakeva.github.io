@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My Blog
-tagline: Inessential Ramblings & Banal Platitudes
+title: Blog
+tagline: What I've been up to
 ---
 {% include JB/setup %}
 

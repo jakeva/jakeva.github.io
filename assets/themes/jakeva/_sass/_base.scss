@@ -4,11 +4,11 @@
 
 /* Theme Vars */
 $link-color: #001eff;
-$navbar-from-gradient-color: rgb(70, 72, 72);
-$navbar-to-gradient-color: rgb(50, 51, 51);
-$navbar-from-gradient-color-active: rgb(70, 72, 72);
-$navbar-to-gradient-color-active: rgb(58, 60, 61);
-$navbar-button-to-gradient-color-hover: #444;
+$navbar-from-gradient-color: rgb(270, 272, 272);
+$navbar-to-gradient-color: rgb(250, 251, 251);
+$navbar-from-gradient-color-active: rgb(170, 172, 172);
+$navbar-to-gradient-color-active: rgb(158, 160, 161);
+$navbar-button-to-gradient-color-hover: #ddd;
 
 /* Compass Vars */
 $default-box-shadow-color: #000;
@@ -91,12 +91,12 @@ hr {
   	@include border-radius(0);
   	a.brand {
   		padding:10px 20px;
-  		color:#efefef;
+  		color:#030303;
   	}
   	ul.nav:first-child {
   		li {
   			a {
-  				color:#efefef;
+  				color:#030303;
   				padding:12px 10px 8px;
   			}
   		}
@@ -302,7 +302,7 @@ div.content {
 
 /* Zocial Overrides */
 .navbar a.zocial {
-	color:#efefef !important;
+	color:#030303 !important;
 	padding-left:0 !important;
 	padding-right:0 !important;
 }

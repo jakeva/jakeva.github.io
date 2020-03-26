@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Feel free to get in touch
+tagline: Get in touch
 group: navigation
 ---
 {% include JB/setup %}

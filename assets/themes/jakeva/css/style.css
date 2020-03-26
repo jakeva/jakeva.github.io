@@ -72,21 +72,21 @@ hr {
     border-radius: 0; }
     .navbar div.navbar-inner a.brand {
       padding: 10px 20px;
-      color: #efefef; }
+      color: #030303; }
     .navbar div.navbar-inner ul.nav:first-child li a {
-      color: #efefef;
+      color: #030303;
       padding: 12px 10px 8px; }
 
 .navbar-inner {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #1F2F1F;
-  background-image: -moz-linear-gradient(top, #464848, #3a3c3d);
-  background-image: -ms-linear-gradient(top, #464848, #323333);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#464848), to(#323333));
-  background-image: -webkit-linear-gradient(top, #464848, #323333);
-  background-image: -o-linear-gradient(top, #464848, #323333);
-  background-image: linear-gradient(to bottom, #464848, #323333);
+  background-image: -moz-linear-gradient(top, white, #9ea0a1);
+  background-image: -ms-linear-gradient(top, white, #fafbfb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#fafbfb));
+  background-image: -webkit-linear-gradient(top, white, #fafbfb);
+  background-image: -o-linear-gradient(top, white, #fafbfb);
+  background-image: linear-gradient(to bottom, #ffffff, #fafbfb);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color', endColorstr='$navbar-to-gradient-color', GradientType=0);
   -webkit-border-radius: 4px;
@@ -96,12 +96,12 @@ hr {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1); }
   .navbar-inner .active {
-    background-image: -moz-linear-gradient(top, #464848, #3a3c3d);
-    background-image: -ms-linear-gradient(top, #464848, #3a3c3d);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#464848), to(#3a3c3d));
-    background-image: -webkit-linear-gradient(top, #464848, #3a3c3d);
-    background-image: -o-linear-gradient(top, #464848, #3a3c3d);
-    background-image: linear-gradient(to bottom, #464848, #3a3c3d);
+    background-image: -moz-linear-gradient(top, #aaacac, #9ea0a1);
+    background-image: -ms-linear-gradient(top, #aaacac, #9ea0a1);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aaacac), to(#9ea0a1));
+    background-image: -webkit-linear-gradient(top, #aaacac, #9ea0a1);
+    background-image: -o-linear-gradient(top, #aaacac, #9ea0a1);
+    background-image: linear-gradient(to bottom, #aaacac, #9ea0a1);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color-active', GradientType=0); }
 
@@ -237,7 +237,7 @@ div.content div#page-index {
 
 /* Zocial Overrides */
 .navbar a.zocial {
-  color: #efefef !important;
+  color: #030303 !important;
   padding-left: 0 !important;
   padding-right: 0 !important; }
 

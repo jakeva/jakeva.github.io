@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haikus
-tagline: Syllables and stuff
+tagline: I don't always post, but when I do it goes here, often from my phone
 group: navigation
 ---
 {% include JB/setup %}
