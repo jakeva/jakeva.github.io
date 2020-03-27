@@ -4,12 +4,10 @@ title: Blog
 ---
 {% include JB/setup %}
 <div class="row">
-  <div class="span8">
-    <h3><a href="/posts">
-      Posts
-    </a></h3>
+  <div class="span6">
+    <h3>Posts</h3>
     <ul class="posts">
-      {% for post in site.categories['Blog'] %}
+      {% for post in site.categories['Blog'] limit: 5 %}
       <li>
         <h3>
           <a href="{{ post.url }}">
@@ -25,11 +23,14 @@ title: Blog
       </li>
       {% endfor %}
     </ul>
-    <h3><a href="/haikus">
-      Haikus
-    </a></h3>
+    {% if site.categories['Blog'].size > 5 %}
+      <a href="/posts" style="margin: 15px 0px 0px 50px;">
+        More…
+      </a>
+    {% endif %}
+    <h3 style="margin-top: 100px;">Haikus</h3>
     <ul class="posts">
-      {% for haiku in site.categories['Haikus'] %}
+      {% for haiku in site.categories['Haikus'] limit: 5 %}
       <li>
         <h3>
           <a href="{{ haiku.url }}">
@@ -45,8 +46,13 @@ title: Blog
       </li>
       {% endfor %}
     </ul>
+    {% if site.categories['Haikus'].size > 5 %}
+      <a href="/haikus" style="margin: 15px 0px 0px 50px;">
+        More…
+      </a>
+    {% endif %}
   </div>
-  <div class="span4">
+  <div class="span4" style="margin-left: 100px">
     <h2>About Me</h2>
     <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. Besides that I read, cook, play guitar, go outside, and stay inside.</p>
   </div>
