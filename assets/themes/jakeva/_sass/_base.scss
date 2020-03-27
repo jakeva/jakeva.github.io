@@ -176,25 +176,9 @@ hr {
 
 /* Page header tweaks */
 .page-header {
-  margin: 0px -20px 20px;
+  margin: 35px -20px 20px 0px;
 }
-.page-header, .well {
-	@include box-shadow(
-		 rgba(255, 255, 255, 0.1) 0 1px 0,
-		 rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset
-	);
-	background: #202020;
-	background-color: #fff;
-	border:none;
-	padding: 20px 20px 10px;
-	z-index: 0;
-	@include border-bottom-left-radius;
-	@include border-bottom-right-radius;
-	h1 {
-		color: #000;
-		margin-bottom:0;
-	}
-}
+
 /* Page footer tweaks */
 .page-footer {
 	@include box-shadow(
@@ -231,7 +215,6 @@ div.pagination {
 /* Buttons */
 a.btn, a.btn.disabled {
 	color:rgba(0, 0, 0, 0.7);
-	text-shadow: 1px 1px 2px #000;
 	background:rgba(255, 255, 255, 0.2);
 	border:none;
   	-moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;

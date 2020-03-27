@@ -7,7 +7,7 @@ title: Blacklist
 
 If you blacklist me
 
-I will black you right back
+I will blacklist you right back
 
 And we will not talk
 

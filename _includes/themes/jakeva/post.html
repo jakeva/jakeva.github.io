@@ -8,9 +8,8 @@
 </div>
 
 <div class="row">
-  {{ content }}
-  <hr>
-  <span class="well span8">
+  <span class="span10">
+    {{ content }}
     <div class="pagination btn-group">
       {% if page.previous %}
         <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
@@ -24,11 +23,10 @@
         <a class="btn next disabled">Next &rarr;</a>
       {% endif %}
     </div>
-    <hr>
     {% include JB/comments %}
   </span>
 
-  <span class="well span3">
+  <span class="span2">
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>

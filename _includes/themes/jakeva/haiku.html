@@ -1,14 +1,13 @@
 <div class="page-header">
   <h1>
-    Haiku
-      <small>{{ page.title }}</small>
+    {{ page.title }}
+      <small>Haiku</small>
   </h1>
 </div>
 
 <div class="row">
-  <div class="well span8">
+  <div class="span8">
     {{ content }}
-    <hr>
     <div class="pagination btn-group">
       {% if page.previous %}
         <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
@@ -22,11 +21,10 @@
         <a class="btn next disabled">Next &rarr;</a>
       {% endif %}
     </div>
-    <hr>
     {% include JB/comments %}
   </div>
 
-  <div class="well span3">
+  <div class="span3">
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
