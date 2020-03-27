@@ -5,7 +5,8 @@
 /* Compass Vars */
 /* Override some defaults */
 html, body {
-  background-color: #fff; }
+  background-color: #fff;
+  height: 100%; }
 
 body {
   color: #000;
@@ -302,7 +303,16 @@ th, td {
   float: right;
   padding-left: 24px; }
 
-.posts {
+.posts, .footer_nav {
   list-style-type: none; }
+
+.footer_nav {
+  font-size: 10px; }
+
+.footer-push,
+footer {
+  height: 200px;
+  max-height: 200px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
