@@ -331,4 +331,10 @@ th, td {
   float: left;
   margin-right: 4px; }
 
+.pager {
+  margin-top: 50px; }
+  .pager li.selected a {
+    color: white;
+    background-color: #555; }
+
 /*# sourceMappingURL=style.css.map */
