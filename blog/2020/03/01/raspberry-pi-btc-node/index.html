@@ -1,0 +1,497 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>
+      
+        Raspberry Pi BTC Node -
+      
+      Jake Van Alstyne
+    </title>
+    <meta name="description" content="In which I set up a Raspberry Pi to run a full BTC node">
+    <meta name="author" content="Jake Van Alstyne">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <script src="/assets/themes/jakeva/js/jquery.min.js"></script>
+    <script src="/assets/themes/jakeva/js/script.js"></script>
+    <script src="/assets/themes/jakeva/bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="/assets/themes/jakeva/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/jakeva/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/themes/jakeva/css-social-buttons/css/zocial.stripped.css" />
+    <link href="/assets/themes/jakeva/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/jakeva/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+
+          <a class="brand" href="/">Jake Van Alstyne</a>
+
+
+          <div class="nav-collapse">
+            <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/CV/">CV</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/contact/">Contact</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+            </ul>
+            <ul class="nav pull-right social visible-desktop">
+              
+                <li>
+                  <a href="https://github.com/jakeva" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</a>
+                  </a>
+                </li>
+              
+              
+              
+                <li>
+                  <a href="https://twitter.com/jake_va" class="zocial twitter icon" target="_blank">
+                  <span class="hidden-desktop">Twitter</a>
+                  </a>
+                </li>
+              
+              
+              
+                <li>
+                  <a href="http://www.linkedin.com/in/jakeva" class="zocial linkedin icon" target="_blank">
+                    <span class="hidden-desktop">LinkedIn</a>
+                  </a>
+                </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container">
+      <div class="content">
+        
+
+<div class="page-header">
+  <h1>
+    Raspberry Pi BTC Node
+    
+  </h1>
+</div>
+
+<div class="row">
+  <span class="span10">
+    
+<h2 id="time-to-put-one-of-my-spare-raspberry-pis-to-work">Time to put one of my spare Raspberry Pis to work</h2>
+<p>I woke up this morning and thought, ‘Hey why not get a full BTC node running on one of those Pis you got laying around?’ So that’s what I’m doing today.</p>
+
+<h2 id="basics">Basics</h2>
+<p>This assumes something like <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Lite</a> is already installed and SSH access configured. For Wifi, I use these <a href="https://www.amazon.com/gp/product/B003MTTJOY">Edimax USB chips</a>. Configuring them is not too difficult. It boils down a simple config in <code class="language-plaintext highlighter-rouge">/etc/network/interfaces/</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+wpa-ssid "**YOUR_WIFI**"
+wpa-psk "**YOUR_PASSWORD**"
+</code></pre></div></div>
+
+<p>I’m going to install to the 32 GB SD mini card I used for the OS, which means I’m not planning on storing all the blocks. And since flash is less resilient than a HDD, I’m going to disable SWAP.</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo swapoff --all</code></p>
+
+<h2 id="installing-the-bitcoin-client">Installing the Bitcoin client</h2>
+<p>Go to <a href="https://github.com/bitcoin/bitcoin/releases">https://github.com/bitcoin/bitcoin/releases</a> and make not of the newest stable release. For me it’s currently 0.19.0.1. So, with that:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~
+git clone -b v0.19.0.1 https://github/com/bitcoin/bitcoin.git
+cd bitcoin
+</code></pre></div></div>
+
+<p>I’m going to install it without a wallet, since I only want a node.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./autogen.sh
+./configure CXXFLAGS="--param ggc-min-expand=1 --param ggc-min-heapsize=32768" --enable-cxx --without-gui --disable-shared --with-pic --disable-tests --disable-bench --enable-upnp-default --disable-wallet
+make # This will take a long time, best run in tmux or screen, and grab a beer
+sudo make install
+</code></pre></div></div>
+
+<h2 id="configure">Configure</h2>
+<p>For this, I want a bitcoin user.
+<code class="language-plaintext highlighter-rouge">sudo adduser bitcoin</code></p>
+
+<p>Now switch to the new user
+<code class="language-plaintext highlighter-rouge">sudo su - bitcoin</code></p>
+
+<p>And create the app data directory
+<code class="language-plaintext highlighter-rouge">mkdir ~/.bitcoin</code></p>
+
+<p>Add the following to <code class="language-plaintext highlighter-rouge">~/.bitcoin/bitcoin.conf</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># makes client run in background
+daemon=1
+# is required by Fail2Ban described below
+logips=1
+# magic RBP optimisations
+maxconnections=40
+maxuploadtarget=5000
+
+# Run without SWAP
+dbcache=100
+maxorphantx=10
+maxmempool=50
+
+upnp=1
+
+prune=550 # Only keep the last two days of blocks if like me you are running off a small SD card
+</code></pre></div></div>
+
+<p>Return to the <code class="language-plaintext highlighter-rouge">pi</code> user
+<code class="language-plaintext highlighter-rouge">exit</code></p>
+
+<p>Now create the systemd service to launch the bitcoin client daemon
+<code class="language-plaintext highlighter-rouge">sudo vim /etc/systemd/system/bitcoind.service</code>
+and give it the following</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Unit]
+Description=Bitcoin daemon
+After=network.target
+[Service]
+ExecStart=/usr/local/bin/bitcoind -conf=/home/bitcoin/.bitcoin/bitcoin.conf -pid=/home/bitcoin/.bitcoin/bitcoind.pid
+# Creates /run/bitcoind owned by bitcoin
+RuntimeDirectory=bitcoind
+User=bitcoin
+Type=forking
+PIDFile=/home/bitcoin/.bitcoin/bitcoind.pid
+Restart=on-failure
+# Hardening measures
+####################
+# Provide a private /tmp and /var/tmp.
+PrivateTmp=true
+# Mount /usr, /boot/ and /etc read-only for the process.
+ProtectSystem=full
+# Disallow the process and all of its children to gain
+# new privileges through execve().
+NoNewPrivileges=true
+# Use a new /dev namespace only populated with API pseudo devices
+# such as /dev/null, /dev/zero and /dev/random.
+PrivateDevices=true
+# Deny the creation of writable and executable memory mappings.
+MemoryDenyWriteExecute=true
+[Install]
+WantedBy=multi-user.target
+</code></pre></div></div>
+
+<p>Make sure the new service starts on boot
+<code class="language-plaintext highlighter-rouge">sudo systemctl enable bitcoind</code></p>
+
+<h2 id="security">Security</h2>
+<p>Uncomplicated firewall
+<code class="language-plaintext highlighter-rouge">sudo apt install ufw</code></p>
+
+<p>Allow limited ssh
+<code class="language-plaintext highlighter-rouge">sudo ufw limit ssh</code></p>
+
+<p>Allow for main net bitcoin traffic
+<code class="language-plaintext highlighter-rouge">sudo ufw allow 8333 comment "Bitcoin mainnet"</code></p>
+
+<p>Enable the firewall
+<code class="language-plaintext highlighter-rouge">sudo ufw enable</code></p>
+
+<p>Preview the enforced rules
+<code class="language-plaintext highlighter-rouge">sudo ufw status verbose</code></p>
+
+<p>Install Fail2ban
+<code class="language-plaintext highlighter-rouge">sudo apt install fail2ban</code></p>
+
+<p>See the active jails - for now it will only be sshd
+<code class="language-plaintext highlighter-rouge">sudo fail2ban-client status</code></p>
+
+<p>Start the bitcoin client
+<code class="language-plaintext highlighter-rouge">sudo systemctl start bitcoind</code></p>
+
+<p>It will take a few minutes to start, but if you want to monitor its progress switch back to the bitcoin user and enter
+<code class="language-plaintext highlighter-rouge">tail -n 100 -f ~/.bitcoin/debug.log</code></p>
+
+<p>You will need to figure out how to forward port 8333 to your new btc node depending on your router.</p>
+
+<p>Check it’s accessible from the outside world with
+<code class="language-plaintext highlighter-rouge">curl -sL https://bitnodes.earn.com/api/v1/nodes/me-8333/ | jq</code></p>
+
+    <div class="pagination btn-group">
+      
+        <a class="btn prev" href="/blog/2020/02/23/diy-nas/" title="Building my own NAS">&larr; Previous</a>
+      
+        <a class="btn" href="/archive/">Archive</a>
+      
+        <a class="btn next" href="/haikus/2020/03/02/Ramen/" title="Ramen">Next &rarr;</a>
+      
+    </div>
+    
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+        var disqus_shortname = 'jakevanalstyne';
+        var disqus_title = 'Raspberry Pi BTC Node';
+        var disqus_url = '/blog/2020/03/01/raspberry-pi-btc-node/';
+        var disqus_identifier = 'jakevanalstyne'-'Raspberry Pi BTC Node';
+    
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </span>
+
+  <span class="span2">
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>01 March 2020</span></div>
+    </section>
+    
+      <section>
+        <h4>Category</h4>
+        <span class="category">
+          Blog
+        </span>
+      </section>
+    
+    
+      <section>
+        <h4>Tags</h4>
+        <ul class="tag_box">
+          
+          
+
+
+  
+     
+    	<li><a href="/tags/#BTC-ref">BTC <span>1</span></a></li>
+     
+    	<li><a href="/tags/#Raspberry Pi-ref">Raspberry Pi <span>1</span></a></li>
+    
+  
+
+
+
+        </ul>
+      </section>
+    
+  </span>
+</div>
+
+
+      </div>
+
+      <footer class="footer">
+        <ul class="footer-nav">
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive/">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories/">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages/">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags/">Tags</a></li>
+      	
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+        </ul>
+        <p>
+          &copy; Jake Van Alstyne 2010-2020
+        </p>
+      </footer>
+    </div> <!-- /container -->
+    
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39509409-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>
+

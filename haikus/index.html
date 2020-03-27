@@ -1,44 +1,449 @@
----
-layout: page
-title: Haikus
-tagline: I don't always post, but when I do it goes here, often from my phone
-pagination:
-  enabled: true
-  category: Haikus
----
-{% include JB/setup %}
-{% assign catName = page.title | string %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>
+      
+        Haikus -
+      
+      Jake Van Alstyne
+    </title>
+    
+    <meta name="author" content="Jake Van Alstyne">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <script src="/assets/themes/jakeva/js/jquery.min.js"></script>
+    <script src="/assets/themes/jakeva/js/script.js"></script>
+    <script src="/assets/themes/jakeva/bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="/assets/themes/jakeva/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/jakeva/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/themes/jakeva/css-social-buttons/css/zocial.stripped.css" />
+    <link href="/assets/themes/jakeva/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/jakeva/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+
+          <a class="brand" href="/">Jake Van Alstyne</a>
+
+
+          <div class="nav-collapse">
+            <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/CV/">CV</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/contact/">Contact</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+            </ul>
+            <ul class="nav pull-right social visible-desktop">
+              
+                <li>
+                  <a href="https://github.com/jakeva" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</a>
+                  </a>
+                </li>
+              
+              
+              
+                <li>
+                  <a href="https://twitter.com/jake_va" class="zocial twitter icon" target="_blank">
+                  <span class="hidden-desktop">Twitter</a>
+                  </a>
+                </li>
+              
+              
+              
+                <li>
+                  <a href="http://www.linkedin.com/in/jakeva" class="zocial linkedin icon" target="_blank">
+                    <span class="hidden-desktop">LinkedIn</a>
+                  </a>
+                </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container">
+      <div class="content">
+        
+
+<div class="page-header-wrapper">
+	<div class="page-header">
+  		<h1>Haikus  <small>I don't always post, but when I do it goes here, often from my phone</small></h1>
+  	</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+    
+
+
 
 <div style="margin-top:25px">
   <ul class="haikus">
-    {% for haiku in paginator.posts %}
+    
     <li>
       <h3>
-        <a href="{{ haiku.url }}">
-          {{ haiku.title }}
+        <a href="/haikus/2020/03/26/Earthquakes/">
+          Earthquakes
         </a>
         <span class="post-date">
-          {{ haiku.date | date_to_string }}
+          26 Mar 2020
         </span>
         <span>
-          {{ p.url }}
+          
         </span>
       </h3>
     </li>
-    {% endfor %}
-    {% if paginator.total_pages > 1 %}
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/12/Wasting-20time/">
+          Wasting time
+        </a>
+        <span class="post-date">
+          12 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/12/Virus/">
+          Virus
+        </a>
+        <span class="post-date">
+          12 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/12/Food/">
+          Food
+        </a>
+        <span class="post-date">
+          12 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/12/Blogs/">
+          Blogs
+        </a>
+        <span class="post-date">
+          12 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/12/Blacklist/">
+          Blacklist
+        </a>
+        <span class="post-date">
+          12 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/11/Haiku/">
+          Haiku
+        </a>
+        <span class="post-date">
+          11 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/05/Beer/">
+          Beer
+        </a>
+        <span class="post-date">
+          05 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/04/Richard/">
+          Richard
+        </a>
+        <span class="post-date">
+          04 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    <li>
+      <h3>
+        <a href="/haikus/2020/03/03/Typos-20from-20old-20books/">
+          Typos from old books
+        </a>
+        <span class="post-date">
+          03 Mar 2020
+        </span>
+        <span>
+          
+        </span>
+      </h3>
+    </li>
+    
+    
     <ul>
-      {% if paginator.previous_page %}
+      
+      
       <li>
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+        <a href="/haikus/page/2/index.html">Older</a>
       </li>
-      {% endif %}
-      {% if paginator.next_page %}
-      <li>
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-      </li>
-      {% endif %}
+      
     </ul>
-    {% endif %}
+    
   </ul>
 </div>
+
+  </div>
+</div>
+
+
+      </div>
+
+      <footer class="footer">
+        <ul class="footer-nav">
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive/">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories/">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages/">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags/">Tags</a></li>
+      	
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+        </ul>
+        <p>
+          &copy; Jake Van Alstyne 2010-2020
+        </p>
+      </footer>
+    </div> <!-- /container -->
+    
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39509409-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>
+
