@@ -4,12 +4,11 @@ title: Posts
 tagline: Blog posts
 ---
 {% include JB/setup %}
+{% assign catName = page.title | string %}
 
 <div style="margin-top:25px">
   <ul class="posts">
-    {% for post in site.posts %}
-    {% if post.category contains 'Haikus' %}
-    {% else %}
+    {% for post in site.categories[catName] %}
     <li>
       <h3>
         <a href="{{ post.url }}">
@@ -23,7 +22,6 @@ tagline: Blog posts
         </span>
       </h3>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 </div>

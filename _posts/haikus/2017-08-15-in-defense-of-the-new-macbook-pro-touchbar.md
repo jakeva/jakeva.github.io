@@ -7,7 +7,7 @@ title: "In defense of the new MacBook Pro touchbar"
 
 It is a fun way
 
-To do things you already can do
+To do things you did before
 
 Why not something new?
 

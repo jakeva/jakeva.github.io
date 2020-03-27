@@ -9,9 +9,7 @@ title: Blog
       Posts
     </a></h3>
     <ul class="posts">
-      {% for post in site.posts %}
-      {% if post.category contains 'Haikus' %}
-      {% else %}
+      {% for post in site.categories['Posts'] %}
       <li>
         <h3>
           <a href="{{ post.url }}">
@@ -25,15 +23,13 @@ title: Blog
           </span>
         </h3>
       </li>
-      {% endif %}
       {% endfor %}
     </ul>
     <h3><a href="/haikus">
       Haikus
     </a></h3>
     <ul class="posts">
-      {% for haiku in site.posts %}
-      {% if haiku.category contains 'Haikus' %}
+      {% for haiku in site.categories['Haikus'] %}
       <li>
         <h3>
           <a href="{{ haiku.url }}">
@@ -47,12 +43,11 @@ title: Blog
           </span>
         </h3>
       </li>
-      {% endif %}
       {% endfor %}
     </ul>
   </div>
   <div class="span4">
     <h2>About Me</h2>
-    <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. I read, cook, go outside, and stay inside. I mostly post here from my phone using some custom shortcuts and python scripts.</p>
+    <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. Besides that I read, cook, play guitar, go outside, and stay inside.</p>
   </div>
 </div>

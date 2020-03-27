@@ -4,11 +4,11 @@ title: Haikus
 tagline: I don't always post, but when I do it goes here, often from my phone
 ---
 {% include JB/setup %}
+{% assign catName = page.title | string %}
 
 <div style="margin-top:25px">
   <ul class="haikus">
-    {% for haiku in site.posts %}
-    {% if haiku.category contains 'Haikus' %}
+    {% for haiku in site.categories[catName] %}
     <li>
       <h3>
         <a href="{{ haiku.url }}">
@@ -22,7 +22,6 @@ tagline: I don't always post, but when I do it goes here, often from my phone
         </span>
       </h3>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 </div>
