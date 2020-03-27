@@ -57,3 +57,11 @@ th, td {
   float: left;
   margin-right: 4px;
 }
+
+.pager {
+  margin-top: 50px;
+  li.selected a {
+    color: white;
+    background-color: #555;
+  }
+}
