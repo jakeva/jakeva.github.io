@@ -53,6 +53,6 @@ title: Blog
   </div>
   <div class="span4">
     <h2>About Me</h2>
-    <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. I currently have one couch and two cars too many. I drink beer and Irish whiskey. I mostly post here from my phone using some custom shortcuts and python scripts.</p>
+    <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. I read, cook, go outside, and stay inside. I mostly post here from my phone using some custom shortcuts and python scripts.</p>
   </div>
 </div>
