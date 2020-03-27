@@ -2,7 +2,7 @@
 layout: post
 title: "GPG & YubiKey & You"
 description: "In which I do interesting things with my YubiKey"
-category: Posts
+category: Blog
 tags: [yubikey, git, gpg]
 ---
 

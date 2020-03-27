@@ -324,4 +324,8 @@ th, td {
 .posts {
   list-style-type: none; }
 
+.footer-nav > li {
+  float: left;
+  margin-right: 4px; }
+
 /*# sourceMappingURL=style.css.map */

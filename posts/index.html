@@ -2,13 +2,15 @@
 layout: page
 title: Posts
 tagline: Blog posts
+pagination:
+  enabled: true
+  category: Blog
 ---
 {% include JB/setup %}
-{% assign catName = page.title | string %}
 
 <div style="margin-top:25px">
   <ul class="posts">
-    {% for post in site.categories[catName] %}
+    {% for post in paginator.posts %}
     <li>
       <h3>
         <a href="{{ post.url }}">
@@ -23,5 +25,19 @@ tagline: Blog posts
       </h3>
     </li>
     {% endfor %}
+    {% if paginator.total_pages > 1 %}
+    <ul>
+      {% if paginator.previous_page %}
+      <li>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
   </ul>
 </div>

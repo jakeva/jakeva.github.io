@@ -2,13 +2,16 @@
 layout: page
 title: Haikus
 tagline: I don't always post, but when I do it goes here, often from my phone
+pagination:
+  enabled: true
+  category: Haikus
 ---
 {% include JB/setup %}
 {% assign catName = page.title | string %}
 
 <div style="margin-top:25px">
   <ul class="haikus">
-    {% for haiku in site.categories[catName] %}
+    {% for haiku in paginator.posts %}
     <li>
       <h3>
         <a href="{{ haiku.url }}">
@@ -23,5 +26,19 @@ tagline: I don't always post, but when I do it goes here, often from my phone
       </h3>
     </li>
     {% endfor %}
+    {% if paginator.total_pages > 1 %}
+    <ul>
+      {% if paginator.previous_page %}
+      <li>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
   </ul>
 </div>

@@ -9,7 +9,7 @@ title: Blog
       Posts
     </a></h3>
     <ul class="posts">
-      {% for post in site.categories['Posts'] %}
+      {% for post in site.categories['Blog'] %}
       <li>
         <h3>
           <a href="{{ post.url }}">
