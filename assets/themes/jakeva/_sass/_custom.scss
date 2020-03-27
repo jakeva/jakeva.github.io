@@ -1,4 +1,26 @@
 /* This is for your Custom Content. */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 97vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  flex-shrink: 0;
+  font-size: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-nav {
+  list-style-type: none;
+}
+
 strong {
 	color: #000;
 }
@@ -27,17 +49,6 @@ th, td {
   padding-left: 24px;
 }
 
-.posts, .footer_nav {
+.posts {
   list-style-type: none;
-}
-
-.footer_nav {
-  font-size: 10px;
-}
-
-.footer-push,
-footer {
-    height: 200px;
-    max-height: 200px;
-    overflow: hidden;
 }
