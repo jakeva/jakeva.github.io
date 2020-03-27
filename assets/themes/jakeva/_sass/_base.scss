@@ -4,10 +4,10 @@
 
 /* Theme Vars */
 $link-color: #001eff;
-$navbar-from-gradient-color: rgb(270, 272, 272);
-$navbar-to-gradient-color: rgb(250, 251, 251);
-$navbar-from-gradient-color-active: rgb(170, 172, 172);
-$navbar-to-gradient-color-active: rgb(158, 160, 161);
+$navbar-from-gradient-color: white;
+$navbar-to-gradient-color: rgb(200, 200, 200);
+$navbar-from-gradient-color-active: rgb(40, 40, 40);
+$navbar-to-gradient-color-active: rgb(100, 100, 100);
 $navbar-button-to-gradient-color-hover: #ddd;
 
 /* Compass Vars */
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
 a {
 	color:$link-color;
 	&:hover {
-		color: lighten($link-color, 20);
+		color: red;
     text-decoration: none;
 	}
 	@include transition(all 0.3s);
@@ -99,7 +99,23 @@ hr {
   			a {
   				color:#030303;
   				padding:12px 10px 8px;
+
+          &:hover {
+            color: red;
+          }
   			}
+
+        .active {
+          color: white;
+          background-image:-moz-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+          background-image:-ms-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+          background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color-active), to($navbar-to-gradient-color-active));
+          background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+          background-image:-o-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+          background-image:linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
+          background-repeat:repeat-x;
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color-active', GradientType=0);
+        }
   		}
   	}
   }
@@ -109,7 +125,7 @@ hr {
   padding-left:20px;
   padding-right:20px;
   background-color:#1F2F1F;
-  background-image:-moz-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color-active);
+  background-image:-moz-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
   background-image:-ms-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
   background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color), to($navbar-to-gradient-color));
   background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color, $navbar-to-gradient-color);
@@ -123,16 +139,6 @@ hr {
   -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  .active {
-		background-image:-moz-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-	  background-image:-ms-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-	  background-image:-webkit-gradient(linear, 0 0, 0 100%, from($navbar-from-gradient-color-active), to($navbar-to-gradient-color-active));
-	  background-image:-webkit-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-	  background-image:-o-linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-	  background-image:linear-gradient(top, $navbar-from-gradient-color-active, $navbar-to-gradient-color-active);
-	  background-repeat:repeat-x;
-	  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color-active', GradientType=0);
-	}
 }
 
 
