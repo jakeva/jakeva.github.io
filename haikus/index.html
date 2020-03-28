@@ -6,29 +6,26 @@ pagination:
   enabled: true
   category: Haikus
   trail:
-    before: 2 # The number of links before the current page
-    after: 2  # The number of links after the current page
+    before: 2
+    after: 2
 ---
 {% include JB/setup %}
 
-<div style="margin-top:25px;">
-  <ul class="haikus">
-    {% for haiku in paginator.posts %}
-    <li>
-      <h3>
+<div class="row-fluid">
+  <div class="span16 text-center">
+    <ul class="posts" style="margin-top:25px; min-width: 800px;">
+      {% for haiku in paginator.posts %}
+      <li>
         <a href="{{ haiku.url }}">
           {{ haiku.title }}
         </a>
         <span class="post-date">
           {{ haiku.date | date_to_string }}
         </span>
-        <span>
-          {{ p.url }}
-        </span>
-      </h3>
-    </li>
-    {% endfor %}
-  </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
 <!--
