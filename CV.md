@@ -36,7 +36,7 @@ group: navigation
 <hr>
 
 <p>
-    <a id="email_contact">Contact Me</a>
+    <a id="email_contact">Email Me</a>
 </p>
 <p>
     <a href="/assets/cv.pdf" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', this.href]);">CV - PDF</a>
