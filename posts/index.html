@@ -5,6 +5,7 @@ tagline: Blog posts
 pagination:
   enabled: true
   category: Blog
+  title: :title
   trail:
     before: 2
     after: 2
@@ -12,8 +13,8 @@ pagination:
 {% include JB/setup %}
 
 <div class="row-fluid">
-  <div class="span16 text-center">
-    <ul class="posts" style="margin-top:25px; min-width: 800px;">
+  <div class="span12 text-center">
+    <ul class="posts" style="margin-top:25px;">
       {% for post in paginator.posts %}
       <li>
         <a href="{{ post.url }}">

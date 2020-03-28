@@ -5,6 +5,7 @@ tagline: I don't always post, but when I do it goes here, often from my phone
 pagination:
   enabled: true
   category: Haikus
+  title: :title
   trail:
     before: 2
     after: 2
@@ -12,8 +13,8 @@ pagination:
 {% include JB/setup %}
 
 <div class="row-fluid">
-  <div class="span16 text-center">
-    <ul class="posts" style="margin-top:25px; min-width: 800px;">
+  <div class="span12 text-center">
+    <ul class="posts" style="margin-top:25px;">
       {% for haiku in paginator.posts %}
       <li>
         <a href="{{ haiku.url }}">

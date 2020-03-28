@@ -5,49 +5,47 @@ title: Blog
 {% include JB/setup %}
 
 <div class="row">
-  <div class="span16 text-center">
-    <div class="span8">
-      <h3>Posts</h3>
-      <ul class="posts">
-        {% for post in site.categories['Blog'] limit: 5 %}
-        <li>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-          <div class="post-date">
-            {{ post.date | date_to_string }}
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
-      {% if site.categories['Blog'].size > 5 %}
-        <a href="/posts" style="margin: 15px 0px 0px 50px;">
-          More…
+  <div class="span8 text-center">
+    <h3>Posts</h3>
+    <ul class="posts">
+      {% for post in site.categories['Blog'] limit: 5 %}
+      <li>
+        <a href="{{ post.url }}">
+          {{ post.title }}
         </a>
-      {% endif %}
-      <h3 style="margin-top: 100px;">Haikus</h3>
-      <ul class="posts">
-        {% for haiku in site.categories['Haikus'] limit: 5 %}
-        <li>
-          <a href="{{ haiku.url }}">
-            {{ haiku.title }}
-          </a>
-          <span class="post-date">
-            {{ haiku.date | date_to_string }}
-          </span>
-        </li>
-        {% endfor %}
-      </ul>
-      {% if site.categories['Haikus'].size > 5 %}
-        <a href="/haikus" style="margin: 15px 0px 0px 50px;">
-          More…
+        <div class="post-date">
+          {{ post.date | date_to_string }}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if site.categories['Blog'].size > 5 %}
+      <a href="/posts" style="margin: 15px 0px 0px 50px;">
+        More…
+      </a>
+    {% endif %}
+    <h3 style="margin-top: 100px;">Haikus</h3>
+    <ul class="posts">
+      {% for haiku in site.categories['Haikus'] limit: 5 %}
+      <li>
+        <a href="{{ haiku.url }}">
+          {{ haiku.title }}
         </a>
-      {% endif %}
-    </div>
+        <span class="post-date">
+          {{ haiku.date | date_to_string }}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if site.categories['Haikus'].size > 5 %}
+      <a href="/haikus" style="margin: 15px 0px 0px 50px;">
+        More…
+      </a>
+    {% endif %}
+  </div>
 
-    <div class="span6" style="margin-left: 100px">
-      <h2>About Me</h2>
-      <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. Besides that I read, cook, play guitar, go outside, and stay inside.</p>
-    </div>
+  <div class="span4 text-center">
+    <h2>About Me</h2>
+    <p>I'm Jake. I live in Salt Lake City, and I do various things with computers. Besides that I read, cook, play guitar, go outside, and stay inside.</p>
   </div>
 </div>
