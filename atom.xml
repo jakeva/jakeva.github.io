@@ -4,7 +4,7 @@
  <title>Jake Van Alstyne</title>
  <link href="www.jakevanalstyne.me/atom.xml" rel="self"/>
  <link href="www.jakevanalstyne.me"/>
- <updated>2020-03-27T22:17:16+00:00</updated>
+ <updated>2020-03-28T00:41:48+00:00</updated>
  <id>www.jakevanalstyne.me</id>
  <author>
    <name>Jake Van Alstyne</name>
@@ -25,6 +25,70 @@
 &lt;p&gt;Among us earthlings&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/exrSCIegLFnPy.gif&quot; alt=&quot;--Earthquakes--&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How I post to this blog using iOS Shortcuts and Pythonista</title>
+   <link href="www.jakevanalstyne.me/blog/2020/03/26/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/"/>
+   <updated>2020-03-26T00:00:00+00:00</updated>
+   <id>www.jakevanalstyne.me/blog/2020/03/26/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista</id>
+   <content type="html">&lt;p&gt;I’ve had this blog for many years, and basically never posted anything. I wanted to become better about that, so I’ve been writing more haikus and trying to write up some of my home projects. My blog uses &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and is hosted on &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt; which already makes it pretty easy to write content but I wanted to see if I could make it even easier. I started with a “create new haiku” shortcut. This way anytime I have an idea for a haiku it doesn’t matter where I am, as long as I have an internet connection on my phone I can post a new one easily.&lt;/p&gt;
+
+&lt;p&gt;So, I began playing with iOS Shortcuts. I wanted a button on my phone that would let me write and post to my blog without needing anything else. The solution I came up with uses a bit of Python in &lt;a href=&quot;http://omz-software.com/pythonista/&quot;&gt;Pythonista&lt;/a&gt; for some formatting, as well as &lt;a href=&quot;https://workingcopyapp.com&quot;&gt;Working Copy&lt;/a&gt; for the git actions.&lt;/p&gt;
+
+&lt;p&gt;Unfornately, the only way to share an iOS shortcut is to share it directly. I wanted to export and paste a JSON payload here or something so others could edit and import easily, but it looks like the only way is to share a public link to it. So, here’s my &lt;a href=&quot;https://www.icloud.com/shortcuts/7d86a57504eb47098bc7d1290e3239d6&quot;&gt;shortcut&lt;/a&gt; for writing and posting a haiku. With a little editing it should be easy enough to change if you wanted to rework it to post to your own blog. It assumes you have the Working Copy app I linked above, as well as a Pythonista script.&lt;/p&gt;
+
+&lt;p&gt;Here are the actions it performs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pull the latest changes from your blog repo&lt;/li&gt;
+  &lt;li&gt;Ask for the name of the Haiku&lt;/li&gt;
+  &lt;li&gt;Executes a search in &lt;a href=&quot;https://giphy.com&quot;&gt;Giphy&lt;/a&gt; for the given title and lets you choose your favorite gif&lt;/li&gt;
+  &lt;li&gt;Stages the chosen gif in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/assets&lt;/code&gt; in your repo&lt;/li&gt;
+  &lt;li&gt;Asks for the content of the Haiku. Adding an empty line between each line of content renders the content on new lines. I haven’t figured this part out yet, but if you don’t do this the whole haiku ends up on one line.&lt;/li&gt;
+  &lt;li&gt;It then sends the input to the Pythonista script to format it as Jekyll front matter&lt;/li&gt;
+  &lt;li&gt;It takes the resulting formatted content and stages it as a new file in your repo&lt;/li&gt;
+  &lt;li&gt;It commits the changes to your repo and pushes to remote&lt;/li&gt;
+  &lt;li&gt;It then texts my girlfriend to let her know there’s a new haiku (I haven’t tested this with other people, but I expect that unless you have her number it won’t work for you)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So now the only piece missing is the Pythonista script. Here it is:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from webbrowser import open
+from datetime import date
+from urllib.parse import quote, unquote
+import sys
+import x_callback_url
+
+title=sys.argv[1]
+body=sys.argv[2]
+gif=quote(sys.argv[3])
+
+haiku='''---
+layout: haiku
+category: Haikus
+title: ''' + title + '''
+---
+
+
+
+''' + body + '''
+
+![--''' + title + '''--](\{\{ site.url \}\}/assets/''' + gif + '''.gif)'''
+
+x_success = sys.argv[-1] # shortcuts-production://x-callback-url/ic-success/&amp;lt;UUID&amp;gt;
+x_cancel = x_success.replace('ic-success', 'ic-cancel')
+x_error = x_success.replace('ic-success', 'ic-error')
+
+x_success += '?x-source=Pythonista3'
+x_success += '&amp;amp;result=' + quote(haiku)
+x_success += '&amp;amp;datetime=' + quote(str(date.today().strftime('%Y-%m-%d')))
+
+open(x_success)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I’ve been having fun with this, I’ve also made a version that will make a full blog post like this one but haven’t used it much since writing long form on an iOS device is not that convenient for me. Anyway, if you’re reading this feel free to play with my shortcut and python script! I’d love to hear about any projects you use them for!&lt;/p&gt;
+
 </content>
  </entry>
  

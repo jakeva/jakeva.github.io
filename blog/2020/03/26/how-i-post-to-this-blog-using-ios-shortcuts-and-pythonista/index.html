@@ -9,11 +9,11 @@
     <meta name="HandheldFriendly" content="true">
     <title>
       
-        Earthquakes -
+        How I post to this blog using iOS Shortcuts and Pythonista -
       
       Jake Van Alstyne
     </title>
-    
+    <meta name="description" content="In which I automate posting to my blog">
     <meta name="author" content="Jake Van Alstyne">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- HTML5 shim, for IE6-8 support of HTML elements -->
@@ -164,29 +164,77 @@
 
 <div class="page-header">
   <h1>
-    Earthquakes
-      <small>Haiku</small>
+    How I post to this blog using iOS Shortcuts and Pythonista
+    
   </h1>
 </div>
 
 <div class="row">
-  <div class="span8">
-    
-<p>The earth shakes at times</p>
+  <span class="span10">
+    <p>I’ve had this blog for many years, and basically never posted anything. I wanted to become better about that, so I’ve been writing more haikus and trying to write up some of my home projects. My blog uses <a href="https://jekyllrb.com">Jekyll</a> and is hosted on <a href="https://pages.github.com">Github Pages</a> which already makes it pretty easy to write content but I wanted to see if I could make it even easier. I started with a “create new haiku” shortcut. This way anytime I have an idea for a haiku it doesn’t matter where I am, as long as I have an internet connection on my phone I can post a new one easily.</p>
 
-<p>It is most unwelcome here</p>
+<p>So, I began playing with iOS Shortcuts. I wanted a button on my phone that would let me write and post to my blog without needing anything else. The solution I came up with uses a bit of Python in <a href="http://omz-software.com/pythonista/">Pythonista</a> for some formatting, as well as <a href="https://workingcopyapp.com">Working Copy</a> for the git actions.</p>
 
-<p>Among us earthlings</p>
+<p>Unfornately, the only way to share an iOS shortcut is to share it directly. I wanted to export and paste a JSON payload here or something so others could edit and import easily, but it looks like the only way is to share a public link to it. So, here’s my <a href="https://www.icloud.com/shortcuts/7d86a57504eb47098bc7d1290e3239d6">shortcut</a> for writing and posting a haiku. With a little editing it should be easy enough to change if you wanted to rework it to post to your own blog. It assumes you have the Working Copy app I linked above, as well as a Pythonista script.</p>
 
-<p><img src="/assets/exrSCIegLFnPy.gif" alt="--Earthquakes--" /></p>
+<p>Here are the actions it performs:</p>
+<ul>
+  <li>Pull the latest changes from your blog repo</li>
+  <li>Ask for the name of the Haiku</li>
+  <li>Executes a search in <a href="https://giphy.com">Giphy</a> for the given title and lets you choose your favorite gif</li>
+  <li>Stages the chosen gif in <code class="language-plaintext highlighter-rouge">/assets</code> in your repo</li>
+  <li>Asks for the content of the Haiku. Adding an empty line between each line of content renders the content on new lines. I haven’t figured this part out yet, but if you don’t do this the whole haiku ends up on one line.</li>
+  <li>It then sends the input to the Pythonista script to format it as Jekyll front matter</li>
+  <li>It takes the resulting formatted content and stages it as a new file in your repo</li>
+  <li>It commits the changes to your repo and pushes to remote</li>
+  <li>It then texts my girlfriend to let her know there’s a new haiku (I haven’t tested this with other people, but I expect that unless you have her number it won’t work for you)</li>
+</ul>
+
+<p>So now the only piece missing is the Pythonista script. Here it is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from webbrowser import open
+from datetime import date
+from urllib.parse import quote, unquote
+import sys
+import x_callback_url
+
+title=sys.argv[1]
+body=sys.argv[2]
+gif=quote(sys.argv[3])
+
+haiku='''---
+layout: haiku
+category: Haikus
+title: ''' + title + '''
+---
+
+
+
+''' + body + '''
+
+![--''' + title + '''--](\{\{ site.url \}\}/assets/''' + gif + '''.gif)'''
+
+x_success = sys.argv[-1] # shortcuts-production://x-callback-url/ic-success/&lt;UUID&gt;
+x_cancel = x_success.replace('ic-success', 'ic-cancel')
+x_error = x_success.replace('ic-success', 'ic-error')
+
+x_success += '?x-source=Pythonista3'
+x_success += '&amp;result=' + quote(haiku)
+x_success += '&amp;datetime=' + quote(str(date.today().strftime('%Y-%m-%d')))
+
+open(x_success)
+</code></pre></div></div>
+
+<p>I’ve been having fun with this, I’ve also made a version that will make a full blog post like this one but haven’t used it much since writing long form on an iOS device is not that convenient for me. Anyway, if you’re reading this feel free to play with my shortcut and python script! I’d love to hear about any projects you use them for!</p>
+
 
     <div class="pagination btn-group">
       
-        <a class="btn prev" href="/blog/2020/03/26/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/" title="How I post to this blog using iOS Shortcuts and Pythonista">&larr; Previous</a>
+        <a class="btn prev" href="/blog/2020/03/14/gpg-yubikey-you/" title="GPG & YubiKey & You">&larr; Previous</a>
       
         <a class="btn" href="/archive/">Archive</a>
       
-        <a class="btn next disabled">Next &rarr;</a>
+        <a class="btn next" href="/haikus/2020/03/26/Earthquakes/" title="Earthquakes">Next &rarr;</a>
       
     </div>
     
@@ -196,9 +244,9 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
         var disqus_shortname = 'jakevanalstyne';
-        var disqus_title = 'Earthquakes';
-        var disqus_url = '/haikus/2020/03/26/Earthquakes/';
-        var disqus_identifier = 'jakevanalstyne'-'Earthquakes';
+        var disqus_title = 'How I post to this blog using iOS Shortcuts and Pythonista';
+        var disqus_url = '/blog/2020/03/26/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/';
+        var disqus_identifier = 'jakevanalstyne'-'How I post to this blog using iOS Shortcuts and Pythonista';
     
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -214,9 +262,9 @@
 
 
 
-  </div>
+  </span>
 
-  <div class="span3">
+  <span class="span2">
     <section>
       <h4>Published</h4>
       <div class="date"><span>26 March 2020</span></div>
@@ -225,12 +273,12 @@
       <section>
         <h4>Category</h4>
         <span class="category">
-          Haikus
+          Blog
         </span>
       </section>
     
     
-  </div>
+  </span>
 </div>
 
 
