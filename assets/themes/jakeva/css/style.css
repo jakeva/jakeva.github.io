@@ -81,12 +81,12 @@ hr {
         color: red; }
     .navbar div.navbar-inner ul.nav:first-child li .active {
       color: white;
-      background-image: -moz-linear-gradient(top, #282828, #646464);
-      background-image: -ms-linear-gradient(top, #282828, #646464);
-      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#282828), to(#646464));
-      background-image: -webkit-linear-gradient(top, #282828, #646464);
-      background-image: -o-linear-gradient(top, #282828, #646464);
-      background-image: linear-gradient(to bottom, #282828, #646464);
+      background-image: -moz-linear-gradient(top, #c8c8c8, #c8c8c8);
+      background-image: -ms-linear-gradient(top, #c8c8c8, #c8c8c8);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c8c8c8), to(#c8c8c8));
+      background-image: -webkit-linear-gradient(top, #c8c8c8, #c8c8c8);
+      background-image: -o-linear-gradient(top, #c8c8c8, #c8c8c8);
+      background-image: linear-gradient(to bottom, #c8c8c8, #c8c8c8);
       background-repeat: repeat-x;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color-active', endColorstr='$navbar-to-gradient-color-active', GradientType=0); }
 
@@ -94,12 +94,12 @@ hr {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #1F2F1F;
-  background-image: -moz-linear-gradient(top, white, #c8c8c8);
-  background-image: -ms-linear-gradient(top, white, #c8c8c8);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#c8c8c8));
-  background-image: -webkit-linear-gradient(top, white, #c8c8c8);
-  background-image: -o-linear-gradient(top, white, #c8c8c8);
-  background-image: linear-gradient(to bottom, #ffffff, #c8c8c8);
+  background-image: -moz-linear-gradient(top, #f0f0f0, #f0f0f0);
+  background-image: -ms-linear-gradient(top, #f0f0f0, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #f0f0f0);
+  background-image: -o-linear-gradient(top, #f0f0f0, #f0f0f0);
+  background-image: linear-gradient(to bottom, #f0f0f0, #f0f0f0);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$navbar-from-gradient-color', endColorstr='$navbar-to-gradient-color', GradientType=0);
   -webkit-border-radius: 4px;
