@@ -175,7 +175,7 @@ at the University of Utah) developing a web portal for a client.</li>
 
 <h3>OnCue for OS X</h3>
 <ul>
-	<li><a href="http://www.theoncueapp.com">Homepage</a></li>
+	<li><a href="https://www.eggdevil.com/oncue">Homepage</a></li>
 	<li>Motion / Sound based security app</li>
 	<li>OpenGL, GPUImage, GLSL</li>
 </ul>
