@@ -80,7 +80,7 @@ Make sure the YubiKey is plugged into your computer. Edit the key again, if you 
 * Enter `y` to move the primary key
 * Select `1`. This moves the signature subkey to the signature slot of the YubiKey.
 
-Enter `key 1` (which now shouljd select the encryption key) followed by `keytocard`. Select `2`. This moves the encryption key to the encryption slot.
+Enter `key 1` (which now should select the encryption key) followed by `keytocard`. Select `2`. This moves the encryption key to the encryption slot.
 
 Enter `key 1` again and then `key 2`. `keytocard` and `3`. This does the same but for the authentication key.
 
