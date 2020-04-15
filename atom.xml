@@ -4,13 +4,25 @@
  <title>Jake Van Alstyne</title>
  <link href="www.jakevanalstyne.me/atom.xml" rel="self"/>
  <link href="www.jakevanalstyne.me"/>
- <updated>2020-04-13T02:34:04+00:00</updated>
+ <updated>2020-04-15T18:37:52+00:00</updated>
  <id>www.jakevanalstyne.me</id>
  <author>
    <name>Jake Van Alstyne</name>
    <email>jakeva@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Rails v Phoenix</title>
+   <link href="www.jakevanalstyne.me/blog/2020/04/15/rails-v-phoenix/"/>
+   <updated>2020-04-15T00:00:00+00:00</updated>
+   <id>www.jakevanalstyne.me/blog/2020/04/15/rails-v-phoenix</id>
+   <content type="html">
+&lt;p&gt;fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn’t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I’ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just ‘get it’ better, maybe the magic of rails makes it hard to feel that way for me.
+12:19
+or maybe it was that i learned rails first and learning phx second made it a gentler learning curve&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Singing</title>
@@ -194,7 +206,7 @@ gpg --armor --output pubkey.asc --export &amp;lt;longid&amp;gt;
   &lt;li&gt;Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;. This moves the signature subkey to the signature slot of the YubiKey.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;key 1&lt;/code&gt; (which now shouljd select the encryption key) followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keytocard&lt;/code&gt;. Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;. This moves the encryption key to the encryption slot.&lt;/p&gt;
+&lt;p&gt;Enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;key 1&lt;/code&gt; (which now should select the encryption key) followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keytocard&lt;/code&gt;. Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;. This moves the encryption key to the encryption slot.&lt;/p&gt;
 
 &lt;p&gt;Enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;key 1&lt;/code&gt; again and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;key 2&lt;/code&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keytocard&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt;. This does the same but for the authentication key.&lt;/p&gt;
 
