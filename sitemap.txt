@@ -15,6 +15,7 @@ www.jakevanalstyne.me/haikus/page/2/index.html
 www.jakevanalstyne.me/haikus/page/3/index.html
 www.jakevanalstyne.me/posts/index.html
 
+www.jakevanalstyne.me/haikus/2020/04/16/Cute-20girl/
 www.jakevanalstyne.me/haikus/2020/04/15/Chris-20Bacon/
 www.jakevanalstyne.me/blog/2020/04/15/rails-v-phoenix/
 www.jakevanalstyne.me/haikus/2020/03/30/Singing/
