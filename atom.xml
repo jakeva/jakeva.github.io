@@ -4,13 +4,29 @@
  <title>Jake Van Alstyne</title>
  <link href="www.jakevanalstyne.me/atom.xml" rel="self"/>
  <link href="www.jakevanalstyne.me"/>
- <updated>2020-05-09T19:29:27+00:00</updated>
+ <updated>2020-05-13T02:20:08+00:00</updated>
  <id>www.jakevanalstyne.me</id>
  <author>
    <name>Jake Van Alstyne</name>
    <email>jakeva@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Movie</title>
+   <link href="www.jakevanalstyne.me/haikus/2020/05/12/Movie/"/>
+   <updated>2020-05-12T00:00:00+00:00</updated>
+   <id>www.jakevanalstyne.me/haikus/2020/05/12/Movie</id>
+   <content type="html">
+&lt;p&gt;Watching a movie&lt;/p&gt;
+
+&lt;p&gt;Without popcorn is not good&lt;/p&gt;
+
+&lt;p&gt;It is very dumb&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/3o7rc0qU6m5hneMsuc.gif&quot; alt=&quot;--Movie--&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Chris Bacon</title>
