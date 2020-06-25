@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIY on Jake Van Alstyne</title>
+    <link>http://example.org/tags/DIY/</link>
+    <description>Recent content in DIY on Jake Van Alstyne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/DIY/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I post to this blog using iOS Shortcuts and Pythonista</title>
+      <link>http://example.org/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</guid>
+      <description>I&amp;rsquo;ve had this blog for many years, and basically never posted anything. I wanted to become better about that, so I&amp;rsquo;ve been writing more haikus and trying to write up some of my home projects. My blog uses Jekyll and is hosted on Github Pages which already makes it pretty easy to write content but I wanted to see if I could make it even easier. I started with a &amp;ldquo;create new haiku&amp;rdquo; shortcut.</description>
+    </item>
+    
+  </channel>
+</rss>

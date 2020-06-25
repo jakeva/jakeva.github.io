@@ -1,228 +1,30 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="HandheldFriendly" content="true">
-  <title>
-    
-    Posts -
-    
-    Jake Van Alstyne
-  </title>
-  
-  <meta name="author" content="Jake Van Alstyne">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-
-  <script src="/assets/themes/jakeva/js/jquery.min.js"></script>
-  <script src="/assets/themes/jakeva/js/script.js"></script>
-  <script src="/assets/themes/jakeva/bootstrap/js/bootstrap.min.js"></script>
-
-  <link href="/assets/themes/jakeva/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/assets/themes/jakeva/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/assets/themes/jakeva/css-social-buttons/css/zocial.stripped.css" />
-  <link href="/assets/themes/jakeva/css/pygments.css" rel="stylesheet" type="text/css" media="all">
-  <link href="/assets/themes/jakeva/css/style.css" rel="stylesheet" type="text/css" media="all">
-
-</head>
-
-<body>
-  <div class="navbar">
-    <div class="navbar-inner">
-      <div class="container">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-
-
-        <a class="brand" href="/">Jake Van Alstyne</a>
-
-
-        <div class="nav-collapse">
-          <ul class="nav">
-            
-            
-            
-
-
-  
-    
-      
-      	
-      	<li><a href="/CV/">CV</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/contact/">Contact</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-
-
-
-          </ul>
-          <ul class="nav pull-right social visible-desktop">
-            
-            <li>
-              <a href="https://github.com/jakeva" class="zocial github icon" target="_blank">
-                <span class="hidden-desktop">Github</span>
-              </a>
-            </li>
-            
-            
-            
-            <li>
-              <a href="https://twitter.com/jake_va" class="zocial twitter icon" target="_blank">
-                <span class="hidden-desktop">Twitter</span>
-              </a>
-            </li>
-            
-            
-            
-            <li>
-              <a href="http://www.linkedin.com/in/jakeva" class="zocial linkedin icon"
-                target="_blank">
-                <span class="hidden-desktop">LinkedIn</span>
-              </a>
-            </li>
-            
-            
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="content-container">
-    <div class="content">
-      
-
-<div style="margin: 16px;">
-  <div class="page-header-wrapper">
-    <div class="page-header">
-        <h1>Posts  <small>Blog posts</small></h1>
-      </div>
-  </div>
-
-  
+---
+layout: page
+title: Posts
+tagline: Blog posts
+pagination:
+enabled: true
+category: Blog
+title: :title
+trail:
+before: 2
+after: 2
+---
 
 
 <div class="row-fluid">
   <div class="span12 text-center">
     <ul class="posts" style="margin-top:25px;">
-      
+      {% for post in paginator.posts %}
       <li>
-        <a href="/blog/2020/04/15/rails-v-phoenix/">
-          Rails v Phoenix
+        <a href="{{ post.url }}">
+          {{ post.title }}
         </a>
         <span class="post-date">
-          15 Apr 2020
+          {{ post.date | date_to_string }}
         </span>
       </li>
-      
-      <li>
-        <a href="/blog/2020/03/26/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/">
-          How I post to this blog using iOS Shortcuts and Pythonista
-        </a>
-        <span class="post-date">
-          26 Mar 2020
-        </span>
-      </li>
-      
-      <li>
-        <a href="/blog/2020/03/14/gpg-yubikey-you/">
-          GPG & YubiKey & You
-        </a>
-        <span class="post-date">
-          14 Mar 2020
-        </span>
-      </li>
-      
-      <li>
-        <a href="/blog/2020/03/01/raspberry-pi-btc-node/">
-          Raspberry Pi BTC Node
-        </a>
-        <span class="post-date">
-          01 Mar 2020
-        </span>
-      </li>
-      
-      <li>
-        <a href="/blog/2020/02/23/diy-nas/">
-          Building my own NAS
-        </a>
-        <span class="post-date">
-          23 Feb 2020
-        </span>
-      </li>
-      
+      {% endfor %}
     </ul>
   </div>
 </div>
@@ -230,122 +32,38 @@
 <!--
   Showing buttons to move to the next and to the previous list of posts (pager buttons).
 -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+  {% if paginator.first_page %}
+  <li class="previous">
+    <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">First</a>
+  </li>
+  {% endif %}
 
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
 
-</div>
+  {% if paginator.page_trail %}
+  {% for trail in paginator.page_trail %}
+  <li {% if page.url == trail.path %}class="selected" {% endif %}>
+    <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+  </li>
+  {% endfor %}
+  {% endif %}
 
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
 
-    </div>
-
-    <footer class="footer">
-      <ul class="footer-nav">
-        
-        
-        
-
-
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/archive/">Archive</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/categories/">Categories</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/pages/">Pages</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/tags/">Tags</a></li>
-      	
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-
-
-
-      </ul>
-      <p>
-        &copy; Jake Van Alstyne 2010-2020
-      </p>
-    </footer>
-  </div> <!-- /container -->
-  
-
-
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39509409-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-
-
-</body>
-
-</html>
-
+  {% if paginator.last_page %}
+  <li class="previous">
+    <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Last</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}

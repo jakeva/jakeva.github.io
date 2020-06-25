@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Jake Van Alstyne</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog on Jake Van Alstyne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building my own NAS</title>
+      <link>http://example.org/blog/diy-nas/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/diy-nas/</guid>
+      <description>First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.</description>
+    </item>
+    
+    <item>
+      <title>Rails v Phoenix</title>
+      <link>http://example.org/blog/rails-v-phoenix/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/rails-v-phoenix/</guid>
+      <description>fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&amp;rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&amp;rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &amp;lsquo;get it&amp;rsquo; better, maybe the magic of rails makes it hard to feel that way for me.</description>
+    </item>
+    
+    <item>
+      <title>How I post to this blog using iOS Shortcuts and Pythonista</title>
+      <link>http://example.org/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</guid>
+      <description>I&amp;rsquo;ve had this blog for many years, and basically never posted anything. I wanted to become better about that, so I&amp;rsquo;ve been writing more haikus and trying to write up some of my home projects. My blog uses Jekyll and is hosted on Github Pages which already makes it pretty easy to write content but I wanted to see if I could make it even easier. I started with a &amp;ldquo;create new haiku&amp;rdquo; shortcut.</description>
+    </item>
+    
+    <item>
+      <title>GPG &amp; YubiKey &amp; You</title>
+      <link>http://example.org/blog/gpg-yubikey-you/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/gpg-yubikey-you/</guid>
+      <description>I&amp;rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
+My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&amp;rsquo;m taking more of a hobbyist approach.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi BTC Node</title>
+      <link>http://example.org/blog/raspberry-pi-btc-node/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/raspberry-pi-btc-node/</guid>
+      <description>Time to put one of my spare Raspberry Pis to work #  I woke up this morning and thought, &amp;lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&amp;rsquo; So that&amp;rsquo;s what I&amp;rsquo;m doing today.
+Basics #  This assumes something like Raspbian Lite is already installed and SSH access configured. For Wifi, I use these Edimax USB chips. Configuring them is not too difficult.</description>
+    </item>
+    
+  </channel>
+</rss>

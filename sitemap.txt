@@ -1,48 +1,10 @@
-
-www.jakevanalstyne.me/CV/
-www.jakevanalstyne.me/archive/
-www.jakevanalstyne.me/atom.xml
-www.jakevanalstyne.me/categories/
-www.jakevanalstyne.me/contact/
-www.jakevanalstyne.me/
-www.jakevanalstyne.me/pages/
-www.jakevanalstyne.me/sitemap.txt
-www.jakevanalstyne.me/tags/
-www.jakevanalstyne.me/assets/css/style.css
-www.jakevanalstyne.me/changelog/
-www.jakevanalstyne.me/haikus/index.html
-www.jakevanalstyne.me/haikus/page/2/index.html
-www.jakevanalstyne.me/haikus/page/3/index.html
-www.jakevanalstyne.me/posts/index.html
-
-www.jakevanalstyne.me/haikus/2020/06/18/Biking/
-www.jakevanalstyne.me/haikus/2020/05/22/Fat/
-www.jakevanalstyne.me/haikus/2020/05/12/Movie/
-www.jakevanalstyne.me/haikus/2020/04/15/Chris-20Bacon/
-www.jakevanalstyne.me/blog/2020/04/15/rails-v-phoenix/
-www.jakevanalstyne.me/haikus/2020/03/30/Singing/
-www.jakevanalstyne.me/haikus/2020/03/26/Earthquakes/
-www.jakevanalstyne.me/blog/2020/03/26/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/
-www.jakevanalstyne.me/blog/2020/03/14/gpg-yubikey-you/
-www.jakevanalstyne.me/haikus/2020/03/12/Wasting-20time/
-www.jakevanalstyne.me/haikus/2020/03/12/Virus/
-www.jakevanalstyne.me/haikus/2020/03/12/Food/
-www.jakevanalstyne.me/haikus/2020/03/12/Blogs/
-www.jakevanalstyne.me/haikus/2020/03/12/Blacklist/
-www.jakevanalstyne.me/haikus/2020/03/11/Haiku/
-www.jakevanalstyne.me/haikus/2020/03/05/Beer/
-www.jakevanalstyne.me/haikus/2020/03/04/Richard/
-www.jakevanalstyne.me/haikus/2020/03/03/Typos-20from-20old-20books/
-www.jakevanalstyne.me/haikus/2020/03/02/Ramen/
-www.jakevanalstyne.me/blog/2020/03/01/raspberry-pi-btc-node/
-www.jakevanalstyne.me/blog/2020/02/23/diy-nas/
-www.jakevanalstyne.me/haikus/2017/08/17/denver/
-www.jakevanalstyne.me/haikus/2017/08/15/in-defense-of-the-new-macbook-pro-touchbar/
-www.jakevanalstyne.me/haikus/2015/02/14/waking-up/
-www.jakevanalstyne.me/haikus/2015/02/14/getting-out-of-bed/
-www.jakevanalstyne.me/haikus/2013/05/03/space-time/
-www.jakevanalstyne.me/haikus/2013/04/22/evening/
-www.jakevanalstyne.me/haikus/2013/04/14/chairs/
-www.jakevanalstyne.me/haikus/2013/04/14/breakfast/
-www.jakevanalstyne.me/haikus/2013/04/13/music/
-www.jakevanalstyne.me/haikus/2013/04/13/bubbles/
+---
+# Remember to set production_url in your _config.yml file!
+title : Sitemap
+---
+{% for page in site.pages %}
+{{site.production_url}}{{ page.url }}{% endfor %}
+{% for post in site.posts %}
+{{site.production_url}}{{ post.url }}{% endfor %}
+{% for haiku in site.haikus %}
+{{site.production_url}}{{ haiku.url }}{% endfor %}

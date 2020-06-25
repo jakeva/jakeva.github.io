@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Jake Van Alstyne</title>
+    <link>http://example.org/</link>
+    <description>Recent content in About Me on Jake Van Alstyne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building my own NAS</title>
+      <link>http://example.org/blog/diy-nas/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/diy-nas/</guid>
+      <description>First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.</description>
+    </item>
+    
+    <item>
+      <title>Biking</title>
+      <link>http://example.org/haikus/Biking/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Biking/</guid>
+      <description>I forgot how fun
+It can be to ride a bike
+While shooting a gun</description>
+    </item>
+    
+    <item>
+      <title>Fat</title>
+      <link>http://example.org/haikus/Fat/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Fat/</guid>
+      <description>My girlfriend is fat
+As fat as a potato
+Full of fat fat shit</description>
+    </item>
+    
+    <item>
+      <title>Movie</title>
+      <link>http://example.org/haikus/Movie/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Movie/</guid>
+      <description>Watching a movie
+Without popcorn is not good
+It is very dumb</description>
+    </item>
+    
+    <item>
+      <title>Chris Bacon</title>
+      <link>http://example.org/haikus/Chris%20Bacon/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Chris%20Bacon/</guid>
+      <description>We can talk about
+The haikus Chris bacon sir
+Any time you wish</description>
+    </item>
+    
+    <item>
+      <title>Rails v Phoenix</title>
+      <link>http://example.org/blog/rails-v-phoenix/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/rails-v-phoenix/</guid>
+      <description>fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&amp;rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&amp;rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &amp;lsquo;get it&amp;rsquo; better, maybe the magic of rails makes it hard to feel that way for me.</description>
+    </item>
+    
+    <item>
+      <title>Singing</title>
+      <link>http://example.org/haikus/Singing/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Singing/</guid>
+      <description>Someone is singing
+In the middle of the night
+Outside my window</description>
+    </item>
+    
+    <item>
+      <title>Earthquakes</title>
+      <link>http://example.org/haikus/Earthquakes/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Earthquakes/</guid>
+      <description>The earth shakes at times
+It is most unwelcome here
+Among us earthlings</description>
+    </item>
+    
+    <item>
+      <title>How I post to this blog using iOS Shortcuts and Pythonista</title>
+      <link>http://example.org/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</guid>
+      <description>I&amp;rsquo;ve had this blog for many years, and basically never posted anything. I wanted to become better about that, so I&amp;rsquo;ve been writing more haikus and trying to write up some of my home projects. My blog uses Jekyll and is hosted on Github Pages which already makes it pretty easy to write content but I wanted to see if I could make it even easier. I started with a &amp;ldquo;create new haiku&amp;rdquo; shortcut.</description>
+    </item>
+    
+    <item>
+      <title>GPG &amp; YubiKey &amp; You</title>
+      <link>http://example.org/blog/gpg-yubikey-you/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/gpg-yubikey-you/</guid>
+      <description>I&amp;rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
+My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&amp;rsquo;m taking more of a hobbyist approach.</description>
+    </item>
+    
+    <item>
+      <title>Blacklist</title>
+      <link>http://example.org/haikus/Blacklist/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Blacklist/</guid>
+      <description>If you blacklist me
+I will blacklist you right back
+And we will not talk</description>
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>http://example.org/haikus/Blogs/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Blogs/</guid>
+      <description>Blogs have to be good
+If you want people to read
+People don’t read mine</description>
+    </item>
+    
+    <item>
+      <title>Food</title>
+      <link>http://example.org/haikus/Food/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Food/</guid>
+      <description>My girlfriend makes food
+She learned this art in China
+It tastes like Chinese</description>
+    </item>
+    
+    <item>
+      <title>Virus</title>
+      <link>http://example.org/haikus/Virus/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Virus/</guid>
+      <description>Is it a virus
+If it doesn’t go viral
+And other questions</description>
+    </item>
+    
+    <item>
+      <title>Wasting time</title>
+      <link>http://example.org/haikus/Wasting%20time/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Wasting%20time/</guid>
+      <description>I like wasting time
+And I like wasting your time
+I did it again</description>
+    </item>
+    
+    <item>
+      <title>Haiku</title>
+      <link>http://example.org/haikus/Haiku/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Haiku/</guid>
+      <description>This is a haiku
+It checks all of the boxes
+And now it is done</description>
+    </item>
+    
+    <item>
+      <title>Beer</title>
+      <link>http://example.org/haikus/Beer/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Beer/</guid>
+      <description>Beer is very good
+I drink it often for fun
+Including right now</description>
+    </item>
+    
+    <item>
+      <title>Richard</title>
+      <link>http://example.org/haikus/Richard/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Richard/</guid>
+      <description>Richard has nice breath
+I wish he could write good code
+But alas he can’t</description>
+    </item>
+    
+    <item>
+      <title>Typos from old books</title>
+      <link>http://example.org/haikus/Typos%20from%20old%20books/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Typos%20from%20old%20books/</guid>
+      <description>A piecture is just
+A pie chart of types of pie
+In Antarctica</description>
+    </item>
+    
+    <item>
+      <title>Ramen</title>
+      <link>http://example.org/haikus/Ramen/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/Ramen/</guid>
+      <description>Ramen is so good
+It has noodles, pork, and stuff
+To stuff in my face</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi BTC Node</title>
+      <link>http://example.org/blog/raspberry-pi-btc-node/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/blog/raspberry-pi-btc-node/</guid>
+      <description>Time to put one of my spare Raspberry Pis to work #  I woke up this morning and thought, &amp;lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&amp;rsquo; So that&amp;rsquo;s what I&amp;rsquo;m doing today.
+Basics #  This assumes something like Raspbian Lite is already installed and SSH access configured. For Wifi, I use these Edimax USB chips. Configuring them is not too difficult.</description>
+    </item>
+    
+    <item>
+      <title>Denver</title>
+      <link>http://example.org/haikus/denver/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/denver/</guid>
+      <description>I am in Denver
+It is just like Salt Lake City
+Except, like, bigger</description>
+    </item>
+    
+    <item>
+      <title>In defense of the new MacBook Pro touchbar</title>
+      <link>http://example.org/haikus/in-defense-of-the-new-macbook-pro-touchbar/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/in-defense-of-the-new-macbook-pro-touchbar/</guid>
+      <description>It is a fun way
+To do things you did before
+Why not something new?</description>
+    </item>
+    
+    <item>
+      <title>Getting out of bed</title>
+      <link>http://example.org/haikus/getting-out-of-bed/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/getting-out-of-bed/</guid>
+      <description>No no no no no
+No no no no no no no
+No no no no no</description>
+    </item>
+    
+    <item>
+      <title>Waking up</title>
+      <link>http://example.org/haikus/waking-up/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/waking-up/</guid>
+      <description>Nope, nope, nope, nope, nope
+Nope, nope, nope, nope, nope, nope, nope
+Nope, nope, nope, nope, nope</description>
+    </item>
+    
+    <item>
+      <title>Space-time</title>
+      <link>http://example.org/haikus/space-time/</link>
+      <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/space-time/</guid>
+      <description>Time and space are one
+So it is all relative
+Please pardon the pun</description>
+    </item>
+    
+    <item>
+      <title>Evening</title>
+      <link>http://example.org/haikus/evening/</link>
+      <pubDate>Mon, 22 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/evening/</guid>
+      <description>In the evening
+I am joined by Page and Plant
+but do not ascend</description>
+    </item>
+    
+    <item>
+      <title>Breakfast</title>
+      <link>http://example.org/haikus/breakfast/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/breakfast/</guid>
+      <description>The first and best meal
+Forget brunch, breakfast is good
+enough to eat twice</description>
+    </item>
+    
+    <item>
+      <title>Chairs</title>
+      <link>http://example.org/haikus/chairs/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/chairs/</guid>
+      <description>Made of good hard wood
+Sitting straight is important
+If you like your spine</description>
+    </item>
+    
+    <item>
+      <title>Bubbles</title>
+      <link>http://example.org/haikus/bubbles/</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/bubbles/</guid>
+      <description>Bubbles down the drain
+Remind me I am one too
+One day I will pop</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://example.org/haikus/music/</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/haikus/music/</guid>
+      <description>Listen to music
+From Mozart to the Beatles
+Feel infinity</description>
+    </item>
+    
+  </channel>
+</rss>

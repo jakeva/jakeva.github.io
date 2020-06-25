@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="In which I set up a Raspberry Pi to run a full BTC node">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Raspberry Pi BTC Node" />
+<meta property="og:description" content="In which I set up a Raspberry Pi to run a full BTC node" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/raspberry-pi-btc-node/" />
+<meta property="article:published_time" content="2020-03-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-01T00:00:00+00:00" />
+<title>Raspberry Pi BTC Node | Jake Van Alstyne</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.b3215d9d1d18d9051e7fbe8f256ff80e30f41d29073b86348e230d297b771002.css" integrity="sha256-syFdnR0Y2QUef76PJW/4DjD0HSkHO4Y0jiMNKXt3EAI=">
+<script defer src="/en.search.min.0336e66a2084538829402cdd4c8a2d0c1f31cb055149685694cb722af8d5437a.js" integrity="sha256-AzbmaiCEU4gpQCzdTIotDB8xywVRSWhWlMtyKvjVQ3o="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+<nav>
+<h2 class="book-brand">
+  <a href="/"><span>Jake Van Alstyne</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/blog/" >
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="/haikus/" >
+        Haikus
+      </a>
+  </li>
+  
+  <li>
+    <a href="/cv/" >
+        Resume
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+
+      
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Raspberry Pi BTC Node</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+<input type="checkbox" class="hidden" id="toc-control" />
+<aside class="hidden clearfix">
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#time-to-put-one-of-my-spare-raspberry-pis-to-work">Time to put one of my spare Raspberry Pis to work</a></li>
+    <li><a href="#basics">Basics</a></li>
+    <li><a href="#installing-the-bitcoin-client">Installing the Bitcoin client</a></li>
+    <li><a href="#configure">Configure</a></li>
+    <li><a href="#security">Security</a></li>
+  </ul>
+</nav>
+
+
+</aside>
+
+
+        
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/blog/raspberry-pi-btc-node/">Raspberry Pi BTC Node</a>
+  </h1>
+  
+  <h5>March 1, 2020</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/BTC/">BTC</a>, 
+      <a href="/tags/Raspberry-Pi/">Raspberry Pi</a>
+  </div>
+  
+
+
+  <p><h2 id="time-to-put-one-of-my-spare-raspberry-pis-to-work">
+  Time to put one of my spare Raspberry Pis to work
+  <a class="anchor" href="#time-to-put-one-of-my-spare-raspberry-pis-to-work">#</a>
+</h2>
+<p>I woke up this morning and thought, &lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&rsquo; So that&rsquo;s what I&rsquo;m doing today.</p>
+<h2 id="basics">
+  Basics
+  <a class="anchor" href="#basics">#</a>
+</h2>
+<p>This assumes something like <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Lite</a> is already installed and SSH access configured. For Wifi, I use these <a href="https://www.amazon.com/gp/product/B003MTTJOY">Edimax USB chips</a>. Configuring them is not too difficult. It boils down a simple config in <code>/etc/network/interfaces/</code></p>
+<pre><code>auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+wpa-ssid &quot;**YOUR_WIFI**&quot;
+wpa-psk &quot;**YOUR_PASSWORD**&quot;
+</code></pre><p>I&rsquo;m going to install to the 32 GB SD mini card I used for the OS, which means I&rsquo;m not planning on storing all the blocks. And since flash is less resilient than a HDD, I&rsquo;m going to disable SWAP.</p>
+<p><code>sudo swapoff --all</code></p>
+<h2 id="installing-the-bitcoin-client">
+  Installing the Bitcoin client
+  <a class="anchor" href="#installing-the-bitcoin-client">#</a>
+</h2>
+<p>Go to <a href="https://github.com/bitcoin/bitcoin/releases">https://github.com/bitcoin/bitcoin/releases</a> and make not of the newest stable release. For me it&rsquo;s currently 0.19.0.1. So, with that:</p>
+<pre><code>cd ~
+git clone -b v0.19.0.1 https://github/com/bitcoin/bitcoin.git
+cd bitcoin
+</code></pre><p>I&rsquo;m going to install it without a wallet, since I only want a node.</p>
+<pre><code>./autogen.sh
+./configure CXXFLAGS=&quot;--param ggc-min-expand=1 --param ggc-min-heapsize=32768&quot; --enable-cxx --without-gui --disable-shared --with-pic --disable-tests --disable-bench --enable-upnp-default --disable-wallet
+make # This will take a long time, best run in tmux or screen, and grab a beer
+sudo make install
+</code></pre><h2 id="configure">
+  Configure
+  <a class="anchor" href="#configure">#</a>
+</h2>
+<p>For this, I want a bitcoin user.
+<code>sudo adduser bitcoin</code></p>
+<p>Now switch to the new user
+<code>sudo su - bitcoin</code></p>
+<p>And create the app data directory
+<code>mkdir ~/.bitcoin</code></p>
+<p>Add the following to <code>~/.bitcoin/bitcoin.conf</code></p>
+<pre><code># makes client run in background
+daemon=1
+# is required by Fail2Ban described below
+logips=1
+# magic RBP optimisations
+maxconnections=40
+maxuploadtarget=5000
+
+# Run without SWAP
+dbcache=100
+maxorphantx=10
+maxmempool=50
+
+upnp=1
+
+prune=550 # Only keep the last two days of blocks if like me you are running off a small SD card
+</code></pre><p>Return to the <code>pi</code> user
+<code>exit</code></p>
+<p>Now create the systemd service to launch the bitcoin client daemon
+<code>sudo vim /etc/systemd/system/bitcoind.service</code>
+and give it the following</p>
+<pre><code>[Unit]
+Description=Bitcoin daemon
+After=network.target
+[Service]
+ExecStart=/usr/local/bin/bitcoind -conf=/home/bitcoin/.bitcoin/bitcoin.conf -pid=/home/bitcoin/.bitcoin/bitcoind.pid
+# Creates /run/bitcoind owned by bitcoin
+RuntimeDirectory=bitcoind
+User=bitcoin
+Type=forking
+PIDFile=/home/bitcoin/.bitcoin/bitcoind.pid
+Restart=on-failure
+# Hardening measures
+####################
+# Provide a private /tmp and /var/tmp.
+PrivateTmp=true
+# Mount /usr, /boot/ and /etc read-only for the process.
+ProtectSystem=full
+# Disallow the process and all of its children to gain
+# new privileges through execve().
+NoNewPrivileges=true
+# Use a new /dev namespace only populated with API pseudo devices
+# such as /dev/null, /dev/zero and /dev/random.
+PrivateDevices=true
+# Deny the creation of writable and executable memory mappings.
+MemoryDenyWriteExecute=true
+[Install]
+WantedBy=multi-user.target
+</code></pre><p>Make sure the new service starts on boot
+<code>sudo systemctl enable bitcoind</code></p>
+<h2 id="security">
+  Security
+  <a class="anchor" href="#security">#</a>
+</h2>
+<p>Uncomplicated firewall
+<code>sudo apt install ufw</code></p>
+<p>Allow limited ssh
+<code>sudo ufw limit ssh</code></p>
+<p>Allow for main net bitcoin traffic
+<code>sudo ufw allow 8333 comment &quot;Bitcoin mainnet&quot;</code></p>
+<p>Enable the firewall
+<code>sudo ufw enable</code></p>
+<p>Preview the enforced rules
+<code>sudo ufw status verbose</code></p>
+<p>Install Fail2ban
+<code>sudo apt install fail2ban</code></p>
+<p>See the active jails - for now it will only be sshd
+<code>sudo fail2ban-client status</code></p>
+<p>Start the bitcoin client
+<code>sudo systemctl start bitcoind</code></p>
+<p>It will take a few minutes to start, but if you want to monitor its progress switch back to the bitcoin user and enter
+<code>tail -n 100 -f ~/.bitcoin/debug.log</code></p>
+<p>You will need to figure out how to forward port 8333 to your new btc node depending on your router.</p>
+<p>Check it&rsquo;s accessible from the outside world with
+<code>curl -sL https://bitnodes.earn.com/api/v1/nodes/me-8333/ | jq</code></p>
+</p>
+</article>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+        
+        
+      </footer>
+
+      
+
+<div class="book-comments">
+
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#time-to-put-one-of-my-spare-raspberry-pis-to-work">Time to put one of my spare Raspberry Pis to work</a></li>
+    <li><a href="#basics">Basics</a></li>
+    <li><a href="#installing-the-bitcoin-client">Installing the Bitcoin client</a></li>
+    <li><a href="#configure">Configure</a></li>
+    <li><a href="#security">Security</a></li>
+  </ul>
+</nav>
+
+
+      
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
