@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DIY on Jake Van Alstyne</title>
-    <link>http://example.org/categories/DIY/</link>
+    <link>http://jakevanalstyne.me/categories/DIY/</link>
     <description>Recent content in DIY on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/DIY/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jakevanalstyne.me/categories/DIY/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building my own NAS</title>
-      <link>http://example.org/blog/diy-nas/</link>
+      <link>http://jakevanalstyne.me/blog/diy-nas/</link>
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/diy-nas/</guid>
+      <guid>http://jakevanalstyne.me/blog/diy-nas/</guid>
       <description>First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.</description>
     </item>
     

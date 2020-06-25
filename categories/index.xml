@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jake Van Alstyne</title>
-    <link>http://example.org/categories/</link>
+    <link>http://jakevanalstyne.me/categories/</link>
     <description>Recent content in Categories on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jakevanalstyne.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Security</title>
-      <link>http://example.org/categories/Security/</link>
+      <link>http://jakevanalstyne.me/categories/Security/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/Security/</guid>
+      <guid>http://jakevanalstyne.me/categories/Security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DIY</title>
-      <link>http://example.org/categories/DIY/</link>
+      <link>http://jakevanalstyne.me/categories/DIY/</link>
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/DIY/</guid>
+      <guid>http://jakevanalstyne.me/categories/DIY/</guid>
       <description></description>
     </item>
     

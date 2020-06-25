@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jake Van Alstyne</title>
-    <link>http://example.org/tags/</link>
+    <link>http://jakevanalstyne.me/tags/</link>
     <description>Recent content in Tags on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jakevanalstyne.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>garbage</title>
-      <link>http://example.org/tags/garbage/</link>
+      <link>http://jakevanalstyne.me/tags/garbage/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/garbage/</guid>
+      <guid>http://jakevanalstyne.me/tags/garbage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DIY</title>
-      <link>http://example.org/tags/DIY/</link>
+      <link>http://jakevanalstyne.me/tags/DIY/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/DIY/</guid>
+      <guid>http://jakevanalstyne.me/tags/DIY/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>http://example.org/tags/git/</link>
+      <link>http://jakevanalstyne.me/tags/git/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/git/</guid>
+      <guid>http://jakevanalstyne.me/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gpg</title>
-      <link>http://example.org/tags/gpg/</link>
+      <link>http://jakevanalstyne.me/tags/gpg/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/gpg/</guid>
+      <guid>http://jakevanalstyne.me/tags/gpg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>YubiKey</title>
-      <link>http://example.org/tags/YubiKey/</link>
+      <link>http://jakevanalstyne.me/tags/YubiKey/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/YubiKey/</guid>
+      <guid>http://jakevanalstyne.me/tags/YubiKey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BTC</title>
-      <link>http://example.org/tags/BTC/</link>
+      <link>http://jakevanalstyne.me/tags/BTC/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/BTC/</guid>
+      <guid>http://jakevanalstyne.me/tags/BTC/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry Pi</title>
-      <link>http://example.org/tags/Raspberry-Pi/</link>
+      <link>http://jakevanalstyne.me/tags/Raspberry-Pi/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/Raspberry-Pi/</guid>
+      <guid>http://jakevanalstyne.me/tags/Raspberry-Pi/</guid>
       <description></description>
     </item>
     
