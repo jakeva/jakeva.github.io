@@ -1,1 +1,1 @@
-Sitemap: https://www.jakevanalstyne.me/sitemap.txt
+Sitemap: https://www.jakevanalstyne.me/sitemap.xml

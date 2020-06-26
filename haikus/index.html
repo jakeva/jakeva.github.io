@@ -1,69 +1,404 @@
----
-layout: page
-title: Haikus
-tagline: I don't always post, but when I do it goes here, often from my phone
-pagination:
-enabled: true
-category: Haikus
-title: :title
-trail:
-before: 2
-after: 2
----
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Haikus" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jakevanalstyne.me/haikus/" />
+<meta property="og:updated_time" content="2020-06-18T00:00:00+00:00" />
+<title>Haikus | Jake Van Alstyne</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.b3215d9d1d18d9051e7fbe8f256ff80e30f41d29073b86348e230d297b771002.css" integrity="sha256-syFdnR0Y2QUef76PJW/4DjD0HSkHO4Y0jiMNKXt3EAI=">
+<script defer src="/en.search.min.7fcb74389cd6ee91cc769ee22d09a3ebc7754acdfe0fdc2dc8eef94a2489cb41.js" integrity="sha256-f8t0OJzW7pHMdp7iLQmj68d1Ss3&#43;D9wtyO75SiSJy0E="></script>
+<link rel="alternate" type="application/rss+xml" href="https://jakevanalstyne.me/haikus/index.xml" title="Jake Van Alstyne" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+<nav>
+<h2 class="book-brand">
+  <a href="/"><span>Jake Van Alstyne</span>
+  </a>
+</h2>
 
 
-<div class="row-fluid">
-  <div class="span12 text-center">
-    <ul class="posts" style="margin-top:25px;">
-      {% for haiku in paginator.posts %}
-      <li>
-        <a href="{{ haiku.url }}">
-          {{ haiku.title }}
-        </a>
-        <span class="post-date">
-          {{ haiku.date | date_to_string }}
-        </span>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
 </div>
 
-<!--
-  Showing buttons to move to the next and to the previous list of posts (pager buttons).
--->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-  {% if paginator.first_page %}
-  <li class="previous">
-    <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">First</a>
-  </li>
-  {% endif %}
 
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
 
-  {% if paginator.page_trail %}
-  {% for trail in paginator.page_trail %}
-  <li {% if page.url == trail.path %}class="selected" {% endif %}>
-    <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
-  </li>
-  {% endfor %}
-  {% endif %}
 
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
 
-  {% if paginator.last_page %}
-  <li class="previous">
-    <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Last</a>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/blog/" >
+        Blog
+      </a>
   </li>
-  {% endif %}
+  
+  <li>
+    <a href="/haikus/" >
+        Haikus
+      </a>
+  </li>
+  
+  <li>
+    <a href="/resume/" >
+        Resume
+      </a>
+  </li>
+  
 </ul>
-{% endif %}
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+
+      
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Haikus</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+
+
+        
+      </header>
+
+      
+      
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Biking/">Biking</a>
+    </h2>
+    
+  <h5>June 18, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>I forgot how fun
+It can be to ride a bike
+While shooting a gun
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Fat/">Fat</a>
+    </h2>
+    
+  <h5>May 22, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>My girlfriend is fat
+As fat as a potato
+Full of fat fat shit
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Movie/">Movie</a>
+    </h2>
+    
+  <h5>May 12, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>Watching a movie
+Without popcorn is not good
+It is very dumb
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Chris%20Bacon/">Chris Bacon</a>
+    </h2>
+    
+  <h5>April 15, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>We can talk about
+The haikus Chris bacon sir
+Any time you wish
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Singing/">Singing</a>
+    </h2>
+    
+  <h5>March 30, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>Someone is singing
+In the middle of the night
+Outside my window
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Earthquakes/">Earthquakes</a>
+    </h2>
+    
+  <h5>March 26, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>The earth shakes at times
+It is most unwelcome here
+Among us earthlings
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Blacklist/">Blacklist</a>
+    </h2>
+    
+  <h5>March 12, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>If you blacklist me
+I will blacklist you right back
+And we will not talk
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Blogs/">Blogs</a>
+    </h2>
+    
+  <h5>March 12, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>Blogs have to be good
+If you want people to read
+People don’t read mine
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Food/">Food</a>
+    </h2>
+    
+  <h5>March 12, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>My girlfriend makes food
+She learned this art in China
+It tastes like Chinese
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/haikus/Virus/">Virus</a>
+    </h2>
+    
+  <h5>March 12, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>Is it a virus
+If it doesn’t go viral
+And other questions
+    </p>
+  </article>
+  
+
+  
+<ul class="pagination">
+  <li class="page-item">
+    <a href="/haikus/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+  </li>
+  <li class="page-item disabled">
+    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+  </li>
+  <li class="page-item active">
+    <a class="page-link" href="/haikus/">1</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/haikus/page/2/">2</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/haikus/page/3/">3</a>
+  </li>
+  <li class="page-item">
+    <a href="/haikus/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/haikus/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+  </li>
+</ul>
+
+
+
+      
+      
+
+      <footer class="book-footer">
+        
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+        
+        
+      </footer>
+
+      
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
