@@ -1,6 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Building my own NAS" />
+<meta property="og:description" content="First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakevanalstyne.me/blog/diy-nas/" />
+<meta property="article:published_time" content="2020-02-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-23T00:00:00+00:00" />
+<title>Building my own NAS | Jake Van Alstyne</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.1b35ac1244ef60b98a0e9801f795e8f6e0b7547ba92e9d9d0003253b82c493e3.css" integrity="sha256-GzWsEkTvYLmKDpgB95Xo9uC3VHupLp2dAAMlO4LEk&#43;M=">
+<script defer src="/en.search.min.199892e660fd2ae0d6c3e799960fb68adb4d2376eb13f78afd1871c9d1b9e02a.js" integrity="sha256-GZiS5mD9KuDWw&#43;eZlg&#43;2ittNI3brE/eK/RhxydG54Co="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+<nav>
+<h2 class="book-brand">
+  <a href="/"><span>Jake Van Alstyne</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
 
 
 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/blog/" >
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="/haikus/" >
+        Haikus
+      </a>
+  </li>
+  
+  <li>
+    <a href="/resume/" >
+        Resume
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+
+      
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Building my own NAS</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+<input type="checkbox" class="hidden" id="toc-control" />
+<aside class="hidden clearfix">
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#first-a-little-background">First a little background</a></li>
+    <li><a href="#parts">Parts</a></li>
+    <li><a href="#now-i-wait">Now I wait</a></li>
+    <li><a href="#and-whats-next">And what&rsquo;s next?</a></li>
+    <li><a href="#small-update">Small Update</a></li>
+  </ul>
+</nav>
 
 <div id="disqus_thread"></div>
 <script type="application/javascript">
@@ -22,3 +157,231 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</aside>
+
+
+        
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/blog/diy-nas/">Building my own NAS</a>
+  </h1>
+  
+  <h5>February 23, 2020</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/DIY/">DIY</a>
+  </div>
+  
+
+  
+
+
+  <p><h2 id="first-a-little-background">
+  First a little background
+  <a class="anchor" href="#first-a-little-background">#</a>
+</h2>
+<p>I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer. I decided I wanted more control over the parts to reduce cost, as well as having more freedom in setting up the server software so I looked into building my own.</p>
+<h2 id="parts">
+  Parts
+  <a class="anchor" href="#parts">#</a>
+</h2>
+<p>I used <a href="https://pcpartpicker.com">PC Partpicker</a> to help me narrow down what I was looking for. I went in blind hoping I&rsquo;d find a tower suitable for what I wanted, and I think I found the perfect one. Everything else was selected to fit it.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://pcpartpicker.com/product/yTdqqs/fractal-design-case-fdcanode804blw">Fractal Design Node 804 MicroATX Mid Tower Case</a></td>
+<td></td>
+</tr>
+<tr>
+<td>This is particularly recommended for a NAS build. Both on Amazon and Newegg, reviews were a bit mixed but for a little over $100 I decided I could handle a few imperfections. Right now I have 7 3.5&rdquo; drives ranging from 1 to 4 TB, and 1 2.5&rdquo; SSD I want to use as the boot disk. Between disk bay utilization and cooling options, this tower promises some pretty interesting flexibility. In their own words, it has a &ldquo;Unique hard drive mounting system, fitting up to 8 x 3.5&rdquo;, 4 x 2.5&rdquo; or up to 10 x 3.5&rdquo;, 2 x 2.5&rdquo; drives HDD/SSD&rdquo; all inside a 13.5 x 12 x 15.3in package. That&rsquo;s 12 slots for hard drives! That should fit my needs perfectly with plenty of room for future upgrades and fit nicely under my desk.</td>
+<td>$109.99</td>
+</tr>
+<tr>
+<td><a href="https://pcpartpicker.com/product/RkJtt6/amd-ryzen-3-2200g-35ghz-quad-core-processor-yd2200c5fbbox">AMD Ryzen 3 2200G 3.5 GHz Quad-Core Processor</a></td>
+<td></td>
+</tr>
+<tr>
+<td>At first I was just interested in picking up a 2 core CPU since I intend on doing nothing with this machine except serving up files to my home network. I&rsquo;m the only user, so I don&rsquo;t need much CPU. However, I found it tricky to pair up a 2 core CPU with a motherboard so I just picked a reasonable quad core. It might be a little over kill, but that&rsquo;s ok.</td>
+<td>$107.68</td>
+</tr>
+<tr>
+<td>I had more trouble finding the right motherboard. I ordered a cheap one early on, forgetting to check how many SATA slots it had. What I ordered was the <a href="https://pcpartpicker.com/product/RD97YJ/asrock-b450m-hdv-r40-micro-atx-am4-motherboard-b450m-hdv-r40">ASRock B450M-HDV R4.0 Micro ATX AM4 Motherboard</a></td>
+<td></td>
+</tr>
+<tr>
+<td>which comes with 4 SATA 6 Gb/s slots. That won&rsquo;t be enough, but for the price, I can slap some extra slots in with the…</td>
+<td>$69.97</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/dp/B07S8CB398/">Ziyituod SATA3.0 Card</a></td>
+<td></td>
+</tr>
+<tr>
+<td>6 SATA 6 Gb/s PCIe controller. Problem solved.</td>
+<td>$39.95</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/dp/B019FRDFU0">Crucial 4GB Single DDR4</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Like I don&rsquo;t need much processing power, I don&rsquo;t need much ram. Two sticks of 4 GB DDR4 should do it.</td>
+<td>$39.98</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/dp/B01KVNCEIG">be Quiet! Pure Rock Slim - CPU Cooler</a></td>
+<td></td>
+</tr>
+<tr>
+<td>A concern I had was how loud this thing was going to be. I picked a CPU cooler that promises it gets no louder than 25 Db. The fans that come with the tower might be a different story, but I can worry about those later if it&rsquo;s an issue. Anyway, this thing is pretty cheap too.</td>
+<td>$33.28</td>
+</tr>
+<tr>
+<td><a href="https://www.newegg.com/evga-supernova-850-g2-220-g2-0850-xr-850w/p/N82E16817438018?Item=N82E16817438018">EVGA SuperNOVA 800W</a></td>
+<td></td>
+</tr>
+<tr>
+<td>And the final piece is the power supply. Need enough power for up to ten drives, so here we are.</td>
+<td>$159.99</td>
+</tr>
+</tbody>
+</table>
+<p>This brings the total to a little over $500. By comparison you can get an <a href="https://www.amazon.com/Synology-Bay-Diskstation-Diskless-DS1819/dp/B07KMKDW42/">8 bay NAS by Synology</a> for $931.</p>
+<h2 id="now-i-wait">
+  Now I wait
+  <a class="anchor" href="#now-i-wait">#</a>
+</h2>
+<p>I haven&rsquo;t got all the parts yet, but I&rsquo;ll post an update when I get it built and have a chance to play with it. I expect there will be some tradeoffs, like the interior will probably be a bit cramped and hard to work with. Maybe it will get a little hot or loud with the four fans. But I&rsquo;m excited, I didn&rsquo;t think I&rsquo;d be able to find a solution that would fit 10 drives in around a square foot of floor space. At less than $500, for me it&rsquo;s a no brainer.</p>
+<h2 id="and-whats-next">
+  And what&rsquo;s next?
+  <a class="anchor" href="#and-whats-next">#</a>
+</h2>
+<p>Of course, I&rsquo;m already thinking down the road. Right now I only have a little over 12 TBs of hard drives ready to put to use (consisting mostly of Bluray backups and music), but at $485 for a <a href="https://www.amazon.com/Seagate-IronWolf-16TB-Internal-Drive/dp/B07SGGWYC1">16 TB Drive</a> I am imagining a world where I spend a small fortune for a +13x increase and while I&rsquo;ll probably never need it, it is pretty fun to imagine.</p>
+<h2 id="small-update">
+  Small Update
+  <a class="anchor" href="#small-update">#</a>
+</h2>
+<p>Ok so I bought two of the 16 TB drives intending to get a simple mirror up. Funny story, I snapped the plastic on the sata connector of one of them trying to fit it into the case. It is pretty tight in there. Anyway, I bought a third to replace it. But by the time it arrived I decided it was worth trying to salvage the broken one. The pins were still there and I had the broken off plastic piece, so I sort of put it back together delicately and slid it all back in. It worked! The system connected to the drive and now I&rsquo;ve got a healthy 32 TB Raid Z1 pool running in my FreeNAS!</p>
+<p>I&rsquo;m working now on setting up torrenting over OpenVPN among other things. I&rsquo;ll write some of that up in separate blog posts.</p>
+</p>
+</article>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+        
+        
+      </footer>
+
+      
+
+<div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jakevanalstyne" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#first-a-little-background">First a little background</a></li>
+    <li><a href="#parts">Parts</a></li>
+    <li><a href="#now-i-wait">Now I wait</a></li>
+    <li><a href="#and-whats-next">And what&rsquo;s next?</a></li>
+    <li><a href="#small-update">Small Update</a></li>
+  </ul>
+</nav>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jakevanalstyne" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
