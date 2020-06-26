@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on Jake Van Alstyne</title>
-    <link>http://jakevanalstyne.me/tags/Raspberry-Pi/</link>
+    <link>https://jakevanalstyne.me/tags/Raspberry-Pi/</link>
     <description>Recent content in Raspberry Pi on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://jakevanalstyne.me/tags/Raspberry-Pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jakevanalstyne.me/tags/Raspberry-Pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Raspberry Pi BTC Node</title>
-      <link>http://jakevanalstyne.me/blog/raspberry-pi-btc-node/</link>
+      <link>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jakevanalstyne.me/blog/raspberry-pi-btc-node/</guid>
+      <guid>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</guid>
       <description>Time to put one of my spare Raspberry Pis to work #  I woke up this morning and thought, &amp;lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&amp;rsquo; So that&amp;rsquo;s what I&amp;rsquo;m doing today.
 Basics #  This assumes something like Raspbian Lite is already installed and SSH access configured. For Wifi, I use these Edimax USB chips. Configuring them is not too difficult.</description>
     </item>
