@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jakevanalstyne.me/blog/diy-nas/</loc>
-    <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jakevanalstyne.me/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
@@ -38,12 +33,12 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/haikus/Chris%20Bacon/</loc>
+    <loc>https://jakevanalstyne.me/categories/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/tags/garbage/</loc>
+    <loc>https://jakevanalstyne.me/haikus/Chris%20Bacon/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/tags/</loc>
+    <loc>https://jakevanalstyne.me/categories/Shit-Post/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/tags/DIY/</loc>
+    <loc>https://jakevanalstyne.me/categories/DIY/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -75,11 +70,6 @@
   <url>
     <loc>https://jakevanalstyne.me/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/categories/</loc>
-    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -99,6 +89,11 @@
   
   <url>
     <loc>https://jakevanalstyne.me/categories/Security/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/tags/</loc>
     <lastmod>2020-03-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,17 +158,17 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/tags/Raspberry-Pi/</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/categories/DIY/</loc>
+    <loc>https://jakevanalstyne.me/tags/Raspberry-Pi/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/blog/diy-nas/</loc>
     <lastmod>2020-02-23T00:00:00+00:00</lastmod>
   </url>
   

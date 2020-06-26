@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Building my own NAS</title>
-      <link>https://jakevanalstyne.me/blog/diy-nas/</link>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakevanalstyne.me/blog/diy-nas/</guid>
-      <description>First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.</description>
-    </item>
-    
-    <item>
       <title>Biking</title>
       <link>https://jakevanalstyne.me/haikus/Biking/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
@@ -232,6 +223,15 @@ To stuff in my face</description>
       <guid>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</guid>
       <description>Time to put one of my spare Raspberry Pis to work #  I woke up this morning and thought, &amp;lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&amp;rsquo; So that&amp;rsquo;s what I&amp;rsquo;m doing today.
 Basics #  This assumes something like Raspbian Lite is already installed and SSH access configured. For Wifi, I use these Edimax USB chips. Configuring them is not too difficult.</description>
+    </item>
+    
+    <item>
+      <title>Building my own NAS</title>
+      <link>https://jakevanalstyne.me/blog/diy-nas/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakevanalstyne.me/blog/diy-nas/</guid>
+      <description>First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.</description>
     </item>
     
     <item>
