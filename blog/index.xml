@@ -6,19 +6,10 @@
     <description>Recent content in Blog on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jakevanalstyne.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Rails v Phoenix</title>
-      <link>https://jakevanalstyne.me/blog/rails-v-phoenix/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakevanalstyne.me/blog/rails-v-phoenix/</guid>
-      <description>fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&amp;rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&amp;rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &amp;lsquo;get it&amp;rsquo; better, maybe the magic of rails makes it hard to feel that way for me.</description>
-    </item>
     
     <item>
       <title>How I post to this blog using iOS Shortcuts and Pythonista</title>
