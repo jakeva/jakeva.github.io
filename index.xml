@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Resume</title>
+      <link>https://jakevanalstyne.me/docs/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/resume/</guid>
+      <description>Software Developer #   Web, iOS, MacOS #  Interactive 3D Graphics &amp;amp; Data Visualization #  Elixir, Phoenix, Ruby, Rails, React, Swift, Objective-C, C, C++ #  Docker, Kubernetes, GKE, AWS #   EDUCATION #  M.Sc. Computing - University of Utah - 2013 #   Graphics and Visualization Improvements to rational surface analysis in toroidal magnetic confinement fields  B.Sc. Chemical Engineering - University of Utah - 2008 #   High temperation fixed bed mercury sequestration on a non-carbonaceous substrate   CV - PDF</description>
+    </item>
+    
+    <item>
       <title>Dublin</title>
       <link>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/dublin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
