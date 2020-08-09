@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jakevanalstyne.me/docs/</loc>
+    <lastmod>2020-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/caen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/dublin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/howth/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/paris/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/paris/louvre/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/ferry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/blog/travel/</loc>
+  </url>
+  
+  <url>
     <loc>https://jakevanalstyne.me/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
@@ -33,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/blog/</loc>
+    <loc>https://jakevanalstyne.me/docs/blog/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</loc>
+    <loc>https://jakevanalstyne.me/docs/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,7 +113,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/blog/gpg-yubikey-you/</loc>
+    <loc>https://jakevanalstyne.me/docs/blog/gpg-yubikey-you/</loc>
     <lastmod>2020-03-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,7 +188,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</loc>
+    <loc>https://jakevanalstyne.me/docs/blog/raspberry-pi-btc-node/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,7 +198,7 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/blog/diy-nas/</loc>
+    <loc>https://jakevanalstyne.me/docs/blog/diy-nas/</loc>
     <lastmod>2020-02-23T00:00:00+00:00</lastmod>
   </url>
   

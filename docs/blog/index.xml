@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Jake Van Alstyne</title>
+    <link>https://jakevanalstyne.me/docs/blog/</link>
+    <description>Recent content in Blog on Jake Van Alstyne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jakevanalstyne.me/docs/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I (used to) post to this blog using iOS Shortcuts and Pythonista</title>
+      <link>https://jakevanalstyne.me/docs/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/</guid>
+      <description>EDIT: This blog is now hosted using Hugo, not Jekyll. I have to find a way to migrate what I&amp;rsquo;ve described here.
+I&amp;rsquo;ve had this blog for many years, and basically never posted anything. I wanted to become better about that, so I&amp;rsquo;ve been writing more haikus and trying to write up some of my home projects. My blog uses Jekyll and is hosted on Github Pages which already makes it pretty easy to write content but I wanted to see if I could make it even easier.</description>
+    </item>
+    
+    <item>
+      <title>GPG &amp; YubiKey &amp; You</title>
+      <link>https://jakevanalstyne.me/docs/blog/gpg-yubikey-you/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/blog/gpg-yubikey-you/</guid>
+      <description>I&amp;rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
+My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&amp;rsquo;m taking more of a hobbyist approach.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi BTC Node</title>
+      <link>https://jakevanalstyne.me/docs/blog/raspberry-pi-btc-node/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/blog/raspberry-pi-btc-node/</guid>
+      <description>Time to put one of my spare Raspberry Pis to work #  I woke up this morning and thought, &amp;lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&amp;rsquo; So that&amp;rsquo;s what I&amp;rsquo;m doing today.
+Basics #  This assumes something like Raspbian Lite is already installed and SSH access configured. For Wifi, I use these Edimax USB chips. Configuring them is not too difficult.</description>
+    </item>
+    
+    <item>
+      <title>Building my own NAS</title>
+      <link>https://jakevanalstyne.me/docs/blog/diy-nas/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/blog/diy-nas/</guid>
+      <description>First a little background #  I had a couple old NAS storage solutions I pulled out of, well, my storage unit a while back. Tried to set them up in my office and found them to be really difficult to use, but the data on them is still good. So I pulled the disks out and decided to look into upgrading to something newer. After some research, I concluded the existing out-of-the-box solutions available are overpriced for what they offer.</description>
+    </item>
+    
+  </channel>
+</rss>

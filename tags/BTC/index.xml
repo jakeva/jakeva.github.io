@@ -13,10 +13,10 @@
     
     <item>
       <title>Raspberry Pi BTC Node</title>
-      <link>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</link>
+      <link>https://jakevanalstyne.me/docs/blog/raspberry-pi-btc-node/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/blog/raspberry-pi-btc-node/</guid>
+      <guid>https://jakevanalstyne.me/docs/blog/raspberry-pi-btc-node/</guid>
       <description>Time to put one of my spare Raspberry Pis to work #  I woke up this morning and thought, &amp;lsquo;Hey why not get a full BTC node running on one of those Pis you got laying around?&amp;rsquo; So that&amp;rsquo;s what I&amp;rsquo;m doing today.
 Basics #  This assumes something like Raspbian Lite is already installed and SSH access configured. For Wifi, I use these Edimax USB chips. Configuring them is not too difficult.</description>
     </item>
