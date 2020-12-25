@@ -6,11 +6,7 @@
     <description>Recent content in YubiKey on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jakevanalstyne.me/tags/YubiKey/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jakevanalstyne.me/tags/YubiKey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPG &amp; YubiKey &amp; You</title>
       <link>https://jakevanalstyne.me/docs/blog/gpg-yubikey-you/</link>

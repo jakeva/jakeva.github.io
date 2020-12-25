@@ -5,10 +5,6 @@
     <link>https://jakevanalstyne.me/docs/blog/travel/</link>
     <description>Recent content on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://jakevanalstyne.me/docs/blog/travel/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://jakevanalstyne.me/docs/blog/travel/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

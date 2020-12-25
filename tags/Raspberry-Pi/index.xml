@@ -6,11 +6,7 @@
     <description>Recent content in Raspberry Pi on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jakevanalstyne.me/tags/Raspberry-Pi/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jakevanalstyne.me/tags/Raspberry-Pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi BTC Node</title>
       <link>https://jakevanalstyne.me/docs/blog/raspberry-pi-btc-node/</link>
