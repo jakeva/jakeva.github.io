@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Me on Jake Van Alstyne</title>
+    <title>Resume on Jake Van Alstyne</title>
     <link>https://jakevanalstyne.me/</link>
-    <description>Recent content in About Me on Jake Van Alstyne</description>
+    <description>Recent content in Resume on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jakevanalstyne.me/index.xml" rel="self" type="application/rss+xml" />
@@ -14,18 +14,6 @@
       
       <guid>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/caen/</guid>
       <description>Europe Part 2.1 - Caen, France #  Caen #  </description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://jakevanalstyne.me/docs/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakevanalstyne.me/docs/resume/</guid>
-      <description>Software Developer #   EDUCATION #  M.Sc. Computing - University of Utah - 2013 #   Improvements to rational surface analysis in toroidal magnetic confinement fields  B.Sc. Chemical Engineering - University of Utah - 2008 #   High temperation fixed bed mercury sequestration on a non-carbonaceous substrate   CV - PDF
-
-
- EMPLOYMENT #  Mavenlink - October 2017 - Present #  Senior Software Engineer #   SAAS Company, Professional Services Software Full stack development.</description>
     </item>
     
     <item>
@@ -61,7 +49,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jakevanalstyne.me/docs/blog/travel/europe-2016/belgium/</guid>
-      <description>Europe Part 3 - Belgium #  Brussels #  I was only in Belgium for one night, but I had a lot of fun. I stayed in Brussels. It&amp;rsquo;s a beautiful city, of course. Birthplace of Audrey Hepburn, location of an escape room I nearly had a chance to try and escape except for the drunk northern irish couple who puked everywhere and offered me 50 euros to &amp;lsquo;settle it&amp;rsquo;.</description>
+      <description>Europe Part 3 - Belgium #  Brussels #  I was only in Belgium for one night, but I had a lot of fun. I stayed in Brussels. It&amp;rsquo;s a beautiful city, of course. Birthplace of Audrey Hepburn, location of an escape room I nearly had a chance to try and escape from except for the drunk northern irish couple I met and hung with until the girl puked everywhere and gave me 50 euros for some reason.</description>
     </item>
     
     <item>
@@ -75,10 +63,10 @@
     
     <item>
       <title>Movie</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/movie/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/movie/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/movie/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/movie/</guid>
       <description>Watching a movie
 Without popcorn is not good
 It is very dumb</description>
@@ -86,10 +74,10 @@ It is very dumb</description>
     
     <item>
       <title>Chris Bacon</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/chris-bacon/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/chris-bacon/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/chris-bacon/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/chris-bacon/</guid>
       <description>We can talk about
 The haikus Chris bacon sir
 Any time you wish</description>
@@ -97,10 +85,10 @@ Any time you wish</description>
     
     <item>
       <title>Singing</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/singing/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/singing/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/singing/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/singing/</guid>
       <description>Someone is singing
 In the middle of the night
 Outside my window</description>
@@ -108,10 +96,10 @@ Outside my window</description>
     
     <item>
       <title>Earthquakes</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/earthquakes/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/earthquakes/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/earthquakes/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/earthquakes/</guid>
       <description>The earth shakes at times
 It is most unwelcome here
 Among us earthlings</description>
@@ -139,10 +127,10 @@ My first goal is to sign git commits with it. Because I am a man of negligible i
     
     <item>
       <title>Blogs</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/blogs/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/blogs/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/blogs/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/blogs/</guid>
       <description>Blogs have to be good
 If you want people to read
 People don’t read mine</description>
@@ -150,10 +138,10 @@ People don’t read mine</description>
     
     <item>
       <title>Food</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/food/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/food/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/food/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/food/</guid>
       <description>My girlfriend makes food
 She learned this art in China
 It tastes like Chinese</description>
@@ -161,10 +149,10 @@ It tastes like Chinese</description>
     
     <item>
       <title>Virus</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/virus/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/virus/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/virus/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/virus/</guid>
       <description>Is it a virus
 If it doesn’t go viral
 And other questions</description>
@@ -172,10 +160,10 @@ And other questions</description>
     
     <item>
       <title>Wasting time</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/wasting-time/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/wasting-time/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/wasting-time/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/wasting-time/</guid>
       <description>I like wasting time
 And I like wasting your time
 I did it again</description>
@@ -183,10 +171,10 @@ I did it again</description>
     
     <item>
       <title>Haiku</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/haiku/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/haiku/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/haiku/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/haiku/</guid>
       <description>This is a haiku
 It checks all of the boxes
 And now it is done</description>
@@ -194,10 +182,10 @@ And now it is done</description>
     
     <item>
       <title>Beer</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/beer/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/beer/</link>
       <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/beer/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/beer/</guid>
       <description>Beer is very good
 I drink it often for fun
 Including right now</description>
@@ -205,10 +193,10 @@ Including right now</description>
     
     <item>
       <title>Richard</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/richard/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/richard/</link>
       <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/richard/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/richard/</guid>
       <description>Richard has nice breath
 I wish he could write good code
 But alas he can’t</description>
@@ -216,10 +204,10 @@ But alas he can’t</description>
     
     <item>
       <title>Typos from old books</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/typos-from-old-books/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/typos-from-old-books/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/typos-from-old-books/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/typos-from-old-books/</guid>
       <description>A piecture is just
 A pie chart of types of pie
 In Antarctica</description>
@@ -227,10 +215,10 @@ In Antarctica</description>
     
     <item>
       <title>Ramen</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/ramen/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/ramen/</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/ramen/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/ramen/</guid>
       <description>Ramen is so good
 It has noodles, pork, and stuff
 To stuff in my face</description>
@@ -257,10 +245,10 @@ Basics #  This assumes something like Raspbian Lite is already installed and SSH
     
     <item>
       <title>Denver</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/denver/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/denver/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/denver/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/denver/</guid>
       <description>I am in Denver
 It is just like Salt Lake City
 Except, like, bigger</description>
@@ -268,10 +256,10 @@ Except, like, bigger</description>
     
     <item>
       <title>In defense of the new MacBook Pro touchbar</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/in-defense-of-the-touchbar/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/in-defense-of-the-touchbar/</link>
       <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/in-defense-of-the-touchbar/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/in-defense-of-the-touchbar/</guid>
       <description>It is a fun way
 To do things you did before
 Why not something new?</description>
@@ -279,10 +267,10 @@ Why not something new?</description>
     
     <item>
       <title>Getting out of bed</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/getting-out-of-bed/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/getting-out-of-bed/</link>
       <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/getting-out-of-bed/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/getting-out-of-bed/</guid>
       <description>No no no no no
 No no no no no no no
 No no no no no</description>
@@ -290,10 +278,10 @@ No no no no no</description>
     
     <item>
       <title>Waking up</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/waking-up/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/waking-up/</link>
       <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/waking-up/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/waking-up/</guid>
       <description>Nope, nope, nope, nope, nope
 Nope, nope, nope, nope, nope, nope, nope
 Nope, nope, nope, nope, nope</description>
@@ -301,10 +289,10 @@ Nope, nope, nope, nope, nope</description>
     
     <item>
       <title>Space-time</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/space-time/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/space-time/</link>
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/space-time/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/space-time/</guid>
       <description>Time and space are one
 So it is all relative
 Please pardon the pun</description>
@@ -312,10 +300,10 @@ Please pardon the pun</description>
     
     <item>
       <title>Evening</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/evening/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/evening/</link>
       <pubDate>Mon, 22 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/evening/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/evening/</guid>
       <description>In the evening
 I am joined by Page and Plant
 but do not ascend</description>
@@ -323,10 +311,10 @@ but do not ascend</description>
     
     <item>
       <title>Breakfast</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/breakfast/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/breakfast/</link>
       <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/breakfast/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/breakfast/</guid>
       <description>The first and best meal
 Forget brunch, breakfast is good
 enough to eat twice</description>
@@ -334,10 +322,10 @@ enough to eat twice</description>
     
     <item>
       <title>Chairs</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/chairs/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/chairs/</link>
       <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/chairs/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/chairs/</guid>
       <description>Made of good hard wood
 Sitting straight is important
 If you like your spine</description>
@@ -345,10 +333,10 @@ If you like your spine</description>
     
     <item>
       <title>Bubbles</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/bubbles/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/bubbles/</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/bubbles/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/bubbles/</guid>
       <description>Bubbles down the drain
 Remind me I am one too
 One day I will pop</description>
@@ -356,10 +344,10 @@ One day I will pop</description>
     
     <item>
       <title>Music</title>
-      <link>https://jakevanalstyne.me/docs/blog/haikus/music/</link>
+      <link>https://jakevanalstyne.me/docs/haikus/music/</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/docs/blog/haikus/music/</guid>
+      <guid>https://jakevanalstyne.me/docs/haikus/music/</guid>
       <description>Listen to music
 From Mozart to the Beatles
 Feel infinity</description>
