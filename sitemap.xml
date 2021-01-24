@@ -3,40 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/caen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/</loc>
-  </url>
-  
-  <url>
     <loc>https://jakevanalstyne.me/docs/blog/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/dublin/</loc>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/</loc>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/</loc>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/caen/</loc>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/howth/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/paris/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/france/paris/louvre/</loc>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/ireland/</loc>
   </url>
   
   <url>
@@ -45,15 +25,47 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/belgium/</loc>
+    <loc>https://jakevanalstyne.me/docs/travel/cuba-2017/</loc>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/europe-2016/ireland/ferry/</loc>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/ireland/dublin/</loc>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/blog/travel/</loc>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/ireland/howth/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/paris/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/paris/louvre/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/belgium/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/ireland/ferry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/resume/</loc>
   </url>
   
   <url>
@@ -63,12 +75,12 @@
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/docs/haikus/movie/</loc>
+    <loc>https://jakevanalstyne.me/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jakevanalstyne.me/</loc>
+    <loc>https://jakevanalstyne.me/docs/haikus/movie/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -245,10 +257,6 @@
   <url>
     <loc>https://jakevanalstyne.me/docs/haikus/music/</loc>
     <lastmod>2013-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/about/</loc>
   </url>
   
 </urlset>
