@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jake Van Alstyne</title>
+    <title>Cuba 2017 on Jake Van Alstyne</title>
     <link>https://jakevanalstyne.me/docs/travel/cuba-2017/</link>
-    <description>Recent content on Jake Van Alstyne</description>
+    <description>Recent content in Cuba 2017 on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jakevanalstyne.me/docs/travel/cuba-2017/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://jakevanalstyne.me/docs/travel/cuba-2017/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jake Van Alstyne</title>
+    <title>Europe 2016 on Jake Van Alstyne</title>
     <link>https://jakevanalstyne.me/docs/travel/europe-2016/</link>
-    <description>Recent content on Jake Van Alstyne</description>
+    <description>Recent content in Europe 2016 on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jakevanalstyne.me/docs/travel/europe-2016/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jakevanalstyne.me/docs/travel/europe-2016/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Belgium</title>
       <link>https://jakevanalstyne.me/docs/travel/europe-2016/belgium/</link>

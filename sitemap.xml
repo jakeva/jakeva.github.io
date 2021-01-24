@@ -3,20 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/caen/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jakevanalstyne.me/docs/blog/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jakevanalstyne.me/docs/travel/europe-2016/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/caen/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jakevanalstyne.me/docs/travel/europe-2016/ireland/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -26,14 +33,11 @@
   
   <url>
     <loc>https://jakevanalstyne.me/docs/travel/cuba-2017/</loc>
+    <lastmod>2017-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jakevanalstyne.me/docs/travel/europe-2016/ireland/dublin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jakevanalstyne.me/docs/travel/europe-2016/france/</loc>
   </url>
   
   <url>
@@ -50,6 +54,7 @@
   
   <url>
     <loc>https://jakevanalstyne.me/docs/travel/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -70,13 +75,13 @@
   
   <url>
     <loc>https://jakevanalstyne.me/docs/</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jakevanalstyne.me/</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
