@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I&rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
+My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&rsquo;m taking more of a hobbyist approach.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="GPG &amp; YubiKey &amp; You" />
+<meta property="og:description" content="I&rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
+My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&rsquo;m taking more of a hobbyist approach." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakevanalstyne.me/docs/weblog/gpg-yubikey-you/" />
+<meta property="article:published_time" content="2020-03-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-14T00:00:00+00:00" />
+<title>GPG &amp; YubiKey &amp; You | Jake Van Alstyne</title>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+</style>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.f1bbfabadd5f11bf21aab93c9f162cd13ccbe4b33e363df9349a538319555dd1.css" integrity="sha256-8bv6ut1fEb8hqrk8nxYs0TzL5LM&#43;Nj35NJpTgxlVXdE=">
+<script defer src="/en.search.min.3ddb3c3f8269a273abf68b1b42ca76940e61222f5716864db3a614110353d7fc.js" integrity="sha256-Pds8P4JponOr9osbQsp2lA5hIi9XFoZNs6YUEQNT1/w="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+<nav>
+<h2 class="book-brand">
+  <a href="/"><span>Jake Van Alstyne</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/" class="collapsed ">Weblog</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/" class="">How I (used to) post to this blog using iOS Shortcuts and Pythonista</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/gpg-yubikey-you/" class="active">GPG &amp; YubiKey &amp; You</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/raspberry-pi-btc-node/" class="">Raspberry Pi BTC Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/diy-nas/" class="">Building my own NAS</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/haikulog/" class="collapsed ">Haikulog</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/travelog/" class="collapsed ">Travelog</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/about/" class="">About</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/resume/" class="">Resume</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+
+      
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>GPG &amp; YubiKey &amp; You</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+<input type="checkbox" class="hidden" id="toc-control" />
+<aside class="hidden clearfix">
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#configure-your-yubikey">Configure your YubiKey</a></li>
+    <li><a href="#a-little-about-gpg-keys">A little about GPG keys</a></li>
+    <li><a href="#create-a-gpg-key">Create a GPG key</a>
+      <ul>
+        <li><a href="#authentication-key">Authentication Key</a></li>
+        <li><a href="#signing-key">Signing Key</a></li>
+      </ul>
+    </li>
+    <li><a href="#backup-your-keys">Backup your keys</a></li>
+    <li><a href="#import-key-to-yubikey">Import key to YubiKey</a></li>
+    <li><a href="#configure-git-for-commit-signing">Configure Git for commit signing</a></li>
+    <li><a href="#configure-github-for-the-verified-stamp">Configure Github for the &lsquo;Verified&rsquo; stamp</a></li>
+    <li><a href="#etc">Etc</a></li>
+  </ul>
+</nav>
+
+
+</aside>
+
+
+        
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/docs/weblog/gpg-yubikey-you/">GPG &amp; YubiKey &amp; You</a>
+  </h1>
+  
+  <h5>March 14, 2020</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/Security/">Security</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/YubiKey/">YubiKey</a>, 
+      <a href="/tags/git/">git</a>, 
+      <a href="/tags/gpg/">gpg</a>
+  </div>
+  
+
+
+  <p><p>I&rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.</p>
+<p>My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&rsquo;m taking more of a hobbyist approach. If security was of a more significant concern in my life, I would probably generate my keys in a live booted and air gapped <a href="https://tails.boum.org">Tails</a> environment.</p>
+<p>When I started going down this route I had only in the first place acquired my YubiKey to simplify 2 factor authorization, a flow that I have found myself increasingly spending time due to work and the fact I turn it on everywhere that supports it. I think I was vaguely aware they could be used for more. Regardless, I started by playing around with signing. One of the first things I became aware of was that these things have PIN codes. Never needed them for 2FA, but for managing GPG keys you do. The default user PIN (which is used for signing, among other things) is <code>123456</code> and the default admin PIN (used for modifying certain card attributes) is <code>12345678</code>.</p>
+<p>If you&rsquo;re following along, I&rsquo;m assuming you have a YubiKey and a recent version of GnuPG.</p>
+<h2 id="configure-your-yubikey">
+  Configure your YubiKey
+  <a class="anchor" href="#configure-your-yubikey">#</a>
+</h2>
+<p>To change the PIN (and configure things like your name, language, etc) run <code>gpg --card-edit</code> with your key plugged in. You should see information about your key. Type <code>admin</code> and <code>help</code> to enable and list the available commands. Use <code>passwd</code> to change the user PIN code.</p>
+<h2 id="a-little-about-gpg-keys">
+  A little about GPG keys
+  <a class="anchor" href="#a-little-about-gpg-keys">#</a>
+</h2>
+<p>GPG keys have capabilities: Sign, Certify, and Encrypt. When you generate a GPG public / private keypair, by default you get a primary pub/priv key and a sub pub/priv key. The primary key can Sign and Certify. The subkey can Encrypt. The reason for this default is that Certify is all powerful. It really is your identity. Delegating powers to other keys signed by it is a good way to reduce your security footprint. If someone steals your encrypt key, all you have to do is revoke it, create a new one, and Certify it with your unstolen primary key. If someone steals your primary private key, well they&rsquo;ve just stolen the ability to revoke your other keys or make new keys as you. So keep it extra safe.</p>
+<h2 id="create-a-gpg-key">
+  Create a GPG key
+  <a class="anchor" href="#create-a-gpg-key">#</a>
+</h2>
+<p>It&rsquo;s time to generate your GPG key. <code>gpg --expert --full-gen-key</code></p>
+<ul>
+<li>Select <code>RSA and RSA(default)</code></li>
+<li>Key size: depending on the version of your key
+<ul>
+<li>YubiKey NEO - 2048</li>
+<li>YubiKey 4 / 5 - 4096</li>
+</ul>
+</li>
+<li>Do it again for the subkey</li>
+<li>Pick an expiration date</li>
+<li>Enter your name (must be more than 5 characters)</li>
+<li>Enter your email</li>
+<li>Enter an optional comment</li>
+</ul>
+<p>Note the ID of the key generated. For fun, let&rsquo;s look at what we&rsquo;ve got so far. Run <code>gpg --edit-key &lt;KEY ID&gt;</code>. You should see something like</p>
+<pre><code>Secret key is available.
+
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   2  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 2u
+gpg: next trustdb check due at 2021-03-12
+sec  rsa4096/98973C978ECA988D
+     created: 2020-03-14  expires: never       usage: SC
+     trust: ultimate      validity: ultimate
+ssb  rsa4096/015D68EE1E7AC274
+     created: 2020-03-14  expires: never       usage: E
+[ultimate] (1). Jake Van Alstyne (testing) &lt;email@address.org&gt;
+</code></pre><p>The usage of the first key is marked as <code>SC</code>. The second is <code>E</code>. That means the primary key can sign and certify, while the subkey can encrypt.</p>
+<p>If you have an existing key, you could use it to sign this new one to maintain a chain of custody: <code>gpg -u &lt;your_old_keyid&gt; --sign-key &lt;longid&gt;</code></p>
+<p>While we&rsquo;re here, let&rsquo;s add separate authentication and signing keys to prepare to fill the slots on the YubiKey.</p>
+<h3 id="authentication-key">
+  Authentication Key
+  <a class="anchor" href="#authentication-key">#</a>
+</h3>
+<p>If you&rsquo;re still at the gpg prompt <code>gpg&gt;</code> from the last command, exit out with Ctrl-C or <code>quit</code> and enter <code>gpg --expert --edit-key &lt;KEY ID&gt;</code>. Notice the extra flag for expert. Now enter the command <code>addkey</code>.</p>
+<ul>
+<li>Pick RSA.</li>
+<li>Toggle capabilities until only authentication is enabled. You should need to enter each option once: <code>S, E, A</code></li>
+<li>Enter <code>Q</code> to finish</li>
+<li>Pick the key size</li>
+<li>Pick the expiration (good idea to keep it the same as your master key)</li>
+<li>Follow the rest of the prompts</li>
+</ul>
+<h3 id="signing-key">
+  Signing Key
+  <a class="anchor" href="#signing-key">#</a>
+</h3>
+<p>The steps are the same as for the authentication key, only you should only have to deselect Encrypt when picking the key capabilities since by default Signing and Encryption are selected.
+If you <code>quit</code> out of here now, make sure to save or you&rsquo;ll lose the keys you just made.</p>
+<h2 id="backup-your-keys">
+  Backup your keys
+  <a class="anchor" href="#backup-your-keys">#</a>
+</h2>
+<p>It&rsquo;s a good idea to keep a backup somewhere safe.</p>
+<pre><code>gpg --armor --output privkey.sec --export-secret-key &lt;longid&gt;
+gpg --armor --output subkeys.sec --export-secret-subkeys &lt;longid&gt;
+gpg --armor --output pubkey.asc --export &lt;longid&gt;
+</code></pre><h2 id="import-key-to-yubikey">
+  Import key to YubiKey
+  <a class="anchor" href="#import-key-to-yubikey">#</a>
+</h2>
+<p>Make sure the YubiKey is plugged into your computer. Edit the key again, if you aren&rsquo;t already <code>gpg --edit-key &lt;KEY ID&gt;</code>. Enter the command <code>toggle</code> followed by <code>keytocard</code>.</p>
+<ul>
+<li>Enter <code>y</code> to move the primary key</li>
+<li>Select <code>1</code>. This moves the signature subkey to the signature slot of the YubiKey.</li>
+</ul>
+<p>Enter <code>key 1</code> (which now should select the encryption key) followed by <code>keytocard</code>. Select <code>2</code>. This moves the encryption key to the encryption slot.</p>
+<p>Enter <code>key 1</code> again and then <code>key 2</code>. <code>keytocard</code> and <code>3</code>. This does the same but for the authentication key.</p>
+<p>Now <code>quit</code> and <code>y</code> for save.</p>
+<p>Now your secret keys are on your YubiKey and can be used for their intended purpose when it&rsquo;s connected.</p>
+<h2 id="configure-git-for-commit-signing">
+  Configure Git for commit signing
+  <a class="anchor" href="#configure-git-for-commit-signing">#</a>
+</h2>
+<p>Configure git for GPG signing:</p>
+<ul>
+<li><code>git config --global commit.gpgsign true</code></li>
+<li><code>git config --global user.signingkey &lt;KEY ID&gt;</code></li>
+</ul>
+<p>And let&rsquo;s restart the GPG agent: <code>gpg-connect-agent reloadagent</code>. Get out of there with <code>/bye</code>. Now when you make a commit, git will require the key to be present. If it&rsquo;s not, the commit will fail. If you want to make a signed commit and see what it looks like in the log, the command for that is <code>git log --show-signature</code>.</p>
+<pre><code>gpg: Signature made Sat Mar 14 03:30:27 2020 MDT
+gpg:                using RSA key 05FFE31C369D8F25CFFF2167FDF8E68C5B840388
+gpg: Good signature from &quot;Jake Van Alstyne &lt;jakeva@gmail.com&gt;&quot; [ultimate]
+Author: Jake Van Alstyne 🎩 &lt;jakeva@gmail.com&gt;
+Date:   Sat Mar 14 03:27:35 2020 -0600
+
+    Add YubiKey Post
+</code></pre><h2 id="configure-github-for-the-verified-stamp">
+  Configure Github for the &lsquo;Verified&rsquo; stamp
+  <a class="anchor" href="#configure-github-for-the-verified-stamp">#</a>
+</h2>
+<p><code>gpg --armor --export &lt;KEY ID&gt; | pbcopy</code> and take it to <a href="https://github.com/settings/gpg/new">add as a new GPG key on Github</a>. If you forget this stamp, your commits will still show as signed but &lsquo;Unverified&rsquo;.</p>
+<h2 id="etc">
+  Etc
+  <a class="anchor" href="#etc">#</a>
+</h2>
+<p>Something interesting I noticed is that the gpg-agent caches the key. I removed the key from my computer before making another commit and it still got signed. It looks like this is set in <code>~/.gnupg/gpg-agent.conf</code> so just a heads up.</p>
+</p>
+</article>
+<script src="https://utteranc.es/client.js" repo="jakeva/jakeva.github.io" issue-term="pathname" theme="github-dark"
+  crossorigin="anonymous" async>
+  </script>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+        
+        
+      </footer>
+
+      
+
+<div class="book-comments">
+
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#configure-your-yubikey">Configure your YubiKey</a></li>
+    <li><a href="#a-little-about-gpg-keys">A little about GPG keys</a></li>
+    <li><a href="#create-a-gpg-key">Create a GPG key</a>
+      <ul>
+        <li><a href="#authentication-key">Authentication Key</a></li>
+        <li><a href="#signing-key">Signing Key</a></li>
+      </ul>
+    </li>
+    <li><a href="#backup-your-keys">Backup your keys</a></li>
+    <li><a href="#import-key-to-yubikey">Import key to YubiKey</a></li>
+    <li><a href="#configure-git-for-commit-signing">Configure Git for commit signing</a></li>
+    <li><a href="#configure-github-for-the-verified-stamp">Configure Github for the &lsquo;Verified&rsquo; stamp</a></li>
+    <li><a href="#etc">Etc</a></li>
+  </ul>
+</nav>
+
+
+      
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
