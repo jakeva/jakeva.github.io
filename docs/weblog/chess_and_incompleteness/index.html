@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Chess and Logic #  Chess and Logic, huh?
+There&rsquo;s something fundamental linking them, and I&rsquo;m not talking about using logic to beat a game of chess. The rules of chess are similar to the axioms of a logical system. This got me thinking, can we demonstrate Kurt Gödel&rsquo;s incompleteness theorem in chess?
+If you&rsquo;re not familiar (and it&rsquo;s a large and difficult territory should you decide to venture there), the incompleteness theorem says that &ldquo;logic systems can describe true statements that can not be derived using that system&rdquo;.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Chess and Incompleteness" />
+<meta property="og:description" content="Chess and Logic #  Chess and Logic, huh?
+There&rsquo;s something fundamental linking them, and I&rsquo;m not talking about using logic to beat a game of chess. The rules of chess are similar to the axioms of a logical system. This got me thinking, can we demonstrate Kurt Gödel&rsquo;s incompleteness theorem in chess?
+If you&rsquo;re not familiar (and it&rsquo;s a large and difficult territory should you decide to venture there), the incompleteness theorem says that &ldquo;logic systems can describe true statements that can not be derived using that system&rdquo;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakevanalstyne.me/docs/weblog/chess_and_incompleteness/" />
+<meta property="article:published_time" content="2021-02-05T16:55:05-07:00" />
+<meta property="article:modified_time" content="2021-02-05T16:55:05-07:00" />
+<title>Chess and Incompleteness | Jake Van Alstyne</title>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+</style>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.cedc49a3c29c32a579fbb8aa34d4e02ee0aa5eab0924bf1af940c4233feadad6.css" integrity="sha256-ztxJo8KcMqV5&#43;7iqNNTgLuCqXqsJJL8a&#43;UDEIz/q2tY=">
+<script defer src="/en.search.min.0a756d53daaa945283bc54720c59a6c9e826400c263401ac4fbdfb152a32172d.js" integrity="sha256-CnVtU9qqlFKDvFRyDFmmyegmQAwmNAGsT737FSoyFy0="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+<nav>
+<h2 class="book-brand">
+  <a href="/"><span>Jake Van Alstyne</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/" class="collapsed ">Weblog</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/chess_and_incompleteness/" class="active">Chess and Incompleteness</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/stony/" class="">Stony</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/" class="">How I (used to) post to this blog using iOS Shortcuts and Pythonista</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/gpg-yubikey-you/" class="">GPG &amp; YubiKey &amp; You</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/raspberry-pi-btc-node/" class="">Raspberry Pi BTC Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/weblog/diy-nas/" class="">Building my own NAS</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/haikulog/" class="collapsed ">Haikulog</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/travelog/" class="collapsed ">Travelog</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/about/" class="">About</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/resume/" class="">Resume</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+
+      
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Chess and Incompleteness</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+
+<input type="checkbox" class="hidden" id="toc-control" />
+<aside class="hidden clearfix">
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#on-completeness-and-consistency">On Completeness and Consistency</a></li>
+    <li><a href="#chess">Chess</a></li>
+    <li><a href="#valid-chessboard-configurations">Valid Chessboard Configurations</a></li>
+    <li><a href="#completeness-in-chess">Completeness in Chess</a></li>
+    <li><a href="#consistency-in-chess">Consistency in Chess</a></li>
+    <li><a href="#is-chess-complete">Is Chess Complete?</a></li>
+    <li><a href="#paradox-time">Paradox time</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+
+
+</aside>
+
+
+        
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/docs/weblog/chess_and_incompleteness/">Chess and Incompleteness</a>
+  </h1>
+  
+  <h5>February 5, 2021</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/Chess/">Chess</a>, 
+      <a href="/categories/Math/">Math</a>, 
+      <a href="/categories/Logic/">Logic</a>
+  </div>
+  
+
+  
+
+
+  <p><h1 id="chess-and-logic">
+  Chess and Logic
+  <a class="anchor" href="#chess-and-logic">#</a>
+</h1>
+<p>Chess and Logic, huh?</p>
+<p>There&rsquo;s something fundamental linking them, and I&rsquo;m not talking about using logic to beat a game of chess. The rules of chess are similar to the axioms of a logical system. This got me thinking, can we demonstrate Kurt Gödel&rsquo;s incompleteness theorem in chess?</p>
+<p>If you&rsquo;re not familiar (and it&rsquo;s a large and difficult territory should you decide to venture there), the incompleteness theorem says that &ldquo;logic systems can describe true statements that can not be derived using that system&rdquo;.</p>
+<p>I decided I wanted to try, so let&rsquo;s get to it!</p>
+<h2 id="on-completeness-and-consistency">
+  On Completeness and Consistency
+  <a class="anchor" href="#on-completeness-and-consistency">#</a>
+</h2>
+<p>Completeness and consistency are at the heart of the incompleteness theorem, which concludes there can not be an axiomatic system of logic that is both complete (the system can derive every statement that is true) and consistent (the system can derive false statements).</p>
+<p>Or rather, by fixing consistent in place we&rsquo;d say  &ldquo;Any consistent formal logic is incomplete&rdquo;. Meaning, broadly, if you have a set of logical rules there will be statements of that logic that are true but that you can&rsquo;t get to using only those rules.</p>
+<p>We fix consistent because consistency is a necessity in logic, completeness is just a nice to have. If I offer you a system in which I can prove 1 + 1 = 2, you might be with me so far. But if I follow up with a proof that 1 + 1 also equals 3, it&rsquo;s over before we even start looking into completeness.</p>
+<h2 id="chess">
+  Chess
+  <a class="anchor" href="#chess">#</a>
+</h2>
+<p>I think Chess is like a system of logic, so let&rsquo;s play with it a little. There are rules. We can exhaustively enumerate those rules (but we won&rsquo;t, we&rsquo;ll just give some examples).</p>
+<p>Let&rsquo;s focus on pawns.</p>
+<ul>
+<li>Pawns can move ahead by one or two squares on their first move.</li>
+<li>On any move after their first, and except when attacking, pawns can only move ahead by one square.</li>
+<li>Attacking (consuming) an enemy piece is only allowed through moving diagonally forward by one square.</li>
+<li>An attack is allowed if the opposing pawn has just exercised its right in its first move to move two squares instead of one and your pawn would otherwise normally be able to attack if the opposing pawn had only moved ahead one square instead of two. (This is the only example of an attack in chess where an opposing piece can be consumed by moving to a square it does not occupy. It is a rule that surprises new chess players and leads to accusations of cheating, but it is a real rule and it is called En Passant- French for &ldquo;in passing&rdquo;)</li>
+<li>Finally, if a pawn reaches the opposite side of the board it can be turned into any piece (usually a queen) except the king.</li>
+</ul>
+<p>Now you can see why I am not going to attempt to list all the rules of all the pieces, it would be very time consuming. And we can all agree there are in fact rules of chess laid out elsewhere. The point isn&rsquo;t what those rules are, it&rsquo;s what we can do with them.</p>
+<p>Experienced chess players will likely agree a game of chess can be a fascinating expression of decisions. Indeed, observing some of the games of the grandmasters like Magnus Carlsen can put your jaw on the floor. They&rsquo;re like works of art, beautiful landscapes or orchestral symphonies in their own way.</p>
+<p>These rules are analogous to the rules of oh, let&rsquo;s take algebra. There&rsquo;s addition, subtraction, multiplication, and division. There are rules about associativity, commutativity, etc.</p>
+<p>So if we can agree that the rules of chess are analogous to an axiomatic logical system what can we do with that? Can we demonstrate the incompleteness theorem in chess?</p>
+<p>I think we can. I think it might not even be that hard. We can at least try. All we have to do is wrap our heads around completeness and consistency in the rules of chess. But before we do that, let&rsquo;s discuss the chess analogue of true and false statements in logic.</p>
+<h2 id="valid-chessboard-configurations">
+  Valid Chessboard Configurations
+  <a class="anchor" href="#valid-chessboard-configurations">#</a>
+</h2>
+<p>What is a valid board configuration? One that doesn&rsquo;t violate any of the rules? Given a random chess board with pieces in various positions it can be hard to tell if that state was achieved by starting with neat rows of pieces in their legal starting position and by following the rules, or if they were just chaotically and randomly placed there. Furthermore, there&rsquo;s not a good way to say a given board is in violation of any of the rules if the rules primarily concern themselves with <em>transitions</em> between board states. That is, the rules are mostly about moves. But luckily for us, there are rules we can use to immediately detect an invalid board configuration, such as that each player should not have more than one king. A pawn can not become a king by reaching the end of the board. So you could easily tell a board had been arrived at illegally if there were more than two kings on it.</p>
+<h2 id="completeness-in-chess">
+  Completeness in Chess
+  <a class="anchor" href="#completeness-in-chess">#</a>
+</h2>
+<p>Completeness in a logic system means that every truthful expression can be derived using the logical system. What does completeness in chess mean? Logic concerns itself with truth, chess concerns itself with winning chess. That is to say achieving checkmate. Could completeness in chess mean that every checkmate can be derived using the rules of chess? That sounds vaguely promising. We can probably be more general, though. Let&rsquo;s try <em>completeness in chess means every valid board configuration can be derived using the rules.</em></p>
+<h2 id="consistency-in-chess">
+  Consistency in Chess
+  <a class="anchor" href="#consistency-in-chess">#</a>
+</h2>
+<p>Consistency in a logic system means that no false expressions can be derived using the logical system. What does consistency in chess mean? I&rsquo;d say it means something like &ldquo;you can&rsquo;t get to an invalid board state by playing by the rules&rdquo;. That sounds promising. <em>Chess is a consistent system if by following the rules you don&rsquo;t end up with a board configuration that is illegal.</em> It is consistent if by following the rules you never end up with more than 2 kings on the board.</p>
+<p>Similar to how we can derive the fundamental theorem of algebra, we can play a game of chess and end in a valid configuration of the board (and also checkmate).</p>
+<p>We can also play a game of chess and walk away from it having followed all the rules but before anyone achieves checkmate. We don&rsquo;t even have to call it a draw, we can just mutually agree to walk away and pretend it never happened. The configuration of the board at that point is still legally derived, even if somewhat uninteresting compared to a game that concluded in a checkmate.</p>
+<p>This is similar to a mathematical proof which stops before reaching an interesting statement. You have followed all the rules to an unsatisfying end. You let us all down. You should be ashamed. Why have you done this?</p>
+<h2 id="is-chess-complete">
+  Is Chess Complete?
+  <a class="anchor" href="#is-chess-complete">#</a>
+</h2>
+<p>A critical element of the incompleteness theorem is self reference, or Hofstadter&rsquo;s <em>strange loops</em>. Kurt Gödel derived a statement in a logic system that said of itself &ldquo;I am not derivable&rdquo;. But it was just derived! If the statement was true, then there is a true statement that cannot be derived (ignoring the fact we clearly just derived it) by the system therefore the system cannot be complete. If the statement was false, then there is a false statement derived by the system, therefore the system could not be consistent.</p>
+<p>Kurt Gödel <em>proved</em> in a formal logical system something <em>about</em> formal logical systems <em>involving proofs</em>. This is meta, and indeed his proof was meta too. He used a formal logical system to make a statement <em>about</em> the formal logical system which was <em>inconsistent with itself</em> while being a <em>totally valid</em> expression of the system.</p>
+<p>This would be like arriving at a checkmate in chess after only following the rules in which a paradoxical statement about chess was expressed. That is to say, where each of the pieces had a word printed on them and when played a certain way, the outcome is simultaneously a valid checkmate but also the words on the pieces spell out &ldquo;I am a board configuration that can not be arrived at by following the rules of chess&rdquo;.</p>
+<h2 id="paradox-time">
+  Paradox time
+  <a class="anchor" href="#paradox-time">#</a>
+</h2>
+<p>If that sentence is true, then the game we just legally played was actually arrived at illegally (even if we&rsquo;re doubly sure we followed the rules). This game of chess says that there are valid board configurations in chess that can not be arrived at legally, and therefore chess is incomplete.</p>
+<p>If that sentence is false, then we just played a legal game that resulted in a statement about chess that is not true and therefore chess is inconsistent.</p>
+<p>Chess can therefore not be complete if it is consistent, and it can not be consistent if it is not complete.</p>
+<p>In order to verify this, are there valid configurations of chess boards that can not be achieved by following the rules? Certainly. Put all 32 normal starting pieces in the lower half of the board, alternating in color. There is no way to get into that state following the rules, but nothing about that state is in violation of any rules and is therefore valid.</p>
+<h2 id="conclusion">
+  Conclusion
+  <a class="anchor" href="#conclusion">#</a>
+</h2>
+<p>The incompleteness theorem is a brilliant and agile attack on formal logical systems and it brought numerous prominent mathematicians of the period to their knees, in particular Bertrand Russell and his efforts in producing the Principia Mathematica which is probably for the best since it takes hundreds of pages of dense symbols to arrive at the conclusion that 1 + 1 = 2.</p>
+<p>Chess is not unlike a formalized logic. It has rules, and those rules can be used to carry the weight of ideas. Including ideas <em>about</em> those rules.</p>
+<p>This post was in part inspired by [[] https://stopa.io/post/269 ] who goes much deeper, provides more history and more details while taking the angle of actually implementing Gödel&rsquo;s arithmetic in Lisp.</p>
+</p>
+</article>
+<script src="https://utteranc.es/client.js" repo="jakeva/jakeva.github.io" issue-term="pathname" theme="github-dark"
+  crossorigin="anonymous" async>
+  </script>
+
+      
+      
+
+      <footer class="book-footer">
+        
+<div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+        
+        
+      </footer>
+
+      
+
+<div class="book-comments">
+
+</div>
+
+
+      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#on-completeness-and-consistency">On Completeness and Consistency</a></li>
+    <li><a href="#chess">Chess</a></li>
+    <li><a href="#valid-chessboard-configurations">Valid Chessboard Configurations</a></li>
+    <li><a href="#completeness-in-chess">Completeness in Chess</a></li>
+    <li><a href="#consistency-in-chess">Consistency in Chess</a></li>
+    <li><a href="#is-chess-complete">Is Chess Complete?</a></li>
+    <li><a href="#paradox-time">Paradox time</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+
+
+      
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

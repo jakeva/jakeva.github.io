@@ -6,7 +6,7 @@
     <description>Recent content in The Hearth on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 19:42:18 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Caen</title>
       <link>https://jakevanalstyne.me/docs/travelog/europe-2016/france/caen/</link>
@@ -129,6 +129,17 @@ I stayed in an historic hotel that, with its winding halls and unpredictable lay
       <description>New York #  I had about a 6 hour layover in JFK. Didn&amp;rsquo;t take many pictures. But I ate a lot of seafood and drank a lot of beer.
 Home #  Back in Salt Lake, I celebrated by singing karaoke and showing people my shoes (for some reason.)
    Of Particular note is how only a few days after I got home, I met an amazing Chinese woman and we began dating seriously shortly after that.</description>
+    </item>
+    
+    <item>
+      <title>Chess and Incompleteness</title>
+      <link>https://jakevanalstyne.me/docs/weblog/chess_and_incompleteness/</link>
+      <pubDate>Fri, 05 Feb 2021 16:55:05 -0700</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/weblog/chess_and_incompleteness/</guid>
+      <description>Chess and Logic #  Chess and Logic, huh?
+There&amp;rsquo;s something fundamental linking them, and I&amp;rsquo;m not talking about using logic to beat a game of chess. The rules of chess are similar to the axioms of a logical system. This got me thinking, can we demonstrate Kurt Gödel&amp;rsquo;s incompleteness theorem in chess?
+If you&amp;rsquo;re not familiar (and it&amp;rsquo;s a large and difficult territory should you decide to venture there), the incompleteness theorem says that &amp;ldquo;logic systems can describe true statements that can not be derived using that system&amp;rdquo;.</description>
     </item>
     
     <item>

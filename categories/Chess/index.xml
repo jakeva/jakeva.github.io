@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chess on Jake Van Alstyne</title>
+    <link>https://jakevanalstyne.me/categories/Chess/</link>
+    <description>Recent content in Chess on Jake Van Alstyne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/categories/Chess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chess and Incompleteness</title>
+      <link>https://jakevanalstyne.me/docs/weblog/chess_and_incompleteness/</link>
+      <pubDate>Fri, 05 Feb 2021 16:55:05 -0700</pubDate>
+      
+      <guid>https://jakevanalstyne.me/docs/weblog/chess_and_incompleteness/</guid>
+      <description>Chess and Logic #  Chess and Logic, huh?
+There&amp;rsquo;s something fundamental linking them, and I&amp;rsquo;m not talking about using logic to beat a game of chess. The rules of chess are similar to the axioms of a logical system. This got me thinking, can we demonstrate Kurt Gödel&amp;rsquo;s incompleteness theorem in chess?
+If you&amp;rsquo;re not familiar (and it&amp;rsquo;s a large and difficult territory should you decide to venture there), the incompleteness theorem says that &amp;ldquo;logic systems can describe true statements that can not be derived using that system&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
