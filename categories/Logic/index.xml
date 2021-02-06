@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logic on Jake Van Alstyne</title>
-    <link>https://jakevanalstyne.me/categories/Logic/</link>
+    <link>https://jakevanalstyne.me/categories/logic/</link>
     <description>Recent content in Logic on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/categories/Logic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/categories/logic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chess and Incompleteness</title>
       <link>https://jakevanalstyne.me/docs/weblog/chess_and_incompleteness/</link>

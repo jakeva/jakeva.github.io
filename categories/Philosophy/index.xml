@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philosophy on Jake Van Alstyne</title>
-    <link>https://jakevanalstyne.me/categories/Philosophy/</link>
+    <link>https://jakevanalstyne.me/categories/philosophy/</link>
     <description>Recent content in Philosophy on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 19:42:18 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/categories/Philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 19:42:18 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/categories/philosophy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stony</title>
       <link>https://jakevanalstyne.me/docs/weblog/stony/</link>
